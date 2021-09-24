@@ -3,8 +3,10 @@ Source Download Of Dynamic Client:
 
 NOTE: Github's Latest Release System is BROKEN instead of ex: 1.1 it displays ex: 1.0 PLEASE FOLLOW THESE LINKS BELOW!! INSTEAD OF GITHUB'S RELEASE SYSTEM.
 Versions:
+
 v1.1 (Latest Release)
 https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.1
+
 v1.0
 https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.0
 

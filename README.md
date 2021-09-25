@@ -11,11 +11,11 @@ https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.2
 
 v1.1
 
-https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.1
+Download Locked | Reason: Tester Account Leaked
 
 v1.0
 
-https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.0
+Download Locked | Reason: Tester Account Leaked
 
 For More information (https://sites.google.com/view/dynamic-client/home)
 

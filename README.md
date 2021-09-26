@@ -3,7 +3,11 @@ Source Download Of Dynamic Client:
 
 Versions:
 
-v1.2 (Latest Release)
+v1.3 (Latest Release)
+
+https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.3
+
+v1.2
 
 https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.2
 

@@ -26,6 +26,7 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
   
   Download Locked | Reason: Tester Account Leaked
 
+# Learn More
 For More information (https://sites.google.com/view/dynamic-client/home)
 
 Copywrite (C) 2021 JamStudios Corp.

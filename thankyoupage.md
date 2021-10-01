@@ -73,7 +73,7 @@ After Gettin' a launcher for Dynamic Client (We Recommend TLauncher if you want 
 
 # Minecraft Launcher
 
-NOTE: Dynamic Client May not be stable/fuctionable in the Minecraft Launcher, We recommend using TLauncher.
+***NOTE: Dynamic Client May not be stable/fuctionable in the Minecraft Launcher, We recommend using TLauncher.***
 
   Step 1 : Download Dynamic Client and pick your specific version [here](https://sites.google.com/view/dynamic-client/download?authuser=0).
   

@@ -5,13 +5,13 @@ Welcome to dynamic Client, before you start let's get started!
 
 To Get Started, you must have a minecraft launcher: [TLauncher](https://tlauncher.org), [Minecraft Launcher](https://www.minecraft.net/en-us/download) or any other launcher that can use modpacks can do.
 
-After Gettin' a launcher for Dynamic Client (We Recommend TLauncher if you want a cracked accou) then you can continue to seting up the client in these clients below.
+After Gettin' a launcher for Dynamic Client (We Recommend TLauncher if you want a cracked account) then you can continue to seting up the client in these clients below.
 
-Tlauncher:
+# Tlauncher
 
-  Step 1 : Download Dynamic Client and pick your specific version here.
+  Step 1 : Download Dynamic Client and pick your specific version [here](https://sites.google.com/view/dynamic-client/download?authuser=0).
   
-  Step 2 : Go to TLauncher.org
+  Step 2 : Go to [TLauncher.org](TLauncher.org)
   
   Step 3 : in TLauncher.org Sign Up/Log In (Note: This Proccess is important if you want to play minecraft) and also pick your skin if you want.
   
@@ -71,17 +71,17 @@ Tlauncher:
   
   End Of Installation Proccess
 
-Minecraft Launcher
+# Minecraft Launcher
 
 NOTE: Dynamic Client May not be stable/fuctionable in the Minecraft Launcher, We recommend using TLauncher.
 
-  Step 1 : Download Dynamic Client and pick your specific version here.
+  Step 1 : Download Dynamic Client and pick your specific version [here](https://sites.google.com/view/dynamic-client/download?authuser=0).
   
-  Step 2 : Go to minecraft.net
+  Step 2 : Go to [minecraft.net](minecraft.net)
   
   Step 3 : in Minecraft.net Log In to your Mojang/Microsoft Account(Optional)
   
-  Step 4 : Download Minecraft Launcher in here.
+  Step 4 : Download Minecraft Launcher in [here](https://www.minecraft.net/en-us/download).
   
   Step 5 : Continue with the installation proccess (/w Latest Java Installed).
   

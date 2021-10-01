@@ -19,7 +19,7 @@ After Gettin' a launcher for Dynamic Client (We Recommend TLauncher if you want 
   
   Step 5 : Continue with the installation proccess (/w Latest Java Installed).
   
-  Step 6: After Downloading an .zip / .gz  of Dynamic Client (if you choose the installer you can skip to Step 7 ) extract it in "C:\Users\%Username%\Appdata\Roaming\.minecraft\versions" (Make sure you choose the Dynamic Client's Folder and not it's content's because it will mess up the version folder.)
+  Step 6: After Downloading an .zip / .gz  of Dynamic Client (if you choose the installer you can skip to Step 7 ) extract it in "C:\Users\%Username%\Appdata\Roaming\ .minecraft\versions" (Make sure you choose the Dynamic Client's Folder and not it's content's because it will mess up the version folder.)
   
   Step 7 : Start TLaucher.
   

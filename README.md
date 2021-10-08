@@ -2,7 +2,7 @@
 Dynamic Client is a minecraft client that improve's the experience of the player, 
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage
 
-# Versions
+## Versions
 
 ### Minecraft 1.16.5
   
@@ -16,7 +16,7 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
   - v1.0 | Forge 
   Download Locked | Reason: Tester Account Leaked
 
-# Learn More
+## Learn More
 For More information (https://sites.google.com/view/dynamic-client/home)
 
 Copywrite (C) 2021 JamStudios Corp.

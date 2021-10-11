@@ -6,11 +6,11 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
 
 ### Minecraft 1.16.5
   
-  - [v1.6 | Forge (Latest)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.6)
-  - [v1.5 | Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
-  - [v1.4 | Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
-  - [v1.3 | Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.3) 
-  - [v1.2 | Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.2)
+  - v1.6 | [Forge (Latest)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.6)
+  - v1.5 | [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
+  - v1.4 | [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
+  - v1.3 | [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.3) 
+  - v1.2 | [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.2)
   - v1.1 | Forge 
   Download Locked | Reason: Tester Account Leaked
   - v1.0 | Forge 

@@ -4,7 +4,7 @@ Dynamic Client is a minecraft client that improve's the experience of the player
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage
 
 ## Versions
-#### ⚠️ By Download Dynamic Client you agree to the [terms and regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️
+#### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️
 ### Minecraft 1.16.5
   
   - v1.8 | [forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.8)

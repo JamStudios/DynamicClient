@@ -6,7 +6,7 @@ Dynamic Client is a minecraft client that improve's the experience of the player
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage
 
 ![image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)
-![Button](http://adfoc.us/?refid=700817)
+[Earn Now in adfoc.us!](http://adfoc.us/?refid=700817)
 
 ## Versions
 #### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️

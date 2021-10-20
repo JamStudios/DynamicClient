@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/88536910/137227323-1da3f88c-4ebf-4b14-ad2f-1fe9d92ef91b.png)
 # Dynamic client Information
-### [[ 📝 DevNotes ]](https://sites.google.com/view/dynamic-client/dc--devnotes#h.167s8goi587x) [[ ©️ Credits ]](https://sites.google.com/view/dynamic-client/credits) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/MODREMOVAL.md) [[ 🔧 Installation Guide ]](https://www.curseforge.com/minecraft/modpacks/dynamic-client/pages/installation-guide) [[ 📄 Website ]](sites.google.com/view/dynamic-client) [[ 🔨 Curseforge ]]
+### [[ 📝 DevNotes ]](https://sites.google.com/view/dynamic-client/dc--devnotes#h.167s8goi587x) [[ ©️ Credits ]](https://sites.google.com/view/dynamic-client/credits) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/MODREMOVAL.md) [[ 🔧 Installation Guide ]](https://www.curseforge.com/minecraft/modpacks/dynamic-client/pages/installation-guide) [[ 📄 Website ]](sites.google.com/view/dynamic-client) [[ 🔨 Curseforge ]](https://www.curseforge.com/minecraft/modpacks/dynamic-client)
 
 Dynamic Client is a minecraft client that improve's the experience of the player, 
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage

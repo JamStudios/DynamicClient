@@ -8,7 +8,6 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
 ## [Earn Now in adfoc.us!](http://adfoc.us/?refid=700817)
 ![image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)
 
-
 ## Versions
 #### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️
 ### Minecraft 1.16.5

@@ -10,6 +10,9 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
 
 ## Versions
 #### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️
+
+### Minecraft 1.17.1
+  - ...
 ### Minecraft 1.16.5
   
   - v1.9.3 | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.3)

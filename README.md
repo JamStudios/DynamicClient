@@ -58,3 +58,7 @@ Copywrite (C) 2021 JamStudios Corp.
 Any Titles/Products such as mods Do not belong to us and belong to their respective owners.
 
 We Are Not Affiliated with Mojang AB
+
+## Tags (Ignore)
+#DynamicClient #Client #Dynamic #ModPack #DC #DCL #Forge
+#dynamicclient #client #dynamic #modpack #dc #dcl #forge

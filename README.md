@@ -12,7 +12,7 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
 ![image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)
 
 ## Versions
-#### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/terms-regulations) ⚠️
+#### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/about/terms-regulations) ⚠️
 
 ### Minecraft 1.17.1
   - v1.10  | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.10)

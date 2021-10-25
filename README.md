@@ -2,7 +2,7 @@
 # Dynamic client Information
 [[ 📝 News ]](http://adfoc.us/70081781369517) [[ ©️ Credits ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/credits/Allcredits.md) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/MODREMOVAL.md) [[ 🔧 Installation Guide ]](http://adfoc.us/70081781345625) [[ 📄 Website ]](http://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](http://adfoc.us/70081781345623)
 
-![image](https://img.shields.io/github/downloads/JamStudiosCorporation/dynamic-client/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?label=Current%20Issues&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudiosCorporation/dynamic-client?style=for-the-badge)
+![image](https://img.shields.io/github/downloads/JamStudiosCorporation/dynamic-client/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudiosCorporation/dynamic-client?style=for-the-badge)
 
 Dynamic Client is a minecraft client that improve's the experience of the player, 
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage

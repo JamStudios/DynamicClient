@@ -4,13 +4,13 @@ Please follow the terms and regulations on how to distribute dynamic Client
 This license requires that reusers give credit to us. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes. If others remix, adapt, or build upon the material, they must license the modified material under identical terms (It is allowed to be ex: Dynamic Client Renewed, Dynamic Client Reborn etc.. just incase if Dynamic Client had ended support..).
 
 ## Reusers/Users are allowed to:
-- Can be Distributed only in identical terms 
-- Can be Adapt
-- Can be Build Upon the Material in any medium and format.
-- Can be For Commericial Use/Purposes
+- Distributed The Client only in identical terms 
+- Adapt
+- Build Upon the Material in any medium and format.
+- Use For Commericial Purposes
 
 ## But Reusers/Users have to:
-- Can be distributed as Dynamic Client Renewed, Dynamic Client Reborn but only when Dynamic Client has ended support.
+- Distributed as Dynamic Client Renewed, Dynamic Client Reborn but only when Dynamic Client has ended support.
 
 ## Reusers/Users are not allowed to:
 - Abuse for Scamming, cryptomining, keylogging, cyber attacking.

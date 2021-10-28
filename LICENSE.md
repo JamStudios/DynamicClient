@@ -10,12 +10,17 @@ This license requires that reusers give credit to us. It allows reusers to distr
 - Use For Commericial Purposes
 
 ## But Reusers/Users have to:
-- Distributed as Dynamic Client Renewed, Dynamic Client Reborn but only when Dynamic Client has ended support.
+- Distributed in identical terms and allwoed Dynamic Client Renewed, Dynamic Client Reborn but only when Dynamic Client has ended support.
+- Agree to this License
+- Let Users know that the reusers project/reused client isn't apart of Dynamic Client.
 
 ## Reusers/Users are not allowed to:
 - Abuse for Scamming, cryptomining, keylogging, cyber attacking.
 - Make it as a virus, malware, ransomware or any other malicious acts to wweponize the client.
 - Not giving credit to the Mod/Texture Pack/Software Developer/Creator
+- Alert any Servers about Dynamic Client as a Hack Client
+- Claim Dynamic Client as their own even tho the client has ended support.
+- Blaming Us because you got banned.
  
 PLEASE NOTE: That each mod has it's own License which IS NOT APPLIED Bythis License and is only applied to the client except for it's mods
 If The Redistributed Client did not follow Dynamic Rules & Regulations and Licenses on other creators, A DMCA Takedown will apply.

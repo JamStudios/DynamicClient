@@ -19,7 +19,7 @@ This license requires that reusers give credit to us. It allows reusers to distr
 - Make it as a virus, malware, ransomware or any other malicious acts to wweponize the client.
 - Not giving credit to the Mod/Texture Pack/Software Developer/Creator
 - Alert any Servers about Dynamic Client as a Hack Client
-- Claim Dynamic Client as their own even tho the client has ended support.
+- Claim Dynamic Client as their own.
 - Blaming Us because you got banned.
  
 PLEASE NOTE: That each mod has it's own License which IS NOT APPLIED Bythis License and is only applied to the client except for it's mods

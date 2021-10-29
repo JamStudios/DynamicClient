@@ -50,3 +50,4 @@
 ## 3rd Party Software Creators
 - Forge Autoclicker by flynnsforge.
 - Clumsy (Ping Spoofer) by Clumsy
+- XMouseButtonController (CPS Controller/CPS Doubler) made by Phillip Gibbons

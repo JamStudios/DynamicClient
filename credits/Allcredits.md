@@ -44,10 +44,17 @@
 - Swing Through Grass made by exidex 
 - Quick Search made by nero_surfing 
 - ReAuth made by TechnicianLP 
-- Spawner Fix made by MacTso & lupicus 
+- Spawner Fix made by MacTso & lupicus
+- Baritone made by cabaletta 
+- Custom Crosshair made by Sparkless101 
+- EditSign made by RakSrinaNa 
+- BetterZoom mrscauthd 
+- InvMove made by PieKing1215 
+- Emojiful made by Buuz135, The_CodedOne, hrznstudio 
 ## Texture Pack Creators
 - Dynamic Client (Texture Pack) made by JamTheAdventurer 
 ## 3rd Party Software Creators
 - Forge Autoclicker by flynnsforge.
 - Clumsy (Ping Spoofer) by Clumsy
 - XMouseButtonController (CPS Controller/CPS Doubler) made by Phillip Gibbons
+- AutoHotkey (Configures each click, etc.. 7 CPS in 1 click )

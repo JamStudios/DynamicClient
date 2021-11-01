@@ -66,7 +66,7 @@ For More information [click here](https://sites.google.com/view/dynamic-client)
 Copywrite (C) 2021 JamStudios Corp.
 Any Titles/Products such as mods Do not belong to us and belong to their respective owners.
 
-We Are Not Affiliated with Mojang AB
+[We Are Not Affiliated with Mojang AB](https://account.mojang.com/documents/minecraft_eula)
 
 ## Tags (Ignore)
 dynamic client registration,mobile,ping identity,computer science,curity identity server,oidc,oauth,open banking,georgia tech,operating systems,dcr,advanced operating systems,udacity,security,hack client,minecraft,forge,client,cheat client,advantage,

@@ -15,6 +15,10 @@ it is Standalone mod providing the HUD features previously included in AppleCore
 - Activation: Always Active
 - Client ver: Since v1.2+
 - Added Date: Sep 25, 2021
+- Source: [Cusrseforge](https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV8tq9_vXzAhVZA4gKHa5yCw4QFnoECA0QAQ&url=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fappleskin&usg=AOvVaw1Iw4QrW5y759kOzeGGkqPL)
+- ModLoader: Fabric & Forge
+- Creator: squeek502
+- Repository: [Github](https://github.com/squeek502/AppleSkin)
 - Usability: Useable
 - Features: 
 Adds food value information to tooltips:

@@ -21,6 +21,7 @@ it is Standalone mod providing the HUD features previously included in AppleCore
 - Repository: [Github](https://github.com/squeek502/AppleSkin)
 - Usability: Useable
 - Features: 
+
 Adds food value information to tooltips:
 ![image](https://camo.githubusercontent.com/d56e69e9c5bc82b2bd832643048f04444f57cb4746263265b537f8b4012c48c6/68747470733a2f2f692e696d6775722e636f6d2f596b73426155782e706e67)
 

@@ -69,5 +69,4 @@ Any Titles/Products such as mods Do not belong to us and belong to their respect
 We Are Not Affiliated with Mojang AB
 
 ## Tags (Ignore)
-#DynamicClient #Client #Dynamic #ModPack #DC #DCL #Forge
-#dynamicclient #client #dynamic #modpack #dc #dcl #forge
+dynamic client registration,mobile,ping identity,computer science,curity identity server,oidc,oauth,open banking,georgia tech,operating systems,dcr,advanced operating systems,udacity,security,hack client,minecraft,forge,client,cheat client,advantage,

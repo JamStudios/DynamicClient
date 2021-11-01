@@ -10,8 +10,6 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
 ### Announcement: See the transfer of [1.16.5 > 1.17.1](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/mc_ver_transfer/1.16.5%20%3E%201.17.1.md)
 
 [![Image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)](http://adfoc.us/?refid=700817 "Join Now and Earn!")
-## [Earn Now in adfoc.us!](http://adfoc.us/?refid=700817)
-![image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)
 
 ## Versions
 #### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/about/terms-regulations) ⚠️

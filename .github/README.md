@@ -18,7 +18,7 @@ It has mods that are used for testing anti-cheats of servers to make sure that n
   - v1.10  | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.10)
 ### Minecraft 1.16.5
   (Latest Releases)
-  - v1.95 (Dev) : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.5-dev)
+  - v1.9.5 (Dev) : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.5-dev)
   - v1.9.4 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.4)
   - v1.9.3 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.3)
   - v1.9.2 : [forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.2)

@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/88536910/138622280-9c0b3e91-43fc-4d27-b523-20f9875f4036.png)
 # Dynamic client Information
-[[ 📝 News ]](http://adfoc.us/70081781369517) [[ ©️ Credits ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/credits/Allcredits.md) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/MODREMOVAL.md) [[ 🔧 Installation Guide ]](http://adfoc.us/70081781345625) [[ 📄 Website ]](http://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](http://adfoc.us/70081781345623)
+[[ 📝 News ]](http://adfoc.us/70081781369517) [[ ©️ Credits ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/credits/Allcredits.md) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](http://adfoc.us/70081781345625) [[ 📄 Website ]](http://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](http://adfoc.us/70081781345623)
 
 ![image](https://img.shields.io/github/downloads/JamStudiosCorporation/dynamic-client/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudiosCorporation/dynamic-client?color=blue&style=for-the-badge) ![image](https://img.shields.io/badge/Supported%20Versions-1.16.5%20%7C%201.17.1-blue?style=for-the-badge&logo=https://avatars.githubusercontent.com/u/88536910?s=120&v=4)
 

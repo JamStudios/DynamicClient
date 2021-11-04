@@ -4,10 +4,9 @@
 
 ![image](https://img.shields.io/github/downloads/JamStudiosCorporation/dynamic-client/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?color=yellow&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudiosCorporation/dynamic-client?color=black&style=for-the-badge) ![image](https://img.shields.io/badge/Supported%20Versions-1.16.5%20%7C%201.17.1-green?style=for-the-badge&logo=https://avatars.githubusercontent.com/u/88536910?s=120&v=4) ![image](https://img.shields.io/badge/ModLoaer%20Support-Forge-orange?style=for-the-badge&logo=appveyor?logo=data:image/png;https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/.github/logo.minecraft.png)![image](https://img.shields.io/badge/License-(Custom)%20Attribution%20Non%20Commercial%20Sharealike%204.0%20International-purple?style=for-the-badge&logo=appveyor?link=https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/LICENSE.md?logo=data:)
 
+## Description:
 Dynamic Client is a minecraft client that improve's the experience of the player, 
 It has mods that are used for testing anti-cheats of servers to make sure that no one has an unfair advantage
-
-### Announcement: See the transfer of [1.16.5 > 1.17.1](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/mc_ver_transfer/1.16.5%20%3E%201.17.1.md)
 
 [![Image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)](http://adfoc.us/?refid=700817 "Join Now and Earn!")
 

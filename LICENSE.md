@@ -20,8 +20,8 @@ This license requires that reusers give credit to us. It allows reusers to distr
 - Abuse for Scamming, cryptomining, keylogging, cyber attacking.
 - Making Monetary Gain or commercial advantage.
 - Make it as a virus, malware, ransomware or any other malicious acts to weponize the client.
-- Not giving credit to the Mod/Texture Pack/Software Developer/Creator
-- Alerting/Spamming on Public Servers about Dynamic Client as a Hack Client.
+- Not giving credit to the Mod/Texture Pack/Software Developer/Creator/ModCreators
+- Alerting/Spamming on Public Servers about Dynamic Client.
 - Claim Dynamic Client as their own.
 - Blaming Us because you got banned/kicked/demoted.
  

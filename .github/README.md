@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/88536910/138622280-9c0b3e91-43fc-4d27-b523-20f9875f4036.png)
+![DC-back](https://user-images.githubusercontent.com/88536910/140442808-6ac16371-573b-4160-b20c-59275a225002.jpg)
 # Dynamic client Information
 [[ 📝 News ]](http://adfoc.us/70081781369517) [[ ©️ Credits ]](https://github.com/JamStudiosCorporation/dynamic-client/blob/main/credits/Allcredits.md) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](http://adfoc.us/70081781345625) [[ 📄 Website ]](http://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](http://adfoc.us/70081781345623)
 

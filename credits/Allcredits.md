@@ -51,6 +51,20 @@
 - BetterZoom mrscauthd 
 - InvMove made by PieKing1215 
 - Emojiful made by Buuz135, The_CodedOne, hrznstudio 
+- Clumps made Jaredlll08 **New**
+- RandomPatches made by TheRandomLabs **New**
+- Enchantment Description made by DarkhaxDev **New**
+- Litematica made by masady **New**
+- Malilib made by masady **New**
+- SmoothBoot made by UltimateBoomer **New**
+- JumpOverFences made by Kreezxil **New**
+- Ferritecore made by malte0811 **New**
+- Distant Horizons made by James_Seibel, cola98765 and leonardoamato **New**
+- FastFurnace made by Shadows_of_Fire **New**
+- FastWorkbench made by Shadows_of_Fire **New**
+- ToastControl made by Shadows_of_Fire **New**
+- Placebo made by Shadows_of_Fire **New**
+- ForgeHax made by fr1kin, babbaj, VADemon and LoganDark **New**
 ## Texture Pack Creators
 - Dynamic Client (Texture Pack) made by JamTheAdventurer 
 ## 3rd Party Software Creators

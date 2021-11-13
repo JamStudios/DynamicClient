@@ -9,6 +9,8 @@ Dynamic Client is a minecraft hacked client that improve's the experience of the
 It has mods that was used for testing anti-cheats of servers but we changed it to be hacked client
 because making a client just to test anti-cheats is Boring!
 
+= Best For Anarchy, PvP, PvE Environments =
+
 [![Image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)](http://adfoc.us/?refid=700817 "Join Now and Earn!")
 
 ## Versions

@@ -70,17 +70,17 @@
 - Chunk Animator made by Lumien231 and HarleyOConnor 
 - Cosmetic Armor Reworked made by LainMI 
 - Fast Leaf Decay made by olafskiii 
-- EmoteCraft made by KosmX **New**
-- UTeamCore made by HyCraftHD and Mr_Troble **New**
-- MusicPlayer made by HyCraftHD **New**
-- FarSight made by someaddon **New**
-- Emojiful made by Buuz135, The_CodedOne and hrznstudio **New**
-- Blur made by tterrag1098 **New**
-- Not Enough Animations made by tr9zw **New**
-- TRansliterationLib made by tr9zw **New**
-- DefaultSettings made by PT400C and Compaszer **New**
-- ChatHeads made by dzwdz and Fourmisain **New**
-- Catalogue made by MrCrayfish **New**
+- EmoteCraft made by KosmX
+- UTeamCore made by HyCraftHD and Mr_Troble 
+- MusicPlayer made by HyCraftHD 
+- FarSight made by someaddon 
+- Emojiful made by Buuz135, The_CodedOne and hrznstudio 
+- Blur made by tterrag1098 
+- Not Enough Animations made by tr9zw 
+- TRansliterationLib made by tr9zw 
+- DefaultSettings made by PT400C and Compaszer 
+- ChatHeads made by dzwdz and Fourmisain 
+- Catalogue made by MrCrayfish
 ## Texture Pack Creators
 - Dynamic Client (Texture Pack) made by JamTheAdventurer 
 ## 3rd Party Software Creators

@@ -10,7 +10,7 @@ It has mods that was used for testing anti-cheats of servers but we changed it t
 because making a client just to test anti-cheats is Boring.
 
 <div align="center"> 
-    <p style="font-size:50">
+    <p style="font size:50">
       = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
     </p>
 </div>

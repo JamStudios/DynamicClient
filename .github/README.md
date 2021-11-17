@@ -43,8 +43,6 @@ because making a client just to test anti-cheats is Boring!
   
     (Old Releases)
 
-[![Image](https://user-images.githubusercontent.com/88536910/138185370-70847c66-ec12-448a-a9f3-9803c79a0493.png)](http://adfoc.us/?refid=700817 "Join Now and Earn!")
-
 ## Screenshots
 ![2021-11-04_12 07 28 (4)](https://user-images.githubusercontent.com/88536910/140633155-5ba9fef8-3761-4b14-8d0e-22b212ea724d.jpg)
 ![2021-11-04_12 07 28 (5)](https://user-images.githubusercontent.com/88536910/140633156-b944f59c-8881-4db9-889e-21a0b2067622.jpg)

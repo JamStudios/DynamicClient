@@ -20,6 +20,7 @@ because making a client just to test anti-cheats is Boring!
   - v1.10  | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.10)
 ### Minecraft 1.16.5
   (Latest Releases)
+  - v1.9.7 : [Forge](https://github.com/JamStudios/DynamicClient/releases/tag/v1.9.7)
   - v1.9.6 : [Forge](https://github.com/JamStudiosCorporation/Dynamic-Client/releases/tag/v1.9.6)
   - v1.9.5 : [Forge](https://github.com/JamStudiosCorporation/Dynamic-Client/releases/tag/v1.9.5)
   - v1.9.5 (Dev) : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.5-dev)

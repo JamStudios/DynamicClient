@@ -11,6 +11,10 @@ because making a client just to test anti-cheats is Boring.
 
 ## = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
 
+<div align="center">
+  my text here.
+</div>
+
 ## Versions
 #### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/about/terms-regulations) ⚠️
 

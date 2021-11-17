@@ -14,7 +14,6 @@ because making a client just to test anti-cheats is Boring.
 </div>
 
 ## Versions
-#### ⚠️ By Download Dynamic Client you agree to the [Terms And Regulations](https://sites.google.com/view/dynamic-client/about/terms-regulations) ⚠️
 
 ### Minecraft 1.17.1
   - v1.10  | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.10)

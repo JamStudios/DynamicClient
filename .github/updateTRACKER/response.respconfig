@@ -1,0 +1,5 @@
+@Response -active(always)
+idset(gitresp)
+  use webclient waitrespond(sleep.5) = dcresp | noresponse(dcresp) use endcon -force exit
+    set-response(webclient) with -idset- 'dcrespactive.updt-dt' respond(webclient)
+    use endcon -soft exit

@@ -1,5 +1,10 @@
 # All Credits from all Versions of Dynamic Client.
 [Except for mods that are from v1.8 below]
+
+------------------------------------
+Credits have been moved to the Official Website
+------------------------------------
+
 ## Mod Creators
 - Appleskin made by squeek502
 - Xray Mod made by ATE48, ThaEin

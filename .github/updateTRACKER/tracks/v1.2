@@ -1,2 +1,5 @@
-@resp-recieved
-  sendrsp(.github/updateTRACKER/Update.respconfig)
+#activeresp(alaways)
+#listenresp(always)
+resp-recieved
+  sendrsp(.github/updateTRACKER/response.respconfig)
+  [sendpacket('webclientrsp -resp "v1.2"') then endcon -soft exit

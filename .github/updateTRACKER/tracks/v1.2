@@ -1,5 +1,0 @@
-#activeresp(alaways)
-#listenresp(always)
-resp-recieved
-  sendrsp(.github/updateTRACKER/response.respconfig) >convert gitresp
-  [sendpacket('webclientrsp -resp "v1.2" ussg:gitresp') then endcon -soft exit

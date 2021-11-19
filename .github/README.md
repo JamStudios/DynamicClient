@@ -21,6 +21,17 @@ because making a client just to test anti-cheats is Boring.
 ###    = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
 ### </div>
 
+----------------------------------------------------------------
+#### Self Report for Security.
+If you know anything Malicious on mods please report to us,
+we did not code or modify any of the mods in any way, we do not know
+if the mods contain Spyware/Malware, but if you know please report in
+Issues, we take no tolerance on ModCreators that use their creations
+for Malicious use. [Learn more.](https://github.com/JamStudios/DynamicClient/blob/main/SECURITY.md)
+[[ 🚨 Issues ]](https://github.com/JamStudios/DynamicClient/issues)
+
+----------------------------------------------------------------
+
 ## Screenshots
 ![2021-11-04_12 07 28 (4)](https://user-images.githubusercontent.com/88536910/140633155-5ba9fef8-3761-4b14-8d0e-22b212ea724d.jpg)
 ![2021-11-04_12 07 28 (5)](https://user-images.githubusercontent.com/88536910/140633156-b944f59c-8881-4db9-889e-21a0b2067622.jpg)

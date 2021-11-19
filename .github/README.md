@@ -19,35 +19,6 @@ because making a client just to test anti-cheats is Boring.
 ###    = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
 ### </div>
 
-## Versions
-
-### Minecraft 1.17.1
-  - v1.10  | [Forge (Latest Release)](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.10)
-### Minecraft 1.16.5
-  (Latest Releases)
-  - v1.9.7 : [Forge](https://github.com/JamStudios/DynamicClient/releases/tag/v1.9.7)
-  - v1.9.6 : [Forge](https://github.com/JamStudiosCorporation/Dynamic-Client/releases/tag/v1.9.6)
-  - v1.9.5 : [Forge](https://github.com/JamStudiosCorporation/Dynamic-Client/releases/tag/v1.9.5)
-  - v1.9.5 (Dev) : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.5-dev)
-  - v1.9.4 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.4)
-  - v1.9.3 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.3)
-  - v1.9.2 : [forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.2)
-  - v1.9.1 : [forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9.1)
-  - V1.9 : [forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.9)
-  - v1.8 : [forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.8)
-  - v1.7 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.7)
-  - v1.6 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.6)
-  - v1.5 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
-  - v1.4 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.4)
-  - v1.3 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.3) 
-  - v1.2 : [Forge](https://github.com/JamStudiosCorporation/dynamic-client/releases/tag/v1.2)
-  - v1.1 : Forge 
-  Download Locked | Reason: Tester Account Leaked
-  - v1.0 | Forge 
-  Download Locked | Reason: Tester Account Leaked
-  
-    (Old Releases)
-
 ## Screenshots
 ![2021-11-04_12 07 28 (4)](https://user-images.githubusercontent.com/88536910/140633155-5ba9fef8-3761-4b14-8d0e-22b212ea724d.jpg)
 ![2021-11-04_12 07 28 (5)](https://user-images.githubusercontent.com/88536910/140633156-b944f59c-8881-4db9-889e-21a0b2067622.jpg)

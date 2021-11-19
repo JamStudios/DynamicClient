@@ -1,7 +1,8 @@
 ![DC-back](https://user-images.githubusercontent.com/88536910/140442808-6ac16371-573b-4160-b20c-59275a225002.jpg)
 ---------------------------------------
 ---------------------------------------
-#### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[ 📄 Website ]](https://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](https://adfoc.us/70081781345623)
+#### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[ 📄 Website ]](https://adfoc.us/70081781325836) [[ 🔨 Curseforge ]](https://adfoc.us/70081781345623) [[ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)
+
 ---------------------------------------
 
 ## Description:

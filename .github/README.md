@@ -22,12 +22,13 @@ because making a client just to test anti-cheats is Boring.
 ### </div>
 
 ----------------------------------------------------------------
-#### Self Report for Security.
+#### Self Report for Security 🛡️.
 If you know anything Malicious on mods please report to us,
 we did not code or modify any of the mods in any way, we do not know
 if the mods contain Spyware/Malware, but if you know please report in
 Issues, we take no tolerance on ModCreators that use their creations
 for Malicious use. [Learn more.](https://github.com/JamStudios/DynamicClient/blob/main/SECURITY.md)
+
 [[ 🚨 Issues ]](https://github.com/JamStudios/DynamicClient/issues)
 
 ----------------------------------------------------------------

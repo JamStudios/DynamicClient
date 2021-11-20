@@ -22,6 +22,7 @@ because making a client just to test anti-cheats is Boring.
          = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
     </b>
 </p>
+
 ----------------------------------------------------------------
 
 #### Self Report for Security 🛡️.

@@ -17,7 +17,7 @@ because making a client just to test anti-cheats is Boring.
 ----------------------------------------------------------------
 #### ![image](https://img.shields.io/github/downloads/JamStudiosCorporation/dynamic-client/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?color=yellow&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudiosCorporation/dynamic-client?color=black&style=for-the-badge) ![image](https://img.shields.io/badge/Supported%20Versions-1.16.5%20%7C%201.17.1-green?style=for-the-badge&logo=https://avatars.githubusercontent.com/u/88536910?s=120&v=4) ![image](https://img.shields.io/badge/ModLoaer%20Support-Forge-orange?style=for-the-badge&logo=appveyor?logo=data:image/png;https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/.github/logo.minecraft.png)![image](https://img.shields.io/badge/License-(Custom)%20Attribution%20Non%20Commercial%20Sharealike%204.0%20International-purple?style=for-the-badge&logo=appveyor?link=https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/LICENSE.md?logo=data:) ![image](https://img.shields.io/github/commit-activity/w/JamStudiosCorporation/Dynamic-Client?style=for-the-badge) ![image](https://img.shields.io/github/stars/JamStudiosCorporation/Dynamic-Client?color=yellow&style=for-the-badge)
 
-<p align="center"; style="font-size:'30px'" ;>
+<p align="center"; style="font-size:70px";>
     <b>
          = Best For AnarchyⒶ, PvP⚔️, PvE🔪 Environments =
     </b>

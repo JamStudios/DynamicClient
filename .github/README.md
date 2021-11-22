@@ -28,7 +28,11 @@ their own client, without coding as you only need ac-credit the mod creators.
 
 ![image](https://img.shields.io/badge/ModLoaer%20Support-Forge-orange?style=for-the-badge&logo=appveyor?logo=data:image/png;https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/.github/logo.minecraft.png) 
 
-![image](https://img.shields.io/github/commit-activity/w/JamStudiosCorporation/Dynamic-Client?style=for-the-badge) ![image](https://img.shields.io/github/stars/JamStudiosCorporation/Dynamic-Client?color=yellow&style=for-the-badge)
+![image](https://img.shields.io/badge/License-(Custom%20LIcense-purple?style=for-the-badge&logo=appveyor?link=https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/LICENSE.md?logo=data)
+
+![image](https://img.shields.io/github/commit-activity/w/JamStudiosCorporation/Dynamic-Client?style=for-the-badge) 
+
+![image](https://img.shields.io/github/stars/JamStudiosCorporation/Dynamic-Client?color=yellow&style=for-the-badge)
 
 <p align="center" style="font-size:70px">
     <b>

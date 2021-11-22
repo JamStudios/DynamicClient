@@ -1,10 +1,12 @@
 ## Permissions
-- ✔️Commercial Use
-- ✔️Modification
-- ✔️Private Use
-- ✔️Distribution
+- ✔️ Modification
+- ✔️ Private Use
+- ✔️ Distribution
 ## Limitations
-
-## Copywrite Notic
-
-# Attribution-NonCommercial-ShareAlike 4.0 International
+- ❌ Commercial Use (unless if ModCreator gave Permission)
+- ❌ Liability
+- ❌ Warranty
+## Conditions
+- ℹ License and Copywrite Notice
+- ℹ Same License (must be up-to-date)
+- ℹ Credit External Developers (ModCreators)

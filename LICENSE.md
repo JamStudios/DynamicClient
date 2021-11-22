@@ -1,5 +1,6 @@
 # License for Dynamic Client
-Please follow the terms and regulations on how to distribute Dynamic Client
+Please follow the terms and regulations on how to distribute Dynamic Client.
+### NOTE: This does not Apply to Mods in Dynamic Client, as each mod has it's own License.
 ## [Custom Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 This license requires that reusers give credit to us. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes. If others remix, adapt, or build upon the material, they must license the modified material under identical terms (It is allowed to be ex: Dynamic Client Renewed, Dynamic Client Reborn etc.. just incase if Dynamic Client had ended support..).
 

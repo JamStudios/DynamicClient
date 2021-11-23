@@ -13,7 +13,7 @@ because making a client just to test anti-cheats is Boring.
 it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
-Now On [🦊 Gitlab](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
+## Now On [[🦊 Gitlab]](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
 
 ----------------------------------------------------------------
 ## Dynamic Client is Active, Updates Will Come Out Unexpected so Stay Tuned!

@@ -14,7 +14,11 @@ it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
 ## Now On [[🦊 Gitlab]](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
+
+----------------------------------------------------------------
+Downloads From Other Web Platforms:
 [![Download DynamicClient](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/dynamicclient/files/latest/download)
+![gitlab-logo-gray-rgb](https://user-images.githubusercontent.com/94430800/143726818-2855c9dd-e5ae-4615-ac18-59a177ad5275.png)
 
 ----------------------------------------------------------------
 ## Dynamic Client is Active, Updates Will Come Out Unexpected so Stay Tuned!

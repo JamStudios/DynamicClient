@@ -19,7 +19,7 @@ their own client, without coding as you only need ac-credit the mod creators.
 Downloads From Other Web Platforms:
 
 [![Download DynamicClient](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/dynamicclient/files/latest/download)
-[![Download DynamicClient](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient/-/archive/main/DynamicClient-main.zip)
+[![Download DynamicClient](https://www.almtoolbox.com/blog/wp-content/uploads//2018/12/gitlab-banner-700px.jpg)](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
 
 ----------------------------------------------------------------
 ## Dynamic Client is Active, Updates Will Come Out Unexpected so Stay Tuned!

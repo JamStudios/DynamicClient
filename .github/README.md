@@ -16,7 +16,7 @@ their own client, without coding as you only need ac-credit the mod creators.
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:
 
-[![Download DynamicClient](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/dynamicclient)
+[![Download DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Source%20Forge%20Banner.png)](https://sourceforge.net/projects/dynamicclient)
 [![Download DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner.png)](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
 
 ----------------------------------------------------------------

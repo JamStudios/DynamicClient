@@ -17,7 +17,7 @@ their own client, without coding as you only need ac-credit the mod creators.
 ## Downloads From Other Web Platforms:
 
 [![Download DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Source%20Forge%20Banner.png)](https://sourceforge.net/projects/dynamicclient)
-[![Download DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner.png)](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
+[![Download DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
 
 ----------------------------------------------------------------
 ## Dynamic Client is Active, Updates Will Come Out Unexpected so Stay Tuned!

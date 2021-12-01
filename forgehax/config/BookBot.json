@@ -1,9 +1,0 @@
-{
-  "bind": "key.keyboard.unknown",
-  "enabled": "false",
-  "file": "",
-  "name": "Book #{NUMBER}",
-  "prettify": "true",
-  "sign": "true",
-  "sleep": "300"
-}

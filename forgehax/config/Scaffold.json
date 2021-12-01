@@ -1,8 +1,0 @@
-{
-  "bind": "key.keyboard.unknown",
-  "debug": "false",
-  "delay": "4",
-  "enabled": "false",
-  "motion-prediction": "true",
-  "place-distance": "0.1"
-}

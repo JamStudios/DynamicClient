@@ -1,9 +1,0 @@
-{
-  "bind": "key.keyboard.unknown",
-  "enabled": "false",
-  "fall-speed": "0.033",
-  "no-clamp": "true",
-  "no-gravity": "true",
-  "set-yaw": "true",
-  "speed": "5.0"
-}

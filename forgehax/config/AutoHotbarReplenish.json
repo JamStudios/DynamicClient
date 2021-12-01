@@ -1,8 +1,0 @@
-{
-  "bind": "key.keyboard.delete",
-  "durability-threshold": "1",
-  "enabled": "true",
-  "no-gui": "true",
-  "stack-threshold": "10",
-  "tick-delay": "1"
-}

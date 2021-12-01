@@ -1,7 +1,0 @@
-{
-  "bind": "key.keyboard.unknown",
-  "enabled": "false",
-  "mobs_friendly": "true",
-  "mobs_hostile": "true",
-  "players": "true"
-}

@@ -1,7 +1,0 @@
-{
-  "bind": "key.keyboard.delete",
-  "casting-delay": "20",
-  "enabled": "true",
-  "max-sound-distance": "2.0",
-  "recast-delay": "600"
-}

@@ -1,7 +1,0 @@
-{
-  "bind": "key.keyboard.delete",
-  "enabled": "false",
-  "fail-safe-multiplier": "10",
-  "select-wait": "10",
-  "sorting": "RATIO"
-}

@@ -1,9 +1,0 @@
-{
-  "bind": "key.keyboard.semicolon",
-  "blocks": [
-    "minecraft:diamond_ore"
-  ],
-  "enabled": "false",
-  "fullbright": "true",
-  "opacity": "150"
-}

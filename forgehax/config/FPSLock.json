@@ -1,8 +1,0 @@
-{
-  "bind": "key.keyboard.unknown",
-  "default-fps": "60",
-  "enabled": "false",
-  "fps": "0",
-  "menu-fps": "60",
-  "no-focus-fps": "3"
-}

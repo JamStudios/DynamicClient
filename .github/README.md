@@ -16,9 +16,9 @@ their own client, without coding as you only need ac-credit the mod creators.
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:
 
-[![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)
-[![Download in Gitlab](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](http://adfoc.us/70081781907063)
-[![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Dynamic%20Client%20Banner.png)](http://adfoc.us/70081781325836)
+[![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)
+[![Download in Gitlab](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](http://adfoc.us/70081781907063)
+[![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Dynamic%20Client%20Banner.png)](http://adfoc.us/70081781325836)
 
 
 

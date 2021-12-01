@@ -1,0 +1,85 @@
+# This is Tooltiped by Jam The Adventurer for Less-Advanced Users, This is not from the original mod.
+# Ignore Update When?
+ignoreUpdate:999999999999999999999999999999999999999999999999999999999999999
+
+# StupidUpdatePopUp [Not Reccommended to turn on, (It's Shit)]
+updateNotification:false
+
+# Diffreniate By Server Adress
+differentiateByServerAddress:true
+
+# Nether Cave Map Allowed?
+netherlikeCaveMapAllowed:true
+
+# Are You A Developer?
+debug:false
+
+# Lighting because.. cuz..
+lighting:true
+
+# I don't know why you want to change the colors but, your choice :)
+colours:0
+
+# Why do you wan't to disable this? it loads chunks so it writes to your WorldMap.
+loadChunks:true
+
+# What? you don't wan't to know where you are? 
+updateChunks:true
+
+# To Know Terrain
+terrainSlopes:2
+terrainDepth:true
+
+# Some footprints to let you know where you've been goin.
+footsteps:true
+
+# Adds Flowers to the mix.
+flowers:true
+
+# To Save Disk Space
+compression:true
+
+# Know where you are
+coordinates:true
+
+# U lIkE CoLorS?
+biomeColorsVanillaMode:false
+
+# Set your favorate spots to visit.
+waypoints:true
+
+# Shows you.. the player..
+renderArrow:true
+
+# Why not be a Zoomer.
+displayZoom:true
+
+# Apply How Thicc Your Waypoints are.
+worldmapWaypointsScale:1.0
+
+# Wow You must be an Animation Lover.
+openMapAnimation:true
+
+# Wait, nah don't bother changin' that setting.
+reloadVersion:0
+
+# Wan't to reload the Maps?
+reloadEverything:false
+
+# Sure.
+zoomButtons:true
+
+# Waypoints Background.
+waypointBackgrounds:true
+
+# It Detects Ambigous.. what?
+detectAmbiguousY:true
+
+# Show your most hated spots to visit
+showDisabledWaypoints:false
+
+# Hopping when you close the Waypoints
+closeWaypointsWhenHopping:true
+
+# This is the Global Version
+globalVersion:1

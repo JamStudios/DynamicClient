@@ -1,0 +1,101 @@
+
+[General]
+	#Enables/Disables the ability to sneak when moveInInventories is enabled [false/true|default:false]
+	sneakInInventories = false
+	#Enables/Disables the ability to move in inventories [false/true|default:true]
+	moveInInventories = true
+	#Enables/Disables the whole Mod [false/true|default:true]
+	enableMod = true
+	#Enables/Disables the debug display [false/true|default:false]
+	debugDisplay = false
+	#Enables/Disables the ability to move in inventories while a text field is focused [false/true|default:true]
+	textFieldDisablesMovement = true
+	#Enables/Disables the ability to jump when moveInInventories is enabled [false/true|default:true]
+	jumpInInventories = true
+	#Enables/Disables the ability to disable individual ui backgrounds [false/true|default:true]
+	uiBackground = true
+
+[UIBackground]
+	#Enables/Disables the chest menu UI background [false/true|default:false]
+	chest = false
+	#Enables/Disables the shulker menu UI background [false/true|default:false]
+	shulker = false
+	#Enables/Disables the furnace menu UI background [false/true|default:false]
+	furnace = false
+	#Enables/Disables the villager menu UI background [false/true|default:false]
+	villager = false
+	#Enables/Disables the anvil menu UI background [false/true|default:false]
+	anvil = false
+	#Enables/Disables the book UI background [false/true|default:false]
+	book = false
+	#Enables/Disables the blast furnace menu UI background [false/true|default:false]
+	blastFurnace = false
+	#Enables/Disables the cartography table menu UI background [false/true|default:false]
+	cartography = false
+	#Enables/Disables the inventory menu UI background [false/true|default:false]
+	inventory = false
+	#Enables/Disables the creative menu UI background [false/true|default:false]
+	creative = false
+	#Enables/Disables the grindstone menu UI background [false/true|default:false]
+	grindstone = false
+	#Enables/Disables the dispenser menu UI background [false/true|default:false]
+	dispenser = false
+	#Enables/Disables the brewing menu UI background [false/true|default:false]
+	brewing = false
+	#Enables/Disables the smoker menu UI background [false/true|default:false]
+	smoker = false
+	#Enables/Disables the beacon menu UI background [false/true|default:false]
+	beacon = false
+	#Enables/Disables the loom menu UI background [false/true|default:false]
+	loom = false
+	#Enables/Disables the crafting menu UI background [false/true|default:false]
+	crafting = false
+	#Enables/Disables the enchantment menu UI background [false/true|default:false]
+	enchantment = false
+	#Enables/Disables the stonecutter menu UI background [false/true|default:false]
+	stonecutter = false
+	#Enables/Disables the hopper menu UI background [false/true|default:false]
+	hopper = false
+
+[UIMove]
+	#Enables/Disables moving in the chest menu [false/true|default:false]
+	chest = true
+	#Enables/Disables moving in the shulker menu [false/true|default:false]
+	shulker = true
+	#Enables/Disables moving in the furnace menu [false/true|default:false]
+	furnace = true
+	#Enables/Disables moving in the villager menu [false/true|default:false]
+	villager = true
+	#Enables/Disables moving in the anvil menu [false/true|default:false]
+	anvil = true
+	#Enables/Disables moving in the book menu [false/true|default:false]
+	book = true
+	#Enables/Disables moving in the blast furnace menu [false/true|default:false]
+	blastFurnace = true
+	#Enables/Disables moving in the cartography table menu [false/true|default:false]
+	cartography = true
+	#Enables/Disables moving in the inventory menu [false/true|default:false]
+	inventory = true
+	#Enables/Disables moving in the creative menu [false/true|default:false]
+	creative = true
+	#Enables/Disables moving in the grindstone menu [false/true|default:false]
+	grindstone = true
+	#Enables/Disables moving in the dispenser menu [false/true|default:false]
+	dispenser = true
+	#Enables/Disables moving in the brewing menu [false/true|default:false]
+	brewing = true
+	#Enables/Disables moving in the smoker menu [false/true|default:false]
+	smoker = true
+	#Enables/Disables moving in the beacon menu [false/true|default:false]
+	beacon = true
+	#Enables/Disables moving in the loom menu [false/true|default:false]
+	loom = true
+	#Enables/Disables moving in the crafting menu [false/true|default:false]
+	crafting = true
+	#Enables/Disables moving in the enchantment menu [false/true|default:false]
+	enchantment = true
+	#Enables/Disables moving in the stonecutter menu [false/true|default:false]
+	stonecutter = true
+	#Enables/Disables the hopper menu UI background [false/true|default:false]
+	hopper = true
+

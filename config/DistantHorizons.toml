@@ -1,0 +1,293 @@
+
+[Client]
+
+	#These settings control how the mod will look in game
+	[Client.Graphics]
+
+		#These settings control how detailed the fake chunks will be.
+		[Client.Graphics.QualityOption]
+			#
+			#
+			# This indicates how detailed fake chunks will represent 
+			# overhangs, caves, floating islands, ect. 
+			# Higher options will use more memory and increase GPU usage. 
+			# LOW: uses at max 2 columns per position. 
+			# MEDIUM: uses at max 4 columns per position. 
+			# HIGH: uses at max 8 columns per position. 
+			#
+			#Allowed Values: LOW, MEDIUM, HIGH
+			"Vertical Quality" = "LOW"
+			#
+			#
+			# This indicates how quickly fake chunks drop off in quality. 
+			# LOW: quality drops every 4 chunks. 
+			# MEDIUM: quality drops every 8 chunks. 
+			# HIGH: quality drops every 16 chunks. 
+			#
+			#Allowed Values: LOW, MEDIUM, HIGH
+			"Horizontal Scale" = "LOW"
+			#
+			#
+			# This indicates the exponential base of the quadratic drop-off 
+			# LOWEST: base 1.0. 
+			# LOW: base 1.5. 
+			# MEDIUM: base 2.0. 
+			# HIGH: base 2.200000047683716. 
+			#
+			#Allowed Values: LOWEST, LOW, MEDIUM, HIGH
+			"Horizontal Quality" = "LOW"
+			#
+			#
+			# What is the maximum detail fake chunks should be drawn at? 
+			# CHUNK: render 1 LOD for each Chunk. 
+			# HALF_CHUNK: render 4 LODs for each Chunk. 
+			# FOUR_BLOCKS: render 16 LODs for each Chunk. 
+			# TWO_BLOCKS: render 64 LODs for each Chunk. 
+			# BLOCK: render 256 LODs for each Chunk. 
+			#
+			#Allowed Values: BLOCK, TWO_BLOCKS, FOUR_BLOCKS, HALF_CHUNK, CHUNK
+			"Block size" = "BLOCK"
+			#
+			#
+			# The mod's render distance, measured in chunks. 
+			#
+			#Range: 32 ~ 1024
+			"Lod Render Distance" = 32
+
+		#Advanced graphics option for the mod
+		[Client.Graphics.AdvancedGraphicsOption]
+			#
+			#
+			# How should the LODs be drawn? 
+			# NOTE: Currently only CUBIC is implemented! 
+			# 
+			# CUBIC: LOD Chunks are drawn as rectangular prisms (boxes). 
+			# TRIANGULAR: LOD Chunks smoothly transition between other. 
+			# DYNAMIC: LOD Chunks smoothly transition between each other, 
+			#          unless a neighboring chunk is at a significantly different height. 
+			#
+			#Allowed Values: CUBIC, TRIANGULAR, DYNAMIC
+			"LOD Template" = "CUBIC"
+			#
+			#
+			# If false fake chunks behind the player's camera 
+			# aren't drawn, increasing performance. 
+			#
+			# If true all LODs are drawn, even those behind 
+			# the player's camera, decreasing performance. 
+			#
+			# Disable this if you see LODs disappearing. 
+			# (Which may happen if you are using a camera mod) 
+			#
+			"Disable Directional Culling" = true
+			#
+			#
+			# Disable quality falloff, 
+			# all fake chunks will be drawn at the highest 
+			# available detail level. 
+			#
+			#  WARNING: 
+			# This could cause a Out Of Memory crash on render 
+			# distances higher than 128 
+			#
+			"Always Use Max Quality" = false
+			#
+			#
+			# How often should LODs be drawn on top of regular chunks? 
+			# HALF and ALWAYS will prevent holes in the world, but may look odd for transparent blocks or in caves. 
+			#
+			# NEVER: LODs won't render on top of vanilla chunks. 
+			# DYNAMIC: LODs will render on top of distant vanilla chunks to hide delayed loading. 
+			#      More effective on higher render distances. 
+			#      For vanilla render distances less than or equal to 4 
+			#      NEVER or ALWAYS may be used depending on the dimension. 
+			# ALWAYS: LODs will render on all vanilla chunks preventing holes in the world. 
+			# BORDER: LODs will render only on the border of vanilla chunks preventing only some holes in the world. 
+			#
+			#Allowed Values: NEVER, DYNAMIC, ALWAYS, BORDER
+			"Vanilla Overdraw" = "DYNAMIC"
+			#
+			#
+			# What method should be used to upload geometry to the GPU? 
+			#\n BUFFER_STORAGE: Default if OpenGL 4.5 is supported. Fast rendering, no stuttering. 
+			# SUB_DATA: Default if OpenGL 4.5 is NOT supported. Fast rendering but may stutter when uploading. 
+			# BUFFER_MAPPING: Slow rendering but won't stutter when uploading. Possibly better than SUB_DATA if using a integrated GPU. 
+			#
+			#Allowed Values: BUFFER_STORAGE, SUB_DATA, BUFFER_MAPPING
+			"GPU Upload Method" = "BUFFER_STORAGE"
+
+		#These settings control the fog quality.
+		[Client.Graphics.FogQualityOption]
+			#
+			#
+			# At what distance should Fog be drawn on the fake chunks? 
+			# If the fog cuts off abruptly or you are using Optifine's "fast" fog option 
+			# set this to NEAR or FAR. 
+			#
+			#Allowed Values: NEAR, FAR, NEAR_AND_FAR
+			"Fog Distance" = "FAR"
+			#
+			#
+			# When should fog be drawn? 
+			# OPTIFINE_SETTING: Use whatever Fog setting Optifine is using. If Optifine isn't installed this defaults to FANCY. 
+			# NO_FOG: Never draw fog on the LODs 
+			# FAST: Always draw fast fog on the LODs 
+			# FANCY: Always draw fancy fog on the LODs (if your graphics card supports it) 
+			#
+			#Allowed Values: OPTIFINE_SETTING, NO_FOG, FAST, FANCY
+			"Fog Draw Override" = "OPTIFINE_SETTING"
+
+	#These settings control how fake chunks outside your normal view range are generated.
+	[Client.Generation]
+		#
+		#
+		# FAR_FIRST 
+		# LODs are generated from low to high detail 
+		# with a small priority for far away regions. 
+		# This fills in the world fastest. 
+		#
+		# NEAR_FIRST 
+		# LODs are generated around the player 
+		# in a spiral, similar to vanilla minecraft. 
+		#
+		#Allowed Values: NEAR_FIRST, FAR_FIRST
+		"Generation Priority" = "FAR_FIRST"
+		#
+		#
+		# Note: The times listed here are the amount of time it took 
+		#       one of the developer's PC to generate 1 chunk, 
+		#       and are included so you can compare the 
+		#       different generation options. Your mileage may vary. 
+		#
+		# NONE 
+		# Don't run the distance generator. 
+		#
+		# BIOME_ONLY 
+		# Only generate the biomes and use the biome's 
+		# grass color, water color, or snow color. 
+		# Doesn't generate height, everything is shown at sea level. 
+		# Multithreaded - Fastest (2-5 ms) 
+		#
+		# BIOME_ONLY_SIMULATE_HEIGHT 
+		# Same as BIOME_ONLY, except instead 
+		# of always using sea level as the LOD height 
+		# different biome types (mountain, ocean, forest, etc.) 
+		# use predetermined heights to simulate having height data. 
+		# Multithreaded - Fastest (2-5 ms) 
+		#
+		# SURFACE 
+		# Generate the world surface, 
+		# this does NOT include trees, 
+		# or structures. 
+		# Multithreaded - Faster (10-20 ms) 
+		#
+		# FEATURES 
+		# Generate everything except structures. 
+		# WARNING: This may cause world generation bugs or instability! 
+		# Multithreaded - Fast (15-20 ms) 
+		#
+		# SERVER 
+		# Ask the server to generate/load each chunk. 
+		# This will show player made structures, which can 
+		# be useful if you are adding the mod to a pre-existing world. 
+		# This is the most compatible, but causes server/simulation lag. 
+		# SingleThreaded - Slow (15-50 ms, with spikes up to 200 ms) 
+		#
+		#Allowed Values: NONE, BIOME_ONLY, BIOME_ONLY_SIMULATE_HEIGHT, SURFACE, FEATURES, SERVER
+		"Distance Generation Mode" = "SURFACE"
+		#
+		#
+		# When using the FEATURES generation mode 
+		# some features may not be thread safe, which could 
+		# cause instability and crashes. 
+		# By default (false) those features are skipped, 
+		# improving stability, but decreasing how many features are 
+		# actually generated. 
+		# (for example: some tree generation is unstable, 
+		#               so some trees may not be generated.) 
+		# By setting this to true, all features will be generated, 
+		# but your game will be more unstable and crashes may occur. 
+		# 
+		# I would love to remove this option and always generate everything, 
+		# but I'm not sure how to do that. 
+		# If you are a Java wizard, check out the git issue here: 
+		# https://gitlab.com/jeseibel/minecraft-lod-mod/-/issues/35 
+		#
+		"Allow Unstable Feature Generation" = false
+		#
+		#
+		# NONE: Use all blocks when generating fake chunks 
+		#
+		# NON_FULL: Only use full blocks when generating fake chunks (ignores slabs, lanterns, torches, grass, etc.) 
+		#
+		# NO_COLLISION: Only use solid blocks when generating fake chunks (ignores grass, torches, etc.) 
+		# BOTH: Only use full solid blocks when generating fake chunks 
+		#
+		#
+		#Allowed Values: NONE, NON_FULL, NO_COLLISION, BOTH
+		"Block to avoid" = "BOTH"
+
+	#Advanced mod settings
+	[Client.AdvancedModOptions]
+
+		#These settings control how many CPU threads the mod uses for different tasks.
+		[Client.AdvancedModOptions.Threading]
+			#
+			#
+			# This is how many threads are used when generating LODs outside 
+			# the normal render distance. 
+			# If you experience stuttering when generating distant LODs, decrease 
+			# this number. If you want to increase LOD generation speed, 
+			# increase this number. 
+			#
+			# The maximum value is the number of logical processors on your CPU. 
+			# Requires a restart to take effect. 
+			#
+			#Range: 1 ~ 4
+			numberOfWorldGenerationThreads = 4
+			#
+			#
+			# This is how many threads are used when building vertex buffers 
+			# (The things sent to your GPU to draw the fake chunks). 
+			# If you experience high CPU usage when NOT generating distant 
+			# fake chunks, lower this number. 
+			# 
+			# The maximum value is the number of logical processors on your CPU. 
+			# Requires a restart to take effect. 
+			#
+			#Range: 1 ~ 4
+			numberOfBufferBuilderThreads = 4
+
+		#These settings can be used to look for bugs, or see how certain aspects of the mod work.
+		[Client.AdvancedModOptions.Debugging]
+			#
+			#
+			# If true, the mod is enabled and fake chunks will be drawn. 
+			# If false, the mod will still generate fake chunks, 
+			# but they won't be rendered. 
+			#
+			"Disable Drawing" = true
+			#
+			#
+			# OFF: Fake chunks will be drawn with their normal colors. 
+			# SHOW_DETAIL: Fake chunks color will be based on their detail level. 
+			# SHOW_DETAIL_WIREFRAME: Fake chunks color will be based on their detail level, drawn as a wireframe. 
+			#
+			#Allowed Values: OFF, SHOW_DETAIL, SHOW_DETAIL_WIREFRAME
+			"Debug Mode" = "OFF"
+			#
+			#
+			# If true the F4 key can be used to cycle through the different debug modes. 
+			# and the F6 key can be used to enable and disable LOD rendering.
+			"Enable Debug Keybinding" = false
+
+		#These settings affect how often geometry is are built.
+		[Client.AdvancedModOptions.Buffers]
+			#
+			#
+			# How frequently should geometry be rebuilt and sent to the GPU? 
+			# Higher settings may cause stuttering, but will prevent holes in the world 
+			#
+			#Allowed Values: FREQUENT, NORMAL, RARE
+			rebuildFrequency = "NORMAL"
+

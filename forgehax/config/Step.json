@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.insert",
+  "enabled": "true",
+  "entity-step": "false",
+  "height": "1.2",
+  "unstep": "false"
+}

@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "false",
+  "max-distance": "320",
+  "print-message": "true",
+  "render": "true"
+}

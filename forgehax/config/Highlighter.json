@@ -1,0 +1,5 @@
+{
+  "bind": "key.keyboard.insert",
+  "enabled": "true",
+  "find": "minecraft:obsidian_block"
+}

@@ -1,0 +1,6 @@
+{
+  "bind": "key.keyboard.unknown",
+  "chunk-distance": "5",
+  "draw-region-border": "true",
+  "enabled": "false"
+}

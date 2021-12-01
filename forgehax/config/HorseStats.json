@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "true",
+  "jump-height": "3",
+  "multiplier": "2",
+  "speed": "1"
+}

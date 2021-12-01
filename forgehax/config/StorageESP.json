@@ -1,0 +1,11 @@
+{
+  "anti-aliasing": "true",
+  "bind": "key.keyboard.home",
+  "chest-color": "red",
+  "dispenser-color": "orange",
+  "enabled": "true",
+  "enderchest-color": "purple",
+  "furnace-color": "grey",
+  "hopper-color": "grey",
+  "shulker-color": "yellow"
+}

@@ -1,0 +1,11 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "false",
+  "filtered-blocks": [
+    "minecraft:soul_sand"
+    "minecraft:sand"
+    "minecraft:red_sand"
+    "minecraft:gravel"
+    "minecraft:ladder"
+  ]
+}

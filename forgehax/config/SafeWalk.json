@@ -1,0 +1,6 @@
+{
+  "bind": "key.keyboard.left.alt",
+  "collisions": "false",
+  "enabled": "false",
+  "min-height": "15"
+}

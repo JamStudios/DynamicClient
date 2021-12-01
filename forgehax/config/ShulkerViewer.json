@@ -1,0 +1,11 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "false",
+  "help-text": "true",
+  "hold-bind": "key.keyboard.period",
+  "locked-opacity": "255",
+  "toggle-lock": "false",
+  "tooltip-opacity": "200",
+  "x-offset": "8",
+  "y-offset": "0"
+}

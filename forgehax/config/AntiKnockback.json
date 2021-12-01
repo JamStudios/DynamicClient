@@ -1,0 +1,14 @@
+{
+  "bind": "key.keyboard.delete",
+  "blocks": "true",
+  "enabled": "true",
+  "explosions": "true",
+  "fishhook": "true",
+  "push": "true",
+  "slipping": "true",
+  "velocity": "true",
+  "water": "true",
+  "x-multiplier": "0.0",
+  "y-multiplier": "0.0",
+  "z-multiplier": "0.0"
+}

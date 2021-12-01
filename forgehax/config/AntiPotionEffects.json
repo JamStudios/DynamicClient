@@ -1,0 +1,11 @@
+{
+  "bind": "key.keyboard.unknown",
+  "effects": [
+    "minecraft:nausea",
+    "minecraft:invisibility",
+    "minecraft:blindness",
+    "minecraft:wither"
+  ],
+  "enabled": "false",
+  "no-particles": "false"
+}

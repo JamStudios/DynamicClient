@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.unknown",
+  "delay": "500",
+  "enabled": "false",
+  "hold-time": "150",
+  "keys": {}
+}

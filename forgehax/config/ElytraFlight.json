@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "false",
+  "fly-on-enable": "true",
+  "mode": "SLOW_FALL",
+  "speed": "0.05"
+}

@@ -1,0 +1,20 @@
+{
+  "auto-attack": "true",
+  "bind": "key.keyboard.page.down",
+  "cooldown_percent": "100.0",
+  "enabled": "false",
+  "fov": "180",
+  "hold-target": "true",
+  "lag-compensation": "true",
+  "proj-aimbot": "true",
+  "proj-auto-attack": "true",
+  "projectile-range": "100.0",
+  "projectile-trace": "true",
+  "range": "3.0",
+  "selector": "CROSSHAIR",
+  "silent": "true",
+  "target-friendly-mobs": "false",
+  "target-hostile-mobs": "true",
+  "target-players": "true",
+  "trace": "true"
+}

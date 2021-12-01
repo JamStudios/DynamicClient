@@ -1,0 +1,6 @@
+{
+  "bind": "key.keyboard.delete",
+  "enabled": "true",
+  "height": "5.0",
+  "PreHeight": "3.0"
+}

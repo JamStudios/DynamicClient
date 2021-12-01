@@ -1,0 +1,8 @@
+{
+  "bind": "key.keyboard.end",
+  "durability-threshold": "0",
+  "enabled": "false",
+  "revert-back": "true",
+  "tools": "true",
+  "weapons": "true"
+}

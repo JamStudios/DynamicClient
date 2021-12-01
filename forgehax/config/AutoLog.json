@@ -1,0 +1,7 @@
+{
+  "bind": "key.keyboard.unknown",
+  "enabled": "false",
+  "new-player": "false",
+  "no-totem": "false",
+  "threshold": "0"
+}

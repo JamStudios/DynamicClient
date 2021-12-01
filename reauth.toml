@@ -1,0 +1,18 @@
+#Version Number of the Configuration File
+#Range: 1 ~ 2
+version = 2
+
+#Credentials for login, encrypted with AES-CBC-PKCS5Padding and PBKDF2WithHmacSHA512 based on the Path of this file and the contained Salt.
+#Manually editing one of the Encrypted Values or the Salt, is inadvisable - Reset them to "" if required
+#Keep in mind that while the credentials are no longer humanly readable, they could still be decrypted by malicious third parties
+[credentials]
+	#Your Password (encrypted)
+	password = ""
+	#One of the values required to decrypt the credentials
+	#See https://en.wikipedia.org/wiki/Salt_(cryptography) for details
+	salt = "zLKYzzKfYArD3ctb/0ccqA=="
+	#The Name of the last used Profile
+	profile = ""
+	#Your Username (encrypted)
+	username = ""
+

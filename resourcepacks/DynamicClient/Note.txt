@@ -1,0 +1,10 @@
+This Texture Pack Modifies Minecraft's Mojangstudios.png (Mojang Studios Logo Loading Screen) and minecraft.png  (Main Menu Title Screen)
+& edition.png (Main Menu SubTitle Screen/Edition/GUI)
+
+PLEASE NOTE: DO NOT LOAD TEXTUREPACKS THAT HAVE MODIFIES MOJANGSTUDIOS.PNG/MINECRAFT.PNG/EDITION.PNG IT WILL STOP
+THE TEXTURE PACKS MODIFICATIONS.
+
+Also This Texturepack can be reused as long as it can not be difirentiated by the Modified and the Original, The Dynamic Client Logo is (TM)arked.
+and applies in all regions/countries.
+
+Creator: JamTheAdventurer (Dev/Tester/Mod Finder of Dynamic Client)

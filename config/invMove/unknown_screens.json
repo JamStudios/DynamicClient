@@ -1,0 +1,11 @@
+{
+  "com.mrcrayfish.configured.client.screen.ConfigScreen_background": true,
+  "meldexun.entityculling.gui.ShaderOptionsScreen_background": true,
+  "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen_background": true,
+  "io.github.kosmx.emotes.arch.gui.EmoteMenuImpl_background": true,
+  "com.mrcrayfish.configured.client.screen.EditStringScreen_background": true,
+  "net.minecraft.client.gui.screen.PackScreen_background": true,
+  "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen_background": true,
+  "me.shedaniel.clothconfig2.gui.ClothConfigScreen_background": true,
+  "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen_movement": true
+}

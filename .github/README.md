@@ -1,7 +1,7 @@
 ![DC-back](https://user-images.githubusercontent.com/88536910/140442808-6ac16371-573b-4160-b20c-59275a225002.jpg)
 ---------------------------------------
 ---------------------------------------
-#### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[ 📄 Website ]](https://adfoc.us/70081781325836) [[ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)
+#### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[📖 Repository ]](https://github.com/JamStudios/DynamicClient/wiki/Versions) [[ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)
 
 ---------------------------------------
 
@@ -16,9 +16,9 @@ their own client, without coding as you only need ac-credit the mod creators.
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:
 
-[![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)
-[![Download in Gitlab](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](http://adfoc.us/70081781907063)
-[![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Dynamic%20Client%20Banner.png)](http://adfoc.us/70081781325836)
+[![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)
+[![Download in Gitlab](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](http://adfoc.us/70081781907063)
+[![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Dynamic%20Client%20Banner.png)](http://adfoc.us/70081781325836)
 
 
 

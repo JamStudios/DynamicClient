@@ -1,0 +1,136 @@
+{
+  "name": "default",
+  "rowMap": {
+    "KEY": [
+      {
+        "keystrokes": [
+          {
+            "keyBindingDescription": "BARRIER",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 0.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          },
+          {
+            "keyBindingDescription": "key.forward",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 6.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          },
+          {
+            "keyBindingDescription": "BARRIER",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 0.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          }
+        ]
+      },
+      {
+        "keystrokes": [
+          {
+            "keyBindingDescription": "key.left",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 6.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          },
+          {
+            "keyBindingDescription": "key.back",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 6.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          },
+          {
+            "keyBindingDescription": "key.right",
+            "keyType": "KEY",
+            "height": 25.0,
+            "width": 25.0,
+            "textWidth": 6.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          }
+        ]
+      }
+    ],
+    "MOUSE": [
+      {
+        "keystrokes": [
+          {
+            "keyBindingDescription": "key.attack",
+            "keyType": "MOUSE_LEFT",
+            "height": 27.0,
+            "width": 38.0,
+            "textWidth": 0.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          },
+          {
+            "keyBindingDescription": "key.use",
+            "keyType": "MOUSE_RIGHT",
+            "height": 27.0,
+            "width": 38.0,
+            "textWidth": 0.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          }
+        ]
+      }
+    ],
+    "SPACEBAR": [
+      {
+        "keystrokes": [
+          {
+            "keyBindingDescription": "key.jump",
+            "keyType": "SPACEBAR",
+            "height": 15.0,
+            "width": 78.0,
+            "textWidth": 0.0,
+            "isDefault": true,
+            "owningOverlay": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "rgbValues": {
+    "TEXT": [
+      255,
+      255,
+      255
+    ],
+    "CLICK": [
+      71,
+      71,
+      71
+    ],
+    "HUD": [
+      48,
+      48,
+      48
+    ]
+  },
+  "dragMode": false,
+  "hudPosition": {
+    "x": 600,
+    "y": 5,
+    "width": 78,
+    "height": 96
+  },
+  "scale": 1.0,
+  "lastX": 600,
+  "lastY": 1,
+  "custom": false
+}

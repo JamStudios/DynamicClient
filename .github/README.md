@@ -18,7 +18,7 @@ their own client, without coding as you only need ac-credit the mod creators.
 
 [![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Source%20Forge%20Banner.png)](https://sourceforge.net/projects/dynamicclient)
 [![Download in Gitlab](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Gitlab%20Banner%20(Ended%20Support).png)](https://gitlab.com/JamStudiosCorp/dynamicclient/DynamicClient)
-
+[![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/main/.github/Download%20on%20Dynamic%20Client%20Banner.png)](https:/sites.google.com/view/dynamic-client)
 
 
 

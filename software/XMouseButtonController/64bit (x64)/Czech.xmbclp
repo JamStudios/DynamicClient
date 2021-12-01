@@ -1,0 +1,484 @@
+# Sample XMBC Language template file. 
+# Base version 2.4 Beta 15
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=Česky (Czech)
+Description=Česká lokalizace X-Mouse Button Control
+
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=Kamil Pábl
+
+
+"Scrolling && Navigation" => "Skrolování & Navigace"
+"Default" => "Přednastaveno"
+"A&dd" => "Další"
+"Edi&t" => "Upravit"
+"Cop&y" => "Kopírovat"
+"Remo&ve" => "Smazat"
+"&Settings" => "Nastavení"
+"Abo&ut" => "O program&u"
+"&Apply" => "Použít"
+"&Close" => "Zavřít"
+"Description" => "Popis"
+"Process" => "Vykonat"
+"Class" => "Kategorie"
+"Window Class" => "Okno kategorie"
+"Parent Class" => "Základní kategorie"
+"Application / Window Profiles:" => "Programy/ Okno kategorie"
+"Profile Information" => "Profil-Informace"
+"Setup" => "Nastavení"
+
+
+#General strings
+"Layer" => "Hladina"
+"Portable" => "Přenosný"
+"All" => "Vše"
+"Not Defined" => "Nedefinováno"
+"Default: All windows that do not match any profile." => "Předvoleno: Všechna okna nejsou v žádném profilu."
+"&OK" => "Potvrdit"
+"&Cancel" => "Zrušit"
+"OK" => "OK"
+"Cancel" => "Zrušit"
+"Global Settings" => "Místní nastavení"
+
+#Global settings: General settings
+"General" => "Hlavní nastavení"
+"Mouse &Speed" => "Rychlost myši"
+"Ma&ke scroll wheel scroll window under cursor" => "Skrolovat okno pod kurzorem"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Obejít všechny akce při zapnutém SCROLL LOCK"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Obejít vypnutí akce při zapnutém SCROLL LOCK"
+"&Disable when running under remote desktop (RDP)" => "Vypnout při připojeno kdy spojení vzdáleným desktopem (RDP)"
+"Show layer switch &balloon notifications" => "Ukázat tlačítka vrstvy & bublinkové zprávy"
+"Language" => "Jazyk"
+
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Zaměnit 4 té a 5 té tlačítko"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Zaměnit 4 té a 5 té tlačítko připojeno kdy spojení vzdáleným desktopem (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Zaměnit 4 té a 5 té tlačítko"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Zaměnit 4 té a 5 té tlačítko připojeno kdy spojení vzdáleným desktopem (RDP)"
+
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "UPOZORNĚNÍ: Musíte stlačit OK a použít nastavení na hlavním zobrazení předtím než je mají účinek. Jazykové změny budou aplikovány do hlavního okna až po znovu otevření hlavního okna."
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Autor"
+# --
+
+
+#Global settings: Advanced settings
+"Advanced" => "Pokročilé"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "Poznámka: je nutné stisknout tlačítko OK a aplikovat nastavení na hlavní obrazovce před tím, než vstoupí v platnost."
+"Enable profi&le switching on mouse move" => "Umožnit přepínání profilů při pohybu myši"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Proces Ne-klient myši zprávy *DOPORUČENO*"
+"Reset &sticky buttons when any other button is pressed" =>  "Obnovit lepkavé tlačítka po stisku jiného tlačítka"
+"R&eset sticky buttons when any other key is pressed" => "Obnovit lepkavé tlačítka po stisku libovolné jiné klávesy"
+"Show &tray icon by default" => "Zobrazit ikonu v Tray *VÝCHOZÍ NASTAVENÍ*"
+"&Ignore numlock state for Simulated Keystrokes" => "Ignorovat stav NumLock na simulované klávesové zkratky"
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Frekvence naklápění skrol.kolečka automaticky opakovat"
+"&Initial repeat rate" => "Počáteční rychlost opakování"
+"Initial repeat r&ate" => "Počáteční rychlost opakování"	# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "Opakovat rychlost naklápění"
+"(ms)" => ""
+"Dela&y between simulated keystrokes" => "Prodleva mezi simulovanými stisky kláves"
+"&CPU Priority" => "CPU Priorita"
+"Check for new &version every" => "Zkontrolujte, upgrade za každý"
+"days (at application startup)" => "den/dní (při spuštění aplikace)"
+"Enable &DEBUG logging" => "Umožnit protokolování při ladění"
+"*** Debug logging will degrade performace and response times! ***" => "*** Protokolování ladění zhorší výkon a dobu odezvy! ***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "*** Protokolování ladění zhorší výkon a dobu odezvy! ***"
+
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "V reálném čase"
+"High" => "Vysoká"
+"Above normal" => "Nad normál"
+"Normal" => "Normál"
+"Below normal" => "Pod normál"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "Klávesové zkratky"
+"Enable &global hotkeys" => "Umožnit místní klávesové zkratky"
+"You can assign your hotkeys using the boxes below..." => "Můžete přiřadit klávesové zkratky pomocí políčka pod ..."
+"Switch to Layer &1" => "Přepnout do vrstvy &1"
+"Switch to Layer &2" => "Přepnout do vrstvy &2"
+"Switch to Layer &3" => "Přepnout do vrstvy &3"
+"Switch to Layer &4" => "Přepnout do vrstvy &4"
+"Switch to Layer &5" => "Přepnout do vrstvy &5"
+"Switch to Layer &6" => "Přepnout do vrstvy &6"
+"Switch to Layer &7" => "Přepnout do vrstvy &7"
+"Switch to Layer &8" => "Přepnout do vrstvy &8"
+"Switch to Layer &9" => "Přepnout do vrstvy &9"
+"Switch to Layer 1&0" => "Přepnout do vrstvy 1&0"
+"&Next Layer" => "Další vrstva"
+"&Previous Layer" => "Předchozí vrstva"
+"&Enable/Disable XMBC" => "Aktivovat/ Deaktivovat XMBC"
+"&Toggle Debug mode" => "Přepnout do režimu ladění"
+"&Save desktop icon layout" => "Uložit rozvržení ikon desktopu"
+"Restore desktop icon &layout" => "Obnovit rozvržení ikon na ploše"
+"Toggle &X Axis Lock" => "Přepnout osu X zamknout"
+"Toggle &Y Axis Lock" => "Přepnout osu Y zamknout"
+"NOTE: Only valid hotkey combinations will be allowed." => "Poznámka: Pouze platné klávesové kombinace budou povoleny."
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Globální klávesové zkratky jsou zakázány, když v dialogu nastavení. Musíte zavřít nastavení před tím, než bude fungovat."
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "Modifikační klávesy"
+"Enab&le modifier keys (switching layers && axis locking)" => "Umožnit modifikační klávesy (přepínání vrstev && osa zamykání)"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Modifikační klávesy jsou klávesové zkratky, které budou dočasně aktivovat funkci, zatímco kombinace kláves je stisknuta. Jakmile uvolníte tlačítka, bude vrácena do původního stavu."
+"Layers" => "Hladiny"
+"Activate Layer 1" => "Aktivace hladiny 1"
+"Activate Layer 2" => "Aktivace hladiny 2"
+"Activate Layer 3" => "Aktivace hladiny 3"
+"Activate Layer 4" => "Aktivace hladiny 4"
+"Activate Layer 5" => "Aktivace hladiny 5"
+"Activate Layer 6" => "Aktivace hladiny 6"
+"Activate Layer 7" => "Aktivace hladiny 7"
+"Activate Layer 8" => "Aktivace hladiny 8"
+"Activate Layer 9" => "Aktivace hladiny 9"
+"Activate Layer 10" => "Aktivace hladiny 10"
+"Axis Locking" => "Osy uzamknout"
+"Lock X-Axis" => "X-osu uzamknout"
+"Lock Y-Axis" => "Y-osu uzamknout"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "Poznámka:Zamykání osy je nutné povolit zamykání osy pro každou aplikaci konkrétní profil, kde si přejete používat zamykání osy. To umožňuje zamknout osu pouze pro konkrétní aplikaci."
+"None" => "není"
+"Shift" => "Shift"
+"Control" => "Ctrl"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Ctrl"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Ctrl + Alt"
+"Control + Alt" => "Ctrl + Alt"
+"Left Window Key" => "Levá Windows"
+"Right Window Key" => "Pravá Windows"
+"App Menu Key" => "Program Menu klávesa"
+
+
+#Context Menus
+"Edit" => "Upravit"
+"Copy" => "Kopírovat"
+"Remove" => "Smazat"
+"Import" => "Import"
+"Export Selected" => "Exportovat výběr"
+"Export All" => "Exportovat všechno"
+"&Layers" => "Hladina"
+"Layer &1" => "Hladina &1"
+"Layer &2" => "Hladina &2"
+"Layer &3" => "Hladina &3"
+"Layer &4" => "Hladina &4"
+"Layer &5" => "Hladina &5"
+# -- Added in 2.10 Beta 3
+"Layer &6" => "Hladina &6"
+"Layer &7" => "Hladina &7"
+"Layer &8" => "Hladina &8"
+"Layer &9" => "Hladina &9"
+"Layer 1&0" => "Hladina 1&0"
+# --
+"&Setup" => "&Nastavení programu"
+"&Hide Icon" => "&Zobrazit ikonu"
+"&Open log file" => "&Otevřít LOG soubor"
+"&Disable X-Mouse Button Control" => "&Vypnout X-Mouse Button Control"
+"S&ave desktop icon layout" => "U&ložit rozvržení ikon na pracovní ploše"
+"&Restore desktop icon layout" => "O&bnovit rozvržení ikon na pracovní ploše"
+"Exit" => "&Ukončit program"
+
+
+#Layer tab(s)
+"Layer name" => "Jméno hladiny"
+"&Left Button" => "Levé tlačítko myši"
+"&Right Button" => "Pravé tlačítko myši"
+"&Middle Button" => "Střední tlačítko myši"
+"&Middle Button 2" => "Střední tlačítko myši 2"
+"Mouse Button &4" => "Tlačítko myši 4"
+"Mouse Button &5" => "Tlačítko myši 5"
+"W&heel Up" => "Skrolovat nahoru"
+"Wheel &Down" => "Skrolovat dolů"
+"Tilt Wheel Le&ft" => "Naklonit vlevo"
+"Tilt Wheel Ri&ght" => "Naklonit vpravo"
+"Reset Layer" => "Smazat hladiny"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Tato položka je vyhrazena, když je modifikátor hladiny \n\nslouží k přepnutí do této hladiny. Nemůžete vybrat přímo."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Nastavení hladin je třeba použít na všech postižených hladinách. \n\nChcete pokračovat?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "Nemůžete přidat hladinu X modifikátor této hladiny, protože další hladina má modifikační nastavení \n\nna této hladině. Mohlo by dojít blíže neurčenému chování, a proto není podporován."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Pokud odstraníte nastavení hladiny, bude odstraněn ze všech postižených hladin. /n/nChcete pokračovat?"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "nedefinováno"
+"(pressed)" => "stisknuto"
+"(released)" => "uvolněno"
+"(during)" => "v průběhu"
+"(thread-down)" => "podproces dolů"
+"(thread-up)" => "podproces nahoru"
+"(repeat)" => "opakovat"
+"(sticky repeat)" => "Stisk opakovat"
+"(sticky hold)" => "Stisk zastavit"
+"(pressed & released)" => "stisknout a uvolnit"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulated Keystrokes" => "Simulovat klávesové zkratky"								# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Zadejte vlastní klíč/e"
+"How to send the simulated key strokes:" => "Jak posílat simulované hlavní údery:"
+"1 As mouse button is pressed" => "1.Pokud je stisknuto tlačítko myši"
+"2 As mouse button is released" => "2.Pokud se uvolní tlačítko myši"
+"3 During (press on down, release on up)" => "3.Během (stiskněte dolů, uvolněte na nahoru)"
+"4 In another thread as mouse button is pressed" => "4.V jiném podprocesu jako stisknutí tlačítka myši"
+"5 In another thread as mouse button is released" => "5.V jiném podprocesu jako uvolnění tlačítka myši"
+"6 Repeatedly while the button is down" => "6.Opakovaně zatímco tlačítko dole"
+"7 Sticky (repeatedly until button is pressed again)" => "7.Stisknout(opakovat, až do stisknutí tlačítka znovu)"
+"8 Sticky (held down until button is pressed again)" => "8.Stisknout(konat, až do stisknutí tlačítka znovu)"
+"9 As mouse button is pressed & when released" => "9.Pokud je stisknuto tlačítko myši a při uvolnění"			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "Zasílat pouze v případě, \nže proces profilu je aktivní"
+"Auto repeat delay" => "Zpoždění automatického opakování"
+"(milliseconds)" => "Milisekund"
+"0 = Windows default repeat delay && speed." => "0 = Okno Výchozí opakované zpoždění && rychlost."
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Zadejte klíčové sekvence do pole výše. \r\nLze simulovat tyto rozšířené klíče pomocí zadaného slova ..."
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Modifikační značky:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  Poznámka:\tmodifikační tagy lze kombinovat např. {} {CTRL ALT}, ale vztahuje pouze další klíč. \r\n\tnapříklad poslat CTRL+a+CTRL+s, měli byste napsat {CTRL}A{CTRL}S"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Rozšířené klíčové značky:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Kurzorová tlačítka:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunkční tlačítka:\t\t{F1, F2, F3 ... F24}\r\nOvládání zvuku:\t\t{VOL+} {VOL-} {MUTE}\r\nTlačítka myši:\t\t{LMB} {RMB} {MMB} {MB4/XMB1} {MB5/XMB2}\r\nKolečko myši:\t\t{MWUP} {MWDN} {TILTL} {TILTR}\r\nNumerická klávesnice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWebový prohlížeč klávesy:\t{BACK} {FORWARD} {STOP} {REFRESH} {WEBHOME}\r\n\t\t\t{SEARCH} {FAVORITES}\r\nPřepínače:\t\t{NUMLOCKON} {NUMLOCKOFF} {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF} {SCROLLLOCKON} {SCROLLLOCKOFF}"
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:n} Sends the specified virtual key code\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Speciální funkce:\t{WAIT:n} vloží zpoždění <n> sekund.\r\n\t\t\t{WAITMS:n} vloží zpoždění <n> milisekund\r\n\t\t\t{VKC:n} Odešle určený virtuální kód klávesy\r\n\t\t\t{EXT:n} Odešle zadaný rozšířený virtuální kód klávesy\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky (CTRL},{ALT} ad."
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS:50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS:50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "Poznámka: Aby se zabránilo zpoždění při použití {WAIT}, {WAITMS}, {HOLD} nebo {HOLDMS} tagy, \r\nzkuste použít metody v rozbalovací nabídce výše."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Speciální funkce tagy:\t{WAIT:n} vloží zpoždění za <n> sekund.\r\n\t\t\t{WAITMS:n} vloží zpoždění za <n> milisekund.\r\n\t\t\t{HOLD:n} má další klíč za <n> sekund.\r\n\t\t\t{HOLDMS:n} má další klíč za <n> milisekund.\r\n\t\t\t{VKC:n} Odešle určený virtuální kód klávesy.\r\n\t\t\t{EXT:n} Odešle zadaný rozšířený virtuální kód klávesy.\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky {CTRL},{ALT} etc."
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Kurzorová tlačítka:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunkční tlačítka:\t\t{F1, F2, F3 ... F24}\r\nOvládání zvuku:\t\t{VOL+} {VOL-} {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nTlačítka myši:\t\t{LMB} {RMB} {MMB} {MB4/XMB1} {MB5/XMB2}\r\nKolečko myši:\t\t{MWUP} {MWDN} {TILTL} {TILTR}\r\nNumerická klávesnice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWebový prohlížeč klávesy:\t{BACK} {FORWARD} {STOP} {REFRESH} {WEBHOME}\r\n\t\t\t{SEARCH} {FAVORITES}\r\nPřepínače:\t\t{NUMLOCKON} {NUMLOCKOFF} {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF} {SCROLLLOCKON} {SCROLLLOCKOFF}"
+
+
+#Run Application dialog
+"Run Application" => "Start Programu"
+"Type the name of a program, folder, document or internet resource, and X-Mouse Button Control will open it for you when the button is pressed." => "Zadejte název programu, složku, dokument nebo internetové zdroje a X-Mouse Button Control se otevře jej pro vás, když je stisknuto tlačítko."
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Invertovat skrolování kolečkem myši"
+"I&nvert mouse horizontal (tilt) scrolling" => "Invertovat vodorovné naklánění rolování myši"
+"Wheel scrolls i&n pages instead of lines" => "Kolo posouvá po stránkách místo řádků"
+"Lines to scroll using the scroll wheel" => "Řádky posouvat pomocí kolečka"
+"Enable a&xis locking modifier keys" => "Povolit osy zamykání modifikační klávesy"
+"Advanced Window Scrolling" => "Rozšířené skrolování v okně"
+"&Scroll Method" => "Metoda skrolování"
+"&Vertical Lines" => "Vertikání řádky"
+"&Horizontal characters" => "Horizontální znaky"
+"Method 1 (SCROLL Msg)" => "Metoda 1 (SCROLL Zpráva)"
+"Method 2 (ScrollInfo)" => "Metoda 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Metoda 3 (Vlevo/vpravo klávesy)"
+"Method 4 (Wheel Msg)" => "Metoda 4 (Kolečko Zpráva)"
+"Method 5 (WPF Scroll Msg)" => "Metoda 5 (WPF Skrolovat Zpráva)"
+"None (Disable Scroll)" => "Skrolování vypnuto"
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "XML-podpora poskytovaná v XML + + od Michaela na turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC je distribuován volně (bez záruky nebo garanci) pro použití kýmkoliv a kdekoliv. Pokud máte rádi XMBC a chtějí ukázat vaše ocenění, neváhejte a poskytnout dar kliknutím na tlačítko PayPal níže."
+"More information can be found on my download page or user forums." => "Více informací lze najít na mých stránkách ke stažení nebo uživatelská fóra."
+"&Homepage" => "Domácí stránka"
+"&Donate" => "Přispějte"
+"&Forums" => "Fórum"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "O programu"
+"Version" => "Verze"	
+"This application is designed and written by %s of %s." => "Tato aplikace je navržena a napsána %s z %s." # Poznámka:%s se nahradí za běhu
+# --
+
+#Find Window Dialog
+"Find Window" => "Hledat okno"
+"Find Method" => "Hledat metodu"
+"Click and drag the window finder icon to the window you want to select." => "Klepnutím a tažením okna ikonu vyhledávače do okna, které chcete vybrat."
+"Hover" => "najeďte"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Přesuňte kurzor myši nad oknem, který chcete vybrat && zapnutí Caps Lock zamknout okna detailů na místě."
+"You can also manually enter/edit the window details below." => "Můžete také ručně zadat/upravit údaje okna."
+"Window Details" => "Detaily okna"
+"Caption" => "Nadpis"
+"Handle" => "Manipulovat"
+"&Process" => "Proces"
+"C&lass" => "Třída"
+"Pa&rent Class" => "Základní třída"
+"Only match if there is no parent class." => "Vyhoví pouze když není zakladní třída"
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "Poznámka: Pole může být prázdný, která bude odpovídat všem (*) okna (pokud zaškrtnete políčko prázdné pro základní třídu). Pokud je nastavena, musí odpovídat textu z okna vlastností."
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Vyberte aplikaci"
+"Select from the list of running applications:" => "Vyberte ze seznamu běžících aplikací:"
+"Or type in/browse to the application executable (.EXE) file" => "Nebo napište/přejděte do aplikace spustitelný (.EXE) soubor"
+"Application" => "Aplikace"
+"&Specific Window" => "Zvláštní okno"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Aktualizovat"
+"Process Name" => "Jméno procesu"
+"Window Title" => "Titulek okna"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Prosím, zavřete dialog pro nastavení, aby se plně uplatnil výběr jazyka."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Uvedená aplikace již existuje. \nNelze přidat dvě položky pro stejné aplikace."
+"You must select a profile to remove!" => "Musíte vybrat profil odstranit!"
+"You can not edit the default profile!" => "Nemůžete upravit výchozí profil!"
+"You can not remove the default profile!" => "Nemůžete odstranit výchozí profil!"
+"You must select a profile to edit." => "Je nutné vybrat profil upravit."
+"The specified window configuration is invalid!" => "Uvedené okno konfigurace je neplatná!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Zadaný profil již existuje. \nNelze přidat dvě položky profilu pro stejné aplikace/okna."
+"You must select an application to copy." => "Musíte vybrat aplikaci, kterou chcete kopírovat."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Chcete uložit změny provedené v konfiguraci? \n\n Upozornění: Pokud stisknete "ne", budou všechny změny ztraceny!"
+"Do you want to overwrite profile" => "Přejete si přepsat profil"
+"The selected file is not a valid settings file." => "Vybraný soubor není platný soubor nastavení."
+"You must select an application to copy." => "Musíte vybrat aplikaci, kterou chcete kopírovat."
+"The log file can not be opened as it does not exist." => "Log soubor nelze otevřít, protože neexistuje."
+"is unable to open the log file" => "není schopen otevřít soubor protokolu"
+"Unable to save the desktop icons using your current shell and this version of" => "Nelze uložit pomocí ikon na ploše aktuální shell a tuto verzi"
+"Unable to restore the desktop icons using your current shell and this version of" => "Nelze obnovit pomocí ikon na ploše aktuální shell a tuto verzi"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "K dispozici je nová verze!"
+"A new version is available." => "Nová verze je k dispozici."
+"Click the 'Homepage' button to go and download it." => "Klikněte na tlačítko 'Domácí stránka' a stáhnout."
+"There is a new beta version available!" => "K dispozici je nová beta verze!"
+"A new beta version is available." => "Nová beta verze je k dispozici."
+"Click the 'Forums' button to go and download it." => "Klikněte na tlačítko 'fóra' jít a stáhnout."
+# --
+
+"You have to select or enter a process name, or press cancel." => "Musíte si vybrat, nebo zadejte název procesu, nebo stiskněte tlačítko Storno."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "Povolení protokolování ladění sníží výkon myši. Doporučuje se, aby si jen možno tento dočasně pomáhat problém najít. je takový, ladění nastavení nelze uložit."
+"Are you sure you want to enable debug logging?" => "Jste si jisti, že chcete povolit protokolování ladění?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => ""
+"This can slow down mouse operation in general, sometimes causing strange results." => "To může zpomalit myši provozu obecně, někdy působit podivné výsledky."
+"Are you sure you want to ignore non-client messages?" => "Jste si jisti, že chcete ignorovat non-client zprávy?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Ve výchozím nastavení je ikona v systémové liště (vedle hodin) vždy uvedeno. Pokud si tuto funkci vypnout, nebude ikona v systémové liště ve výchozím nastavení."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Chcete-li obnovit na ikonu můžete spustit program znovu z nabídky Start. To donutí na ikonu se zobrazí dočasně, což vám umožní přístup k této obrazovku nastavení."
+
+
+#Balloon popup windows
+"Debugging enabled" => "Ladění povoleno"
+"Debugging disabled" => "Ladění zakázáno"
+"Successfully saved desktop icon positions" => "Úspěšně uloženy pozice ikon na ploše"
+"Successfully restored desktop icon positions" => "Úspěšně obnoveny pozice ikon na ploše"
+"Mouse button re-mapping is now disabled" => "Tlačítko myši přemapování je nyní zakázáno"
+"Mouse button re-mapping is now enabled" => "Tlačítko myši přemapování je nyní povoleno"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Levý klik"
+"Right Click" => "Pravý klik"
+"Next Window" => "Další okno"
+"Back" => "Zpět"
+"Forward" => "Vpřed"
+"Middle Click" => "Střední klik"
+"Disable" => "Zakázat"
+"Close (Alt+F4)" => "Zavřít (Alt+F4)"
+"Copy (Ctrl+C)" => "Kopírovat (Ctrl+C)"
+"Cut (Ctrl+X)" => "Vyjmout (Ctrl+X)"
+"Double Click" => "Dvouklik"
+"Enter" => "Enter"
+"Maximize Window" => "Maximalizovat"
+"Minimize Window" => "Minimalizovat"
+"New" => "Nový"
+"Open" => "Otevřít"
+"Paste (Ctrl+V)" => "Vložit (Ctrl+V)"
+"Redo (Ctrl+Y)" => "Odvolat zpět (Ctrl+Y)"
+"Show/Hide Desktop" => "Zobrazit/skrýt plochu"
+"Undo (Ctrl+Z)" => "Zpět (Ctrl + Z)"
+"Media - Mute" => "Media - ztlumit"
+"Media - Volume Up" => "Media - Zesílit"
+"Media - Volume Down" => "Media - Zeslabit"
+"Media - Next Track" => "Media - Další stopa"
+"Media - Last Track" => "Media - Předchozí stopa"
+"Media - Stop" => "Media - Stop"
+"Media - Play/Pause" => "Media - Play/Pause"
+"Launch EMail" => "Start Email"
+"Simulated Keys" => "Simulovat klávesu/y"
+"Lock Workstation" => "Zamknout pracovní stanici"
+"Open Explorer" => "Otevřít Explorer"
+"Open RUN Command" => "Otevřít RUN Command"
+"Restore Window" => "Obnovit okno"
+"Escape" => "Escape"
+"Open Help" => "Otevřít nápovědu"
+"Open Web Browser" => "Otevřít Webový prohlížeč"
+"Browser Stop" => "Webový prohlížeč zastavit"
+"Browser Refresh" => "Webový prohlížeč aktualizovat"
+"Browser Search" => "Otevřít vyhledávání"						# Updated in 2.14 Beta 10
+"Browser Favourites" => "Oblíbené"
+"** No Change (Don't intercept) **" => "** Nezměněno (Nepoužito) **"
+"Run Application" => "Spustit aplikaci"
+"Mouse Wheel Up" => "Kolečko myši nahoru"
+"Mouse Wheel Down" => "Kolečko myši dolů"
+"Flip 3D" => "Miniaplikace"
+"ALT-TAB" => "Alt-Tab"
+"Print Screen" => "Tisk obsahu obrazovky"
+"Print Active Window" => "Tisk obsahu aktivního okna"
+"Show sidebar" => "Zobrazit miniaplikace"
+"Sticky Left Button [Click-Drag]" => "Stisk Levé tlačítko [Click-Drag] "
+"Sticky Right Button" => "Stisk pravé tlačítko"
+"Sticky Middle Button" => "Stisk střední tlačítko"
+"Layer (Previous)" => "Hladina předchozí"
+"Layer 1" => "Hladina 1"
+"Layer 2" => "Hladina 2"
+"Layer 3" => "Hladina 3"
+"Layer 4" => "Hladina 4"
+"Layer 5" => "Hladina 5"
+# -- Added in 2.10 Beta 3
+"Layer 6" => "Hladina 6"
+"Layer 7" => "Hladina 7"
+"Layer 8" => "Hladina 8"
+"Layer 9" => "Hladina 9"
+"Layer 10" => "Hladina 10"
+# --
+"Open Explorer at specified folder" => "Otevřít průzkumníka v určené složce"
+"Open Explorer at My Documents" => "Otevřít průzkumníka v Dokumentech"
+"Open Explorer at My Computer" => "Otevřít průzkumníka v Můj počítaČ"
+"Open Explorer at Network Favourites" => "Otevřít průzkumníka v místa v síti"
+"Open Control Panel" => "Otevřít Ovládací panely"
+"Double Click Drag" => "Kliknout dvakrát tažením"
+"Mouse Wheel Tilt Left" => "Kolečko myši naklonit vlevo"
+"Mouse Wheel Tilt Right" => "Kolečko myši naklonit vpravo"
+"Scroll Window Up" => "Skrolovat v okně nahoru"
+"Scroll Window Down" => "Skrolovat v okně dolů"
+"Scroll Window Left" => "Skrolovat v okně vlevo"
+"Scroll Window Right" => "Skrolovat v okně vpravo"
+"Previous Window" => "Předchozí okno"
+"Activate Screensaver" => "Aktivovat spořič obrazovky"
+"Activate Monitor Power Saving" => "Aktivace Monitor úsporu energie"
+"** Same As Default Profile **" => "** Totéž jako výchozí profil **"
+"Sticky 4th Button" => "Stisk 4-tého tlačítka myši"
+"Sticky 5th Button" => "Stisk 5-tého tlačítka myši"
+"Change Movement to Scroll" => "Změna pohybu při skrolování"
+"Sticky Left Button [Click-Drag] X-Axis" => "Stisknout levé tlačítko [klik-tažením] osa X"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Stisknout levé tlačítko [klik-tažením] osa Y"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Přepínání mezi okny"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "Zobrazit miniaplikace"
+"Reveal Desktop" => "Zobrazit plochu"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "Stejně jako vrstva 1 (aktuální profil)"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Vrátit modifikátor vrstvy"

@@ -1,0 +1,483 @@
+﻿# Ukrainian XMBC Language file. 
+# Base version 2.5
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+Language=Українська (Ukrainian)
+Description=Українська для X-Mouse Button Control v2.5
+Author=netavek
+# ваші зауваження та пропозиції щодо перекладу прошу надсилати на пошту netavek.translate@gmail.com, із заголовком «переклад XMBC». 
+
+
+#Setup screen
+"Scrolling && Navigation" => "Прокрутка та навігація"
+"Default" => "По замовчуванню"
+"A&dd" => "Додати"
+"Edi&t" => "Редагувати"
+"Cop&y" => "Копіювати"
+"Remo&ve" => "Видалити"
+"&Settings" => "Налаштування"
+"Abo&ut" => "Про програму"
+"&Apply" => "Застосувати"
+"&Close" => "Завершити"
+#Next line is Also shared with the general settings tab!
+"Description" => "Опис"
+"Process" => "Процес"
+"Class" => "Клас"
+"Window Class" => "Клас вікна"
+"Parent Class" => "Батьківський клас"
+"Application / Window Profiles:" => "Профілі застосунку та вікна:"
+"Profile Information" => "Інформація про профіль"
+"Setup" => "Налаштування"
+
+
+#General strings
+"Layer" => "Шар"
+"Portable" => "Переносний"
+"All" => "Всі"
+"Not Defined" => "Не визначено"
+"Default: All windows that do not match any profile." => "По замовчуванню: Всі вікна, що не відповідають жодному профілю"
+"&OK" => "Гаразд"
+"&Cancel" => "Відмінити"
+"OK" => "Гаразд"
+"Cancel" => "Відмінити"
+"Global Settings" => "Загальні налаштування"
+
+
+#Global settings: General settings
+"General" => "Загальні"
+"Mouse &Speed" => "Швидкість миші"
+"Ma&ke scroll wheel scroll window under cursor" => "Прокручування вікна під вказівником миші"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Пропускати ВСІ події коли ввімкнено SCROLL LOCK"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Пропускати «відключені» події, коли ввімкнено SCROLL LOCK"
+"&Disable when running under remote desktop (RDP)" => "Вимкнути, коли запущено під Віддаленим робочим столом"
+"Show layer switch &balloon notifications" => "Показати перемикач шару у спливаючому повідомленні"
+"Language" => "Мова"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Поміняти місцями кнопки 4 та 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Поміняти місцями кнопки 4 та 5, коли підключено до Віддаленого робочого столу"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Поміняти місцями кнопки 4 та 5"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Поміняти місцями кнопки 4 та 5, коли підключено до Віддаленого робочого столу"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "Ви маєте натиснути «Гаразд» та застосувати налаштування в головному вікні, перш ніж зміни стануть дійсними. Зміна мови не застосується, доки головне вікно знов не буде відкрите."
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Автор"
+# --
+
+#Global settings: Advanced settings
+"Advanced" => "Розширені"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "УВАГА: ви маєте натиснути «Гаразд» та застосувати налаштування в головному вікні, перш ніж зміни стануть дійсними."
+"Enable profi&le switching on mouse move" => "Увімкнути зміну профілей рухами миші"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Обробляти не клієнтські повідомлення миші *РЕКОМЕНДОВАНО*"
+"Reset &sticky buttons when any other button is pressed" => "Скинути залиплу кнопку, коли натиснено іншу кнопку"
+"R&eset sticky buttons when any other key is pressed" => "Скинути залиплу кнопку, коли натиснено будь-яку клавішу"
+"&Ignore numlock state for Simulated Keystrokes" => "Не зважати на стан NUMLOCK при симуляції натискань клавіш"
+"Show &tray icon by default" => "Показувати значок на панелі завдань"
+"Cycle layers by left clickin&g tray icon" => "Колообіг шарів при клацанні по значку на панелі завдань"					# -- Updated in 2.19.2 --
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Перепризначити параметри автоповтору нахилу коліщатка"
+"&Initial repeat rate" => "Початкова частота повтору"
+"Initial repeat r&ate" => "Початкова частота повтору"							# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "Частота повтору нахилу"
+"(ms)" => "мс"
+"Dela&y between simulated keystrokes" => "Затримка між симульованими натисканнями клавіш"
+"&CPU Priority" => "Пріоритет ЦП"
+"Check for new &version every" => "Перевіряти нову версію кожні"
+"days (at application startup)" => "днів (при запуску)"
+"Enable &DEBUG logging" => "Увімкнути запис журналу"
+"*** Debug logging will degrade performace and response times! ***" => "!!! Запис журналу відлагодження може погіршити продуктивність та час відгуку !!!"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "!!! Запис журналу відлагодження може погіршити продуктивність та час відгуку !!!
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "0. Реальний час"
+"High" => "1. Високий"
+"Above normal" => "2. Вище середнього"
+"Normal" => "3. Середній"
+"Below normal" => "4. Нижче середнього"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "Швидкі клавіші"
+"Enable &global hotkeys" => "Увімкнути загальні швидкі клавіші"
+"You can assign your hotkeys using the boxes below..." => "Ви можете призначити власні швидкі клавіші за допомогою комірок нижче:"
+"Switch to Layer &1" => "Перемкнути на шар &1"
+"Switch to Layer &2" => "Перемкнути на шар &2"
+"Switch to Layer &3" => "Перемкнути на шар &3"
+"Switch to Layer &4" => "Перемкнути на шар &4"
+"Switch to Layer &5" => "Перемкнути на шар &5"
+"Switch to Layer &6" => "Перемкнути на шар &6"
+"Switch to Layer &7" => "Перемкнути на шар &7"
+"Switch to Layer &8" => "Перемкнути на шар &8"
+"Switch to Layer &9" => "Перемкнути на шар &9"
+"Switch to Layer 1&0" => "Перемкнути на шар 1&0"
+"&Next Layer" => "Наступний шар"
+"&Previous Layer" => "Попередній шар"
+"&Enable/Disable XMBC" => "Увімкнути або вимкнути XMBC"
+"&Toggle Debug mode" => "Перемкнути стан відлагодження"
+"&Save desktop icon layout" => "Зберегти значки Робочого столу"
+"Restore desktop icon &layout" => "Відновити значки Робочого столу"			# -- Updated in 2.5 beta 4 --
+"&Restore desktop icon layout" => "Відновити розташування значків Робочого столу"
+"Toggle &X Axis Lock" => "Блокування осі X"
+"Toggle &Y Axis Lock" => "Блокування осі Y"
+"NOTE: Only valid hotkey combinations will be allowed." => "Тільки вірні комбінації швидких клавіш буде дозволено"
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Загальні швидкі клавіші буде вимкнено у діалозі налаштувань. Ви маєте застосувати зміни та закрити вікно перш ніж вони почнуть працювати."
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "Клавіші модифікатори"
+"Enab&le modifier keys (switching layers && axis locking)" => "Увімкнути клавіші модифікатори"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Клавіші модифікатори є клавіатурними скороченнями, що тимчасово активують функції при натисненні клавіш. При відпусканні клавіш попередній стан відновлюється."
+"Layers" => "Шари"
+"Activate Layer 1" => "Активувати шар 1"
+"Activate Layer 2" => "Активувати шар 2"
+"Activate Layer 3" => "Активувати шар 3"
+"Activate Layer 4" => "Активувати шар 4"
+"Activate Layer 5" => "Активувати шар 5"
+"Activate Layer 6" => "Активувати шар 6"
+"Activate Layer 7" => "Активувати шар 7"
+"Activate Layer 8" => "Активувати шар 8"
+"Activate Layer 9" => "Активувати шар 9"
+"Activate Layer 10" => "Активувати шар 10"
+"Axis Locking" => "Блокування осей"
+"Lock X-Axis" => "Блокування осі X"
+"Lock Y-Axis" => "Блокування осі Y"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "УВАГА: блокування осей вимагає увімкнення блокування для кожного профіля окремо. Це дозволяє блокувати осі лише в обраних програмах."
+"None" => "Ні"
+"Shift" => "Shift"
+"Control" => "Control"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Control"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Control + Alt"
+"Control + Alt" => "Control + Alt"
+"Left Window Key" => "лівий Win"
+"Right Window Key" => "правий Win"
+"App Menu Key" => "Menu"
+
+
+#Context Menus
+"Edit" => "Редагувати"
+"Copy" => "Копіювати"
+"Remove" => "Видалити"
+"Import" => "Імпортувати"
+"Export Selected" => "Експортувати виділене"
+"Export All" => "Експортувати все"
+"&Layers" => "Шари"
+"Layer &1" => "Шар &1"
+"Layer &2" => "Шар &2"
+"Layer &3" => "Шар &3"
+"Layer &4" => "Шар &4"
+"Layer &5" => "Шар &5"
+"Layer &6" => "Шар &6"
+"Layer &7" => "Шар &7"
+"Layer &8" => "Шар &8"
+"Layer &9" => "Шар &9"
+"Layer 1&0" => "Шар 1&0"
+"&Setup" => "Налаштування"
+"&Hide Icon" => "Приховати значок на Панелі керування"
+"&Open log file" => "Відкрити журнал"
+"&Disable X-Mouse Button Control" => "Вимкнути X-Mouse Button Control"
+"S&ave desktop icon layout" => "Зберегти розташування значків Робочого столу"
+"R&estore desktop icon layout" => "Відновити розташування значків Робочого столу"
+"Exit" => "Вихід"
+
+
+#Layer tab(s)
+"Layer name" => "Назва шару"
+"&Left Button" => "Ліва кнопка"
+"&Right Button" => "Права кнопка"
+"&Middle Button" => "Середня кнопка"
+"&Middle Button 2" => "Середня кнопка 2"
+"Mouse Button &4" => "Кнопка миші 4"
+"Mouse Button &5" => "Кнопка миші 5"
+"W&heel Up" => "Крутити вгору"
+"Wheel &Down" => "Крутити вниз"
+"Tilt Wheel Le&ft" => "Нахил ліворуч"
+"Tilt Wheel Ri&ght" => "Нахил праворуч"
+"Reset Layer" => "Скинути шар"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Цей пункт недоступний, коли шар модифікатор\nвикористовується для перемикання на цей шар.\n\nВи не можете обрати його безпосередньо."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Команди зміни шарів буде застосовано до всіх шарів.\n\nПродовжувати?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "Ви не можете додати модифікатор LAYERS X для цього шару, оскільки інший шар вже має модифікатор налаштування для нього.\nЦе може призвести до непередбачуваних наслідків, тому не підтримується."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Якщо ви видалите команду зміни шару, її буде видалено з УСІХ шарів де вона використовується.\n\nПродовжувати?"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "(не визначено)"
+"(pressed)" => "(натиснено)"
+"(released)" => "(відпущено)"
+"(during)" => "в процесі"
+"(thread-down)" => "(комбінація натиснення)"
+"(thread-up)" => "(комбінація відпускання)"
+"(repeat)" => "(повторення)"
+"(sticky repeat)" => "(залипле повторення)"
+"(sticky hold)" => "(залипле утримання)"
+"(pressed & released)" => "(натиснено і відпущено)"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulated Keystrokes" => "Симуляція  натиснення клавіш"									# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Введіть власні комбінації клавіш"
+"How to send the simulated key strokes:" => "Як надсилати симуляцію натиснення клавіш:"
+"1 As mouse button is pressed" => "1. При натисканні кнопки"
+"2 As mouse button is released" => "2. При відпусканні кнопки"
+"3 During (press on down, release on up)" => "3. Діяти, доки кнопку натиснено"
+"4 In another thread as mouse button is pressed" => "4. В іншому потоці, при натисканні кнопки"
+"5 In another thread as mouse button is released" => "5. В іншому потоці, при відпусканні кнопки"
+"6 Repeatedly while the button is down" => "6. Повторювати, доки кнопку натиснено"
+"7 Sticky (repeatedly until button is pressed again)" => "7. Залипання (повторювати, доки кнопку не натиснули знову)"
+"8 Sticky (held down until button is pressed again)" => "8. Залипання (затиснути, доки кнопку не натиснули знову)"
+"9 As mouse button is pressed & when released" => "9. При натисканні та відпусканні кнопки"			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "Тільки якщо профіль процесу активний"
+"Auto repeat delay" => "Затримка авто повторення"
+"(milliseconds)" => "мс"
+"0 = Windows default repeat delay && speed." => "0 = Cистемні налаштування затримки та швикдості повторення по замовчуванню."
+
+# NOTE: For the following texts, \r\n is a NEW LINE and \t is a TAB. Be sure to check the layout on the simkeys 
+#       dialog when making translations to ensure your text is visible and fits nicely.
+
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Введіть послідовність клавіш у полі вище.\r\nВи можете симулювати натиснення клавіш використовуючи наступні теґи:"
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Теґи модифікації:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n\r\n  УВАГА: теґи модифікації можна сполучати як {CTRL}{ALT}, але вони будуть працювати\r\n  ЛИШЕ З ТАКИМ КЛЮЧЕМ. Наприклад, для надсилання «CTRL+a+CTRL+s», потрібно ввести\r\n  «{CTRL}A{CTRL}S»."
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Розширені теґи клавіш:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Теґи клавіш напрямку:\r\n  {UP} {DOWN} {LEFT} {RIGHT}\r\n\r\nТеґи функціональних клавіш:\r\n  {F1, F2, F3 ... F24}\r\n\r\nТеґи клавіш гучності:\r\n  {VOL+}, {VOL-}, {MUTE}\r\n\r\nТеґи кнопок миші:\r\n  {LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n\r\nТеґи коліщатка миші:\r\n  {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n\r\nТеґи цифрової клавіатури:\r\n  {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\n\r\nКнопки оглядача інтернету:\r\n  {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\n\r\nКлавіші перемикачі:\r\n  {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF}, {SCROLLLOCKON},\r\n  {SCROLLLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS:50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS:50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
+
+# -- Added in 2.9 beta 6 --
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => ""
+"To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => ""
+# -- 
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "УВАГА: щоб уникнути затримок при використанні теґів {WAIT}, {WAITMS}, {HOLD} або {HOLDMS},\r\nспробуйте поточні методи відсилання з переліку вище."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\nСпеціальні функціональні теґи:\r\n  {WAIT:n}\tдодає затримку в <n> секунд.\r\n  {WAITMS:n}\tдодає затримку в <n> мілісекунд.\r\n  {HOLD:n}\tутримує клавішу натисненою протягом <n> секунд.\r\n  {HOLDMS:n}\tутримує клавішу натисненою протягом <n> мілісекунд.\r\n  {VKC:n}\tвідсилає обраний віртуальний код клавіші.\r\n  {EXT:n}\tвідсилає обраний розширений віртуальний код клавіші.\r\n  {CLEAR}\tочищає будь-які теґи модифікації {CTRL},{ALT} тощо."
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Теґи клавіш напрямку:\r\n  {UP} {DOWN} {LEFT} {RIGHT}\r\n\r\nТеґи функціональних клавіш:\r\n  {F1, F2, F3 ... F24}\r\n\r\nТеґи клавіш гучності:\r\n  {VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n\r\nТеґи кнопок миші:\r\n  {LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n\r\nТеґи коліщатка миші:\r\n  {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n\r\nТеґи цифрової клавіатури:\r\n  {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n\r\nКнопки оглядача інтернету:\r\n  {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\n\r\nКлавіші перемикачі:\r\n  {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF}, {SCROLLLOCKON},\r\n  {SCROLLLOCKOFF}"
+
+#Run Application dialog
+"Type the name of a program, folder, document or internet resource, and X-Mouse Button Control will open it for you when the button is pressed." => "Введіть назву застосунку, теки, документу або інтернет ресурсу, й X-Mouse Button Control відкриє їх, коли ви натиснете кнопку."
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Розвернути прокрутку коліщатка миші"
+"I&nvert mouse horizontal (tilt) scrolling" => "Розвернути горизонтальну прокрутку миші"
+"Wheel scrolls i&n pages instead of lines" => "Посторінкова прокрутка замість рядкової"
+"Lines to scroll using the scroll wheel" => "Кількість рядків прокрутки"
+"Enable a&xis locking modifier keys" => "Увімкнути клавіші модифікатори блокування осей"
+"Advanced Window Scrolling" => "Розширене прокручування вікон"
+"&Scroll Method" => "Метод прокручування"
+"&Vertical Lines" => "Вертикальні лінії"
+"&Horizontal characters" => "Горизонтальні знаки"
+"Method 1 (SCROLL Msg)" => "Метод 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Метод 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Метод 3 (Клавіші ліворуч та праворуч)"
+"Method 4 (Wheel Msg)" => "Метод 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Метод 5 (WPF Scroll Msg)"
+"None (Disable Scroll)" => "Вимкнути прокручування"
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "Підтримку XML розроблено за допомогою XML++ Michael’ем з turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC поширюється вільно (без гарантій) для використання будь-ким та будь-де. Якщо вам подобається XMBC, і ви хотіли б показати вашу вдячність, зробіть пожертву, натиснувши на кнопку PayPal нижче."
+"More information can be found on my download page or user forums." => "Більше інформації можна отримати на сторінці завантаження або форумі користувачів."
+"&Homepage" => "Домашня сторінка"
+"&Donate" => "Пожертва"
+"&Forums" => "Форум"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "Про"
+"Version" => "Версія"	
+"This application is designed and written by %s of %s." => "Цей застосунок розроблено та написано %s з %s." # NOTE: The %s are replace at runtime
+# --
+
+#Find Window Dialog
+"Find Window" => "Знайти вікно"
+"Find Method" => "Знайти метод"
+"Click and drag the window finder icon to the window you want to select." => "Перетягніть «вікно пошуку» на потрібне вікно."
+"Hover" => "над"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Наведіть мишу на вікно яке ви бажаєте обрати, і увімкніть CAPS LOCK щоб побачити подробиці вікна."
+"You can also manually enter/edit the window details below." => "Також ви можете ввести параметри вікна вручну."
+"Window Details" => "Параметри вікна"
+"Caption" => "Назва"
+"Handle" => "Вказівник"
+"&Process" => "Процес"
+"C&lass" => "Клас"
+"Pa&rent Class" => "Батьк. клас"
+"Only match if there is no parent class." => "збіг лише за відсутності батьківського класу."
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "УВАГА: поля можуть бути порожніми, що означатиме збіг зі ВСІМА (*) вікнами (якщо не проводиться перевірка на пустий батьківський клас). Якщо встановлено, то текст має відповідати тексту у властивостях вікна."
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Обрати застосунок"
+"Select from the list of running applications:" => "Оберіть працюючий застосунок з переліку:"
+"Or type in/browse to the application executable (.EXE) file" => "або оберіть виконуваний (.EXE) файл застосунку"
+"Application" => "Застосунок"
+"&Specific Window" => "Обрати вікно"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Оновити"
+"Process Name" => "Назва процесу"
+"Window Title" => "Заголовок вікна"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Будь-ласка, закрийте діалог настроювання для повного застосування мовних налаштувань."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Обраний застосунок вже існує. Ви не можете додати той самий застосунок двіччі."
+"You must select a profile to remove!" => "Ви маєте обрати профіль для видалення!"
+"You can not edit the default profile!" => "Ви не можете редагувати профіль по замовчуванню!"
+"You can not remove the default profile!" => "Ви не можете видалити профіль по замовчуванню!"
+"You must select a profile to edit." => "Ви маєте обрати профіль для редагування."
+"The specified window configuration is invalid!" => "Вказане вікно конфігурації невірне!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Вказаний профіль вже існує. Ви не можете додати два профілі для одного застосунку чи вікна двічі."
+"You must select an application to copy." => "Ви маєте обрати застосунок для копіювання."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Ви бажаєте зберегти зміни конфігурації? УВАГА: якщо ви оберете «Ні», всі зміни буде втрачено!"
+"Do you want to overwrite profile" => "Ви справді бажаєте перезаписати профіль?"		# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "Обраний файл не є файлом налаштувань."
+"The log file can not be opened as it does not exist." => "Не можна відкрити журнал відлагодження, оскільки він не існує."
+"is unable to open the log file" => "неможливо відкрити журнал відлагодження"
+"Unable to save the desktop icons using your current shell and this version of" => "Неможливо зберегти значки Робочого столу, використовуючи вашу оболонку та цю версію"
+"Unable to restore the desktop icons using your current shell and this version of" => "Неможливо відновити значки Робочого столу, використовуючи вашу оболонку та цю версію"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "З’явилась нова версія!"
+"A new version is available." => "З’явилась нова версія."
+"Click the 'Homepage' button to go and download it." => "Клацніть кнопку «Домашня сторінка» для завантаження."
+"There is a new beta version available!" => "З’явилась нова БЕТА версія."
+"A new beta version is available." => "З’явилась нова БЕТА версія."
+"Click the 'Forums' button to go and download it." => "Клацніть кнопку «Форум» для завантаження."
+# --
+
+"You have to select or enter a process name, or press cancel." => "Ви маєте обрати чи ввести назву процеса, або натиснути кнопку відміни."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "Увімкнення запису подій буде знижувати продуктивність роботи миші. Рекомендуємо вмикати це тимчасово, на час знаходження причин негараздів."
+"Are you sure you want to enable debug?" => "Ви справді бажаєте увімкнути запис журналу відлагодження?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "Не забувайте, що перевірка «не клієнтскості» повідомлення миші для визначення потреби його ігнорування, вимагає значно більше процесорного часу."
+"This can slow down mouse operation in general, sometimes causing strange results." => "Це може сповільнити роботу миші, що іноді призводить до дивної поведінки."
+"Are you sure you want to ignore non-client messages?" => "Ви впевнені, що не потрібно брати до уваги «не клієнтські» повідомлення?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "По замовчуванню, значок на панелі завдань (там де годинник) видно. Якщо ви вимкнете це, значка там не стане."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Для відновлення значка, ви маєте запустити застосунок знову з меню Пуск. Тоді значок тимчасово з’явлеться, і ви зможете отримати доступ до цього налаштування."
+
+
+#Balloon popup windows
+"Debugging enabled" => "Відлагодження увімкнено"
+"Debugging disabled" => "Відлагодження вимкнено"
+"Successfully saved desktop icon positions" => "Розташування значків Робочого столу збережено"
+"Successfully restored desktop icon positions" => "Розташування значків Робочого столу відновлено"
+"Mouse button re-mapping is now disabled" => "Перепризначення кнопок миші вимкнено"
+"Mouse button re-mapping is now enabled" => "Перепризначення кнопок миші увімкнено"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Клацання лівою кнопкою"
+"Right Click" => "Клацання правою кнопкою"
+"Next Window" => "Наступне вікно (Alt+Tab)"
+"Back" => "Назад"
+"Forward" => "Вперед"
+"Middle Click" => "Клацання середньою кнопкою"
+"Disable" => "Вимкнути"
+"Close (Alt+F4)" => "Закрити (Alt+F4)"
+"Copy (Ctrl+C)" => "Скопіювати (Ctrl+C)"
+"Cut (Ctrl+X)" => "Вирізати (Ctrl+X)"
+"Double Click" => "Клацання подвійне"
+"Enter" => "Введення"
+"Maximize Window" => "Розгорнути вікно"
+"Minimize Window" => "Згорнути вікно"
+"New" => "Новий (Ctrl+N)"
+"Open" => "Відкрити (Ctrl+O)"
+"Paste (Ctrl+V)" => "Вставити (Ctrl+V)"
+"Redo (Ctrl+Y)" => "Скасувати (вперед) (Ctrl+Y)"
+"Show/Hide Desktop" => "Показати та приховати Робочий стіл (Win+D)"
+"Undo (Ctrl+Z)" => "Скасувати (назад) (Ctrl+Z)"
+"Media - Mute" => "Медія — Вимкнути звук"
+"Media - Volume Up" => "Медіа — Гучніше"
+"Media - Volume Down" => "Медіа — Тихіше"
+"Media - Next Track" => "Медіа — Наступна доріжка"
+"Media - Last Track" => "Медіа — Попередня доріжка"
+"Media - Stop" => "Медіа — Зупинити"
+"Media - Play/Pause" => "Медіа — Відтворити та Призупинити"
+"Launch EMail" => "Надіслати лист"
+"Simulated Keys" => "Симуляція клавіш"
+"Lock Workstation" => "Заблокувати комп’ютер (Win+L)"
+"Open Explorer" => "Відкрити «Провідник» (Win+E)"
+"Open RUN Command" => "Відкрити «Виконати» (Win+R)"
+"Restore Window" => "Відновити вікно"
+"Escape" => "Esc"
+"Open Help" => "Відкрити «Довідку» (Win+F1)"
+"Open Web Browser" => "Оглядач інтернету — Відкрити"
+"Browser Stop" => "Оглядач інтернету — Зупинити завантаження сторінки"
+"Browser Refresh" => "Оглядач інтернету — Перезавантажити сторінку"
+"Browser Search" => "Оглядач інтернету — Пошук"		# Updated in 2.14 Beta 10
+"Browser Favourites" => "Оглядач інтернету — Закладки"
+"** No Change (Don't intercept) **" => "** Не змінювати (не перехоплювати) **"
+"Run Application" => "Запустити застосунок"
+"Mouse Wheel Up" => "Прокручування вгору"
+"Mouse Wheel Down" => "Прокручування вниз"
+"Print Screen" => "Зробити знімок екрану"
+"Print Active Window" => "Зробити знімок активного вікна"
+"Sticky Left Button [Click-Drag]" => "Залипла ліва кнопка [перетягування]"
+"Sticky Right Button" => "Залипла права кнопка"
+"Sticky Middle Button" => "Залипла середня кнопка"
+"Layer (Next)" => "Шар (наступний)"
+"Layer (Previous)" => "Шар (попередній)"
+"Layer 1" => "Шар 1"
+"Layer 2" => "Шар 2"
+"Layer 3" => "Шар 3"
+"Layer 4" => "Шар 4"
+"Layer 5" => "Шар 5"
+"Layer 6" => "Шар 6"
+"Layer 7" => "Шар 7"
+"Layer 8" => "Шар 8"
+"Layer 9" => "Шар 9"
+"Layer 10" => "Шар 10"
+"Open Explorer at specified folder" => "Відкрити обрану теку в Провіднику"
+"Open Explorer at My Documents" => "Відкрити «Мої документи»"
+"Open Explorer at My Computer" => "Відкрити «Мій комп’ютер»"
+"Open Explorer at Network Favourites" => "Відкрити «Мережне оточення»"
+"Open Control Panel" => "Відкрити Панель керування"
+"Double Click Drag" => "Подвійне клацання-перетягування"
+"Mouse Wheel Tilt Left" => "Нахил коліщатка ліворуч"
+"Mouse Wheel Tilt Right" => "Нахил коліщатка праворуч"
+"Scroll Window Up" => "Прокручування вікна вгору"
+"Scroll Window Down" => "Прокручування вікна вниз"
+"Scroll Window Left" => "Прокручування вікна ліворуч"
+"Scroll Window Right" => "Прокручування вікна праворуч"
+"Previous Window" => "Попереднє вікно (Alt+Shift+Tab)"
+"Activate Screensaver" => "Запустити Заставку"
+"Activate Monitor Power Saving" => "Вимкнути дисплей"
+"** Same As Default Profile **" => "** Як у профілі по замовчуванню **"
+"Sticky 4th Button" => "Залипла кнопка 4"
+"Sticky 5th Button" => "Залипла кнопка 5"
+"Change Movement to Scroll" => "Замінити переміщення на прокручування"
+"Change Movement to Scroll (Sticky)" => "Замінити переміщення на прокручування (залипле)"
+"Sticky Left Button [Click-Drag] X-Axis" => "Залипла ліва кнопка [перетягування], вісь X"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Залипла ліва кнопка [перетягування], вісь Y"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Вікна 3D"
+"ALT-TAB" => "Alt+Tab"
+"Show sidebar" => "Показати Бокову панель"
+"Reveal Desktop" => "Очистити Робочий стіл"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "** Як у шарі 1 (поточний профіль) **"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Повернути модифікатор шару"

@@ -1,0 +1,480 @@
+# Sample XMBC Language template file.
+# Base version 2.5
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or
+#   -- Added in <version> --
+#
+# Ensure the file extension is .xmbclp (X-Mouse Button Control Language Pack)
+# which you can "install" into XMBC simply by double clicking it, or drop it into the profile folder.
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=Ελληνικά (Greek)
+Description=Γλωσσικό αρχείο που παρέχει Ελληνική μετάφραση για το XMBC.
+
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=Τζιλίνης Κώστας
+
+
+#Setup screen
+"Scrolling && Navigation" => "Κύλιση και πλοήγηση"
+"Default" => "Προεπιλογή"
+"A&dd" => "Πρόσθεση"
+"Edi&t" => "Επεξεργασία"
+"Cop&y" => "Αντιγραφή"
+"Remo&ve" => "Απομάκρυνση"
+"&Settings" => "Ρυθμίσεις"
+"Abo&ut" => "Σχετικά"
+"&Apply" => "Εφαρμογή"
+"&Close" => "Κλείσιμο"
+#Next line is Also shared with the general settings tab!
+"Description" => "Περιγραφή"
+"Process" => "Διαδικασία"
+"Class" => "Κατηγορία"
+"Window Class" => "Παραθυρική κατηγορία"
+"Parent Class" => "Πηγαία κατηγορία"
+"Application / Window Profiles:" => "Εφαρμογή / Παραθυρικά προφίλ"
+"Profile Information" => "Πληροφορίες προφίλ"
+"Setup" => "Εγκατάσταση"
+
+
+#General strings
+"Layer" => "Καρτέλα"
+"Portable" => "Φορητό"
+"All" => "Όλα"
+"Not Defined" => "Ακαθόριστο"
+"Default: All windows that do not match any profile." => "Προεπιλογή: Όλα τα παράθυρα που δεν ταιριάζουν με κανένα προφίλ."
+"&OK" => "Εντάξει"
+"&Cancel" => "Ακύρωση"
+"OK" => "Εντάξει"
+"Cancel" => "Ακύρωση"
+"Global Settings" => "Γενικές ρυθμίσεις"
+
+
+#Global settings: General settings
+"General" => "Γενικά"
+"Mouse &Speed" => "Ταχύτητα ποντικιού"
+"Ma&ke scroll wheel scroll window under cursor" => "Κάντε τον τροχό κύλισης να κυλά παράθυρο κάτω από το δρομέα"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Παράκαμψη ΟΛΩΝ των ενεργειών όταν το SCROLL LOCK είναι ενεργοποιημένο"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Παράκαμψη 'απενεργοποίηση' ενεργειών όταν το SCROLL LOCK είναι ενεργοποιημένο"
+"&Disable when running under remote desktop (RDP)" => "Απενεργοποίηση όταν τρέχει ο απομακρυσμένος έλεγχος (RPD)"
+"Show layer switch &balloon notifications" => "Εμφάνιση ανακοινώσεων"
+"Language" => "Γλώσσα"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Εναλλαγή 4ου και 5ου κουμπιού"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Εναλλαγή 4ου και 5ου κουμπιού όταν είναι συνδεμένος ο απομακρυσμένος έλεγχος (RPD)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Εναλλαγή 4ου και 5ου κουμπιού"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Εναλλαγή 4ου και 5ου κουμπιού όταν είναι συνδεμένος ο απομακρυσμένος έλεγχος (RPD)"
+
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "ΣΗΜΕΙΩΣΗ: Θα πρέπει να πατήσετε ΕΝΤΑΞΕΙ και μετα ΕΦΑΡΜΟΦΗ για να τεθούν σε ισχύ οι ρυθμίσεις. Οι γλωσσικές αλλαγές δεν θα εφαρμοστούν μέχρι το κύριο παράθυρο να ανοίξει εκ νέου"
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Συντάκτης"
+# --
+
+#Global settings: Advanced settings
+"Advanced" => "Για προχωρημένους"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "ΣΗΜΕΙΩΣΗ: Θα πρέπει να πατήσετε ΕΝΤΑΞΕΙ και ΕΦΑΡΜΟΓΗ στην κύρια οθόνη προτού τεθούν σε ισχύ  οι ρυθμίσεις."
+"Enable profi&le switching on mouse move" => "Ενεργοποίηση εναλλαγής προφίλ κατά την κίνηση του ποντικιού"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Διαδικασία Non-Client μηνυμάτων ποντικιού * Προτεινόμενες *"
+"Reset &sticky buttons when any other button is pressed" => "Επαναφορά & κλείδωμα πλήκτρων όταν οποιοδήποτε άλλο κουμπί πατηθεί"
+"R&eset sticky buttons when any other key is pressed" => "Επαναφορά & κλείδωμα πλήκτρων όταν οποιοδήποτε άλλο κλειδί πατηθεί"
+"Show &tray icon by default" => "Εμφάνιση εικονίδιου στην μπάρα εργασιών"
+"&Ignore numlock state for Simulated Keystrokes" => "Αγνοήστε κατάσταση NumLock για προσομοιωμένε πλήκτρα"
+"Cycle layers by left clickin&g tray icon" => "Κυκλικά στρώματα με αριστερό κλικ στο εικονίδιο στην μπάρα εργασιών"               # -- Updated in 2.20 beta 1 --
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Διόρθωση (αναπήδησης) Tilt Wheel κατά την αυτοεπανάληψη"
+"&Initial repeat rate" => "Αρχικός ρυθμός επανάληψης"
+"Initial repeat r&ate" => "Αρχικός ρυθμός επανάληψης"							# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "Επαναλαμβανώμενο ποσοστό κλίσης"
+"(ms)" => "(ms)"
+"Dela&y between simulated keystrokes" => "Καθυστέρηση μεταξύ προσομοίωσης πληκτρολογήσης"
+"&CPU Priority" => "Προτεραιότητα του επεξεργαστή (CPU)"
+"Check for new &version every" => "Έλεγχος για νέα έκδοση κάθε"
+"days (at application startup)" => "ημέρες κατά την εκκίνηση"
+"Enable &DEBUG logging" => "Ενεργοποίηση καταγραφής εντοπισμού σφαλμάτων"
+"*** Debug logging will degrade performace and response times! ***" => "*** Η ενεργοποίηση καταγραφής εντοπισμού σφαλμάτων θα υποβαθμίσει την απόδοση και τον χρόνο απόκρισης! ***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "*** Η ενεργοποίηση καταγραφής εντοπισμού σφαλμάτων θα υποβαθμίσει την απόδοση και τον χρόνο απόκρισης! ***"
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "Σε πραγματικό χρόνο"
+"High" => "Υψηλή"
+"Above normal" => "Πάνω από την φυσιολογική"
+"Normal" => "Φυσιολογική"
+"Below normal" => "Κάτω από την φυσιολογική"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "Συντομεύσεις"
+"Enable &global hotkeys" => "Ενεργοποίηση γενικών συντομεύσεων"
+"You can assign your hotkeys using the boxes below..." => "Ενεργοποίησε τις συντομεύσεις χρησιμοποιώντας τις παρακάτω επιλογές"
+"Switch to Layer &1" => "Αλλαγή στην καρτελά &1"
+"Switch to Layer &2" => "Αλλαγή στην καρτελά &2"
+"Switch to Layer &3" => "Αλλαγή στην καρτελά &3"
+"Switch to Layer &4" => "Αλλαγή στην καρτελά &4"
+"Switch to Layer &5" => "Αλλαγή στην καρτελά &5"
+"Switch to Layer &6" => "Αλλαγή στην καρτελά &6"
+"Switch to Layer &7" => "Αλλαγή στην καρτελά &7"
+"Switch to Layer &8" => "Αλλαγή στην καρτελά &8"
+"Switch to Layer &9" => "Αλλαγή στην καρτελά &9"
+"Switch to Layer 1&0" => "Αλλαγή στην καρτελά 1&0"
+"&Next Layer" => "Νέα καρτέλα"
+"&Previous Layer" => "Προηγούμενη καρτέλα"
+"&Enable/Disable XMBC" => "Ενεργοποίηση/Απενεργοποίηση του XMBC"
+"&Toggle Debug mode" => "Εναλλαγή λειτουργίας εντοπισμού σφαλμάτων"
+"&Save desktop icon layout" => "Αποθήκευση διάταξης εικονιδίου στην επιφάνεια εργασίας"
+"Restore desktop icon layout" => "Επαναφορά διάταξης εικονιδίου στην επιφάνεια εργασίας"         # -- Updated in 2.5 beta 4 --
+"Toggle &X Axis Lock" => "Εναλλαγή Κλείδωμα άξονα Χ"
+"Toggle &Y Axis Lock" => "Εναλλαγή Κλείδωμα άξονα Υ"
+"NOTE: Only valid hotkey combinations will be allowed." => "ΣΗΜΕΙΩΣΗ: Επιτρέπονται συνδυασμοί πλήκτρων πρόσβασης που είναι ενεργοί."
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Οι ρυθμίσεις συντομεύσεων είναι απενεργοποιημένες κατά την προβολή τους. Θα πρέπει να πατήσετε Εντάξει και στην συνέχεια Εφαρμογή για να τεθούν σε λειτουργία."
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "Κλειδιά τροποποίησης"
+"Enab&le modifier keys (switching layers && axis locking)" => "Ενεργοποίηση κλειδιών τροποποίησης"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Τα κλειδιά τροποποίησης είναι οι συντομεύσεις του πληκτρολογίου που θα ενεργοποιήσουν προσωρινά τη λειτουργία, ενώ ο συνδυασμός πλήκτρων είναι πατημένος. Μόλις αφήσετε το πλήκτρο (-α), η προηγούμενη κατάσταση θα επιστρέψει."
+"Layers" => "Καρτέλες"
+"Activate Layer 1" => "Ενεργοποίηση καρτέλας 1"
+"Activate Layer 2" => "Ενεργοποίηση καρτέλας 2"
+"Activate Layer 3" => "Ενεργοποίηση καρτέλας 3"
+"Activate Layer 4" => "Ενεργοποίηση καρτέλας 4"
+"Activate Layer 5" => "Ενεργοποίηση καρτέλας 5"
+"Activate Layer 6" => "Ενεργοποίηση καρτέλας 6"
+"Activate Layer 7" => "Ενεργοποίηση καρτέλας 7"
+"Activate Layer 8" => "Ενεργοποίηση καρτέλας 8"
+"Activate Layer 9" => "Ενεργοποίηση καρτέλας 9"
+"Activate Layer 10" => "Ενεργοποίηση καρτέλας 10"
+"Axis Locking" => "Κλείδωμα άξονα"
+"Lock X-Axis" => "Κλείδωμα άξονα Χ"
+"Lock Y-Axis" => "Κλείδωμα άξονα Υ"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "ΣΗΜΕΙΩΣΗ: Το κλείδωμα του άξονα απαιτεί να το ενεργοποιήσετε για κάθε αίτηση συγκεκριμένου προφίλ που θέλετε να χρησιμοποιήσετε κλείδωμα άξονα. Αυτό σας επιτρέπει να κλειδώσετε τον άξονα μόνο για μια συγκεκριμένη εφαρμογή."
+"None" => ""
+"Shift" => ""
+"Control" => ""
+"Alt" => ""
+"Shift + Control" => ""
+"Shift + Alt" => ""
+"Shift + Control + Alt" => ""
+"Control + Alt" => ""
+"Left Window Key" => ""
+"Right Window Key" => ""
+"App Menu Key" => ""
+
+
+#Context Menus
+"Edit" => "Επεξεργασία"
+"Copy" => "Αντιγραφή"
+"Remove" => "Απομάκρυνση"
+"Import" => "Εισαγωγή"
+"Export Selected" => "Εξαγωγή επιλεγμένου"
+"Export All" => "Εξαγωγή όλων"
+"&Layers" => "Καρτέλες"
+"Layer &1" => "Καρτέλα &1"
+"Layer &2" => "Καρτέλα &2"
+"Layer &3" => "Καρτέλα &3"
+"Layer &4" => "Καρτέλα &4"
+"Layer &5" => "Καρτέλα &5"
+"Layer &6" => "Καρτέλα &6"
+"Layer &7" => "Καρτέλα &7"
+"Layer &8" => "Καρτέλα &8"
+"Layer &9" => "Καρτέλα &9"
+"Layer 1&0" => "Καρτέλα 1&0"
+"&Setup" => "Εγκατάσταση"
+"&Hide Icon" => "Απόκρυψη εικονιδίου"
+"&Open log file" => "Άνοιγμα αρχείου καταγραφής"
+"&Disable X-Mouse Button Control" => "Απενεργοποίηση του X-Mouse Button Control"
+"S&ave desktop icon layout" => "Αποθήκευση διάταξης εικονιδίου στην επιφάνεια εργασίας "
+"Exit" => "Έξοδος"
+
+
+#Layer tab(s)
+"Layer name" => "Όνομα καρτέλας"
+"&Left Button" => "Αριστερό κουμπί"
+"&Right Button" => "Δεξί κουμπί"
+"&Middle Button" => "Μεσαίο κουμπί"
+"&Middle Button 2" => "Μεσαίο κουμπί 2"
+"Mouse Button &4" => "Κουμπί ποντικού 4"
+"Mouse Button &5" => "Κουμπί ποντικιού 5"
+"W&heel Up" => "Τροχός επάνω"
+"Wheel &Down" => "Τροχός κάτω"
+"Tilt Wheel Le&ft" => "Κλίση τροχού αριστερά"
+"Tilt Wheel Ri&ght" => "Κλίση τροχού δεξιά"
+"Reset Layer" => "Επαναφορά"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Η θέση αυτή προορίζεται για το πότε ένας τροποποιητής καρτέλας χρησιμοποιείται για να μεταβείτε σε αυτή την καρτέλα. Δεν μπορείτε να το επιλέξετε απευθείας."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Επίπεδο αλλαγής εντολών πρέπει να εφαρμοστεί σε όλα τα επηρεασμέα επίπεδα. Θέλετε να συνεχίσετε;"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "Δεν μπορείτε να προσθέσετε τροποποιητή Χ σε αυτό το επίπεδο."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Αν αφαιρέσετε ένα επίπεδο αλλάζει την εντολή, θα πρέπει να αφαιρεθεί από όλα τα επίπεδα που επηρεάζονται. Θέλετε να συνεχίσετε;"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "Απροσδιόριστο"
+"(pressed)" => "Πατήθηκε"
+"(released)" => "Απελευθερώθηκε"
+"(during)" => "Κτά την διάρκεια"
+"(thread-down)" => "Πέρασε επάνω"
+"(thread-up)" => "Πέρασε κάω"
+"(repeat)" => "Επανάληψη"
+"(sticky repeat)" => "Μόνιμη επανάληψη"
+"(sticky hold)" => "Μόνιμα κρατημένο"
+"(pressed & released)" => "Πατήθηκε και απελευθερώθηκε"                           # -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulated Keystrokes" => "Προσομοίωση Πλήκτρων"                           # -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Επιλογή πλήκτρου/ων"
+"How to send the simulated key strokes:" => "Πώς να στείλετ τις επιλογές των προσομοιωμένων πλήκτρων:"
+"1 As mouse button is pressed" => "Πατήθηκε πλήκτρο του ποντικιού"
+"2 As mouse button is released" => "Απελευθερώθηκε πλήκτρο του ποντικιού"
+"3 During (press on down, release on up)" => "Κατά την διάρκεια (πατήματος και απελευθέρωσης)"
+"4 In another thread as mouse button is pressed" => "Κατά την στιγμή που το πλήκτρο του ποντικιού πατήθηκε"
+"5 In another thread as mouse button is released" => "Κατά την στιγμή που το πλήκτρο του ποντικιού απελευθερώθηκε"
+"6 Repeatedly while the button is down" => "Επανειλημμένα ενώ το κουμπί είναι κάτω"
+"7 Sticky (repeatedly until button is pressed again)" => "Μόνιμα (μέχρι να πατηθεί το κουμπί ξανά)"
+"8 Sticky (held down until button is pressed again)" => "Μόνιμα (πατημένο το κουμπί μέχρι να πατηθεί ξανά)"
+"9 As mouse button is pressed & when released" => "Όπως όταν το κουμπί του ποντικιού πατιέται και όταν απελευθερώνεται"         # -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "Στείλετε μόνο όταν η διαδικασία προφίλ είναι ενεργή"
+"Auto repeat delay" => "Καθυστέρηση της αυτόματατης επανάληψης"
+"(milliseconds)" => "(χιλιοστά του δευτερολέπτου)"
+"0 = Windows default repeat delay && speed." => "0 = Η προκαθορισμένη απόκριση και ταχύτητα των Windows"
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Πληκτρολογήστε την ακολουθία πλήκτρων στο παραπάνω πλαίσιο.\r\nΜπορείτε να προσομοιώσεte τα ακόλουθα πλήκτρα για εκτεταμένη χρήση των ετικετών που αναφέρονται ..."
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Ετικέτες τροποποίησης {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  Οι ετικέτες μπορούν να συνδυαστούν {CTRL}{ALT} αλλά ισχύουν και ΜΟΝΟ ΓΙΑ ΤΟΝ ΕΠΟΜΕΝΟ ΣΥΝΔΙΑΣΜΟ.\r\nΠαράδειγμα: Για να στείλετε την εντολή CTRL+a+CTRL+s θα πρέπει να πληκτρολογήσετε '{CTRL}A{CTRL}S'."
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Εκτεταμένες ετικέτες: {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Ετικέτες κατεύθυνσης: {UP} {DOWN} {LEFT} {RIGHT}\r\nετικέτες συναρτήσεων: {F1, F2, F3 ... F24}\r\nετικέτες έντασης: {VOL+}, {VOL-}, {MUTE}\r\nετικέτες πλήκτρων ποντικιού: {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nαριθμικές ετικέτες: {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nετικέτες φιλομετρητή (web explorer) {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\nετικέτες εναλλαγής {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Για παράδειγμα:\r\n  Για να κλείσετε ένα παράθυρο: {ALT}{F4}\r\n  Για να επιλέξετε όλα τα στοιχεία: {CTRL}A\r\n  Για να πληκτρολογήσετε έντονους "κείμενο" μου στο Microsoft Word: {CTRL}b{κείμενο}{CTRL}b\r\n  Για να στείλετε βασικά ένα "R" με 50ms καθυστέρηση μεταξύ της κάτω και πάνω, {HOLDMS:50}r\r\n  Για να απενεργοποιήσετε το NumLock, {NUMLOCKOFF}"
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Για παράδειγμα:\r\n  Για να κλείσετε ένα παράθυρο: {ALT}{F4}\r\n  Για να επιλέξετε όλα τα στοιχεία: {CTRL}A\r\n  Για να πληκτρολογήσετε έντονους "κείμενο" μου στο Microsoft Word: {CTRL}b{κείμενο}{CTRL}b\r\n  Για να στείλετε βασικά ένα "R" με 50ms καθυστέρηση μεταξύ της κάτω και πάνω, {HOLDMS:50}r\r\n  Για να απενεργοποιήσετε το NumLock, {NUMLOCKOFF}"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "ΣΗΜΕΙΩΣΗ: Για να αποφύγετε καθυστέρηση κατά τη χρήση των  {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} ετικετών, δοκιμάστε να χρησιμοποιήσετε τις μεθόδους threaded - nsend  στο αναπτυσσόμενο μενού παραπάνω."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => ""
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Ετικέτες κατεύθυνσης: {UP} {DOWN} {LEFT} {RIGHT} ετικέτες συναρτήσεων: {F1, F2, F3 ... F24}\r\nετικέτες έντασης: {VOL+}, {VOL-}, {MUTE} ετικέτες πλήκτρων ποντικιού: {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nαριθμικές ετικέτες: {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nετικέτες φιλομετρητή (web explorer) {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\nετικέτες εναλλαγής {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+#Run Application dialog
+"Type the name of a program, folder, document or internet resource, and X-Mouse Button Control will open it for you when the button is pressed." => ""
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Αναποδογυρίστε τον τροχό κύλισης του ποντικιού"
+"I&nvert mouse horizontal (tilt) scrolling" => "Αναποδογυρίστε τον οριζόντιο τροχό κύλισης του ποντικιού""
+"Wheel scrolls i&n pages instead of lines" => "Κύλιση τροχού σε σελίδες αντί γραμμών"
+"Lines to scroll using the scroll wheel" => "κύλιση γραμμών χρησιμοποιώντας τον τροχό κύλισης"
+"Enable a&xis locking modifier keys" => "Ενεργοποιήστε τα κλειδιά για το κλείδωμα του άξονα"
+"Advanced Window Scrolling" => "Σύνθετη Κύλιση Παραθύρου"
+"&Scroll Method" => "Μέθοδος κύλισης"
+"&Vertical Lines" => "Κάθετες γραμμές"
+"&Horizontal characters" => "Οριζόντιοι χαρακτήρες"
+"Method 1 (SCROLL Msg)" => "Μέθοδος 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Μέθοδος 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Μέθοδος 3 (Left/Right Keys)"
+"Method 4 (Wheel Msg)" => "Μέθοδος 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Μέθοδος 5(WPF Scroll Msg)"
+"None (Disable Scroll)" => "Κενή (Απενεργοποίηση κύλισης) "
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => ""
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "Το ΧΜΒC διανέμεται ελεύθερα (χωρίς εγγύηση) για τη χρήση οπουδήποτε από τον οποιονδήποτε. Αν σας αρέσει XMBC και θέλετε να δείξετε την εκτίμησή σας, μη διστάσετε να κάνετε μια δωρεά κάνοντας κλικ στο κουμπί PayPal κάτω."
+"More information can be found on my download page or user forums." => "Περισσότερες πληροφορίες μπορείτε να βρείτε στην σελίδα μου ή στο φόρουμ χρηστών."
+"&Homepage" => "Ιστοσελίδα"
+"&Donate" => "Δωρεά"
+"&Forums" => "Τόπος συζήτησης"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "Σχετικά"
+"Version" => "Έκδοση"   
+"This application is designed and written by %s of %s." => "Αυτή η εφαρμογή έχει γραφτεί και σχεδιαστεί από τον %s"
+# --
+
+#Find Window Dialog
+"Find Window" => "Βρείτε το παράθυρο"
+"Find Method" => "Βρείτε την μέθοδο"
+"Click and drag the window finder icon to the window you want to select." => "Κάντε κλικ και σύρετε το εικονίδιο του ανιχνευτή στο παράθυρο που θέλετε να επιλέξετε."
+"Hover" => "Πλανιέμαι"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Μετακινήστε το ποντίκι πάνω από το παράθυρο που θέλετε να επιλέξετε και ενεργοποιήσετε το CAPS LOCK για να κλειδώσετε τα στοιχεία του παράθυρου στη θέση του."
+"You can also manually enter/edit the window details below." => "Μπορείτε επίσης να εισάγετε με το χέρι ή να επεξεργαστείτε τις λεπτομέρειες του παράθυρου παρακάτω."
+"Window Details" => "Λεπτομέρειες παράθυρου"
+"Caption" => "Επικεφαλίδα"
+"Handle" => "Χειρίζομαι"
+"&Process" => "Διεργασία"
+"C&lass" => "Κατηγορία"
+"Pa&rent Class" => "Τρέχουσα κατηγορία"
+"Only match if there is no parent class." => "Ταιριάζει μόνο αν δεν υπάρχει τρέχουσα κατηγορία"
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "ΣΗΜΕΙΩΣΗ: Τα πεδία μπορεί να είναι κενά όταν θα ταιριάζουν με όλα τα(*) παράθυρα (αν δεν επιλέξετε το πλαίσιο ελέγχου για την άδεια κατηγορίας γονέα). Όταν έχει οριστεί, το κείμενο πρέπει να συμπίπτει με τις ιδιότητες του παραθύρου."
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Επιλογή εφαρμογής"
+"Select from the list of running applications:" => "Επιλέξτε από την λίστα τις τρέχουσες εφαρμογές"
+"Or type in/browse to the application executable (.EXE) file" => "Πληκτρολογήστε ή αναζητήστε την εκτελέσιμη εφαρμογή (.exe)"
+"Application" => "Εφαρμογή"
+"&Specific Window" => "Συγκεκριμένο Παράθυρο"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Ανανέωση"
+"Process Name" => "Όνομα διεργασίας"
+"Window Title" => "Τίτλος παραθύρου"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Παρακαλούμε να κλείσετε το παράθυρο των ρυθμίσεων, προκειμένου να εφαρμόσει η επιλογή γλώσσας."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Η συγκεκριμένη εφαρμογή υπάρχει ήδη. \ Δεν μπορεί να προσθέσει δύο εγγραφές για την ίδια εφαρμογή."
+"You must select a profile to remove!" => "Πρέπει να επιλέξετε ένα προφίλ για να αφαιρέσετε!"
+"You can not edit the default profile!" => "Δεν μπορείτε να επεξεργαστείτε το προεπιλεγμένο προφίλ!"
+"You can not remove the default profile!" => "Δεν μπορείτε να καταργήσετε το προεπιλεγμένο προφίλ!"
+"You must select a profile to edit." => "Πρέπει να επιλέξετε ένα προφίλ για να επεξεργαστείτε.!"
+"The specified window configuration is invalid!" => "Το συγκεκριμένο παράθυρο διαμόρφωσης δεν είναι έγκυρο!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Το συγκεκριμένο προφίλ υπάρχει ήδη. Δεν μπορεί να προσθέσει δύο καταχωρήσεις προφίλ για την ίδια εφαρμογή / παράθυρο."
+"You must select an application to copy." => "Μπορείτε να επιλέξετε μια εφαρμογή για αντιγραφή."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Θέλετε να αποθηκεύσετε τις αλλαγές που έχετε κάνει με τη διαμόρφωση; Προειδοποίηση: Εάν «Όχι», οι όποιες αλλαγές θα χαθούν!"
+"Do you want to overwrite profile" => "Θέλετε να αντικαταστήσετε το προφίλ"		# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "Το επιλεγμένο αρχείο δεν είναι έγκυρο αρχείο ρυθμίσεων."
+"The log file can not be opened as it does not exist." => "Το αρχείο καταγραφής δεν μπορεί να ανοίξει, καθώς δεν υπάρχει."
+"is unable to open the log file" => "Δεν είναι σε θέση να ανοίξετε το αρχείο καταγραφής"
+"Unable to save the desktop icons using your current shell and this version of" => "Δεν είναι δυνατή η αποθήκευση των εικονιδίων της επιφάνειας εργασίας χρησιμοποιώντας τις τρέχουσες ρυθμίσεις και αυτήν την έκδοση του"
+"Unable to restore the desktop icons using your current shell and this version of" => "Δεν είναι δυνατή η αποκατάσταση των εικονιδίων της επιφάνειας εργασίας χρησιμοποιώντας τις τρέχουσες ρυθμίσεις και αυτήν την έκδοση του"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "Υπάρχει μια νέα έκδοση διαθέσιμη!"
+"A new version is available." => "Μια νέα έκδοση είναι διαθέσιμη."
+"Click the 'Homepage' button to go and download it." => "Κάντε κλικ στο κουμπί «Αρχική» για να το κατεβάσετε."
+"There is a new beta version available!" => "Υπάρχει μια νέα δοκιμαστική έκδοση διαθέσιμη!"
+"A new beta version is available." => "Μια νέα δοκιμαστική έκδοση είναι διαθέσιμη."
+"Click the 'Forums' button to go and download it." => "Κάντε κλικ στο κουμπί «Φόρουμ» για να το κατεβάσετε."
+# --
+
+"You have to select or enter a process name, or press cancel." => "Έχετε να επιλέξετε ή να πληκτρολογήσετε ένα όνομα διαδικασίας, ή πατήστε ακύρωση."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "Η ενεργοποίηση καταγραφής εντοπισμού σφαλμάτων, θα μειώσει την απόδοση του ποντικιού. Συνιστάται να ενεργοποιήσετε μόνο προσωρινά ώστε αυτό να βοηθήσει στην εξεύρεση προβλημάτων. Η ρύθμιση εντοπισμού σφαλμάτων δεν θα αποθηκευτεί."
+"Are you sure you want to enable debug logging?" => "Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την καταγραφή εντοπισμού σφαλμάτων;"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "Παρακαλούμε να γνωρίζετε ότι αν ο έλεγχος του ποντικού δώσει μήνυμα 'non-client' προκειμένου να διαπιστωθεί εάν θα πρέπει να αγνοηθεί ή όχι, απαιτείται πολύ περισσότερη επεξεργασία."
+"This can slow down mouse operation in general, sometimes causing strange results." => "Αυτό μπορεί να επιβραδύνει τη λειτουργία του ποντικιού σε γενικές γραμμές, προκαλώντας μερικές φορές παράξενα αποτελέσματα."
+"Are you sure you want to ignore non-client messages?" => "Είστε βέβαιοι ότι θέλετε να αγνοήσετε non-client μηνύματα;"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Εξ ορισμού  το εικονίδιο στο system tray (δίπλα στο ρολόι) εμφανίζεται πάντα. Αν το απενεργοποιήσετε, δεν θα υπάρχει εικονίδιο από προεπιλογή."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Για να επαναφέρετε το εικονίδιο, μπορείτε να εκτελέσετε το πρόγραμμα και πάλι από το μενού Έναρξη. Αυτό θα αναγκάσει το εικονίδιο που θα εμφανίζεται προσωρινά, επιτρέποντας να έχετε πρόσβαση σε αυτή την οθόνη εγκατάστασης."
+
+
+#Balloon popup windows
+"Debugging enabled" => "Εκσφαλμάτωση ενεργοποιημένη"
+"Debugging disabled" => "Εκσφαλμάτωση απενεργοποιημένη"
+"Successfully saved desktop icon positions" => "Αποθήκευση με επιτυχία των θέσεων του εικονιδίου στην επιφάνεια εργασίας"
+"Successfully restored desktop icon positions" => "Επαναφορά με επιτυχία των θέσεων του εικονιδίου στην επιφάνεια εργασίας"
+"Mouse button re-mapping is now disabled" => "Η επαναχαρτογράφηση των πλήκτρων του ποντικιού έχει απενεργοποιηθεί"
+"Mouse button re-mapping is now enabled" => "Η επαναχαρτογράφηση των πλήκτρων του ποντικιού έχει ενεργοποιηθεί"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Αριστερο κλικ"
+"Right Click" => "Δεξιό κλικ"
+"Next Window" => "Επόμενο παράθυρο"
+"Browser Back" => "Πίσω"
+"Browser Forward" => "Μπροστά"
+"Middle Click" => "Μεσσαίο κλικ"
+"Disable" => "Απενεργοποίηση"
+"Close (Alt+F4)" => "Κλείσιμο"
+"Copy (Ctrl+C)" => "Αντιγραφή"
+"Cut (Ctrl+X)" => "Αποκοπή"
+"Double Click" => "Διπλό κλικ"
+"Enter" => "Εκτέλεση"
+"Maximize Window" => "Μεγένθυση παραθύρου"
+"Minimize Window" => "Σμίκρυνση παραθύρου"
+"New" => "Νέο"
+"Open" => "Άνοιγμα"
+"Paste (Ctrl+V)" => "Επικόλληση"
+"Redo (Ctrl+Y)" => "Επανάληψη"
+"Show/Hide Desktop" => "Εμφάνιση/Απόκυψη επιφάνειας εργασίας"
+"Undo (Ctrl+Z)" => "Αναίρεση"
+"Media - Mute" => "Σίγαση - πολυμέσων"
+"Media - Volume Up" => "Αύξηση έντασης - πολυμέσων"
+"Media - Volume Down" => "Μείωση έντασης - πολυμέσων"
+"Media - Next Track" => "Νεό κομμάτι - πολυμέσων"
+"Media - Last Track" => "Τελευταίο κομμάτι - πολυμέσων"
+"Media - Stop" => "Διακοπή - πολυμέσων"
+"Media - Play/Pause" => "Αναπαραγωγή/Παύση - πολυμέσων"
+"Launch EMail" => "Έναρξη EMail"
+"Simulated Keys" => "Προσομοίωση Κλειδιών"
+"Lock Workstation" => "Κλείδωμα Σταθού εργασίας"
+"Open Explorer" => "Άνοιγμα Explorer"
+"Open RUN Command" => "Άνοιγμα RUN Command"
+"Restore Window" => "Επαναφορά παραθύρου"
+"Escape" => "Διαφυγή"
+"Open Help" => "Άνοιγμα βοήθειας"
+"Open Web Browser" => "Άνοιγμα φιλομετρητή"
+"Browser Stop" => "Διακοπή φιλομετρητή"
+"Browser Refresh" => "Ανανέωση φιλομετρητή"
+"Browser Search" => "αναζήτησης φιλομετρητή"						# Updated in 2.14 Beta 10
+"Browser Favourites" => "Εξερεύνηση αγαπημένων"				# -- Removed in 2.7 Beta 7 --
+"Browser Favorites" => "Εξερεύνηση αγαπημένων"
+"** No Change (Don't intercept) **" => "** Καμία αλλαγή **"
+"Run Application" => "Εκτέλεση εφαρμογής"
+"Mouse Wheel Up" => "Κύλιση του ποντικιού επάνω"
+"Mouse Wheel Down" => "Κύλιση του ποντικού κάτω"
+"Print Screen" => "Εκτύπωση οθόνης"
+"Print Active Window" => "Εκτύπωση τρέχον παράθυρο"
+"Sticky Left Button [Click-Drag]" => "Μόνιμο Αριστερό Κουμπί"
+"Sticky Right Button" => "Μόνιμο δεξιό Κουμπί"
+"Sticky Middle Button" => "Μόνιμο μεσαίο Κουμπί"
+"Layer (Next)" => "Καρτέλα (επόμενη)"
+"Layer (Previous)" => "Καρτέλα (προηγούμενη)"
+"Layer 1" => "Καρτέλα 1"
+"Layer 2" => "Καρτέλα 2"
+"Layer 3" => "Καρτέλα 3"
+"Layer 4" => "Καρτέλα 4"
+"Layer 5" => "Καρτέλα 5"
+"Layer 6" => "Καρτέλα 6"
+"Layer 7" => "Καρτέλα 7"
+"Layer 8" => "Καρτέλα 8"
+"Layer 9" => "Καρτέλα 9"
+"Layer 10" => "Καρτέλα 10"
+"Open Explorer at specified folder" => "Άνοιγμα εξερευνητή σε συγκεκριμένο φάκελλο"
+"Open Explorer at My Documents" => "Άνοιγμα εξερευνητή στα έγγραφά μου"
+"Open Explorer at My Computer" => "Άνοιγμα εξερευνητή ο Υπολογιστής μου"
+"Open Explorer at Network Favourites" => "Άνοιγμα εξερευνητή στα αγαπημένα δικτύου"
+"Open Control Panel" => "Άνοιγμα Πίνακα Ελέγχου"
+"Double Click Drag" => "Διπλό κλικ Drag"
+"Mouse Wheel Tilt Left" => "Κύλιση ροδέλα ποντικού αριστερά"
+"Mouse Wheel Tilt Right" => "Κύλιση ροδέλα ποντικού δεξιά"
+"Scroll Window Up" => "Κύλιση πάνω παράθυρο"
+"Scroll Window Down" => "Κύλιση κάτω παράθυρο"
+"Scroll Window Left" => "Κύλιση αριστερά παράθυρο"
+"Scroll Window Right" => "Κύλιση δεξιά παράθυρο"
+"Previous Window" => "Προηγούμενο παράθυρο"
+"Activate Screensaver" => "Ενεργοποίηση προφύλαξης οθόνης"
+"Activate Monitor Power Saving" => "Ενεργοποίηση μείωσης κατανάλωσης οθόνης"
+"** Same As Default Profile **" => "** Ίδιο όπως το προεπιλεγμένο προφίλ **"
+"Sticky 4th Button" => "Μόνιμο 4ο κουμπί"
+"Sticky 5th Button" => "Μόνιμο 5ο κουμπί"
+"Change Movement to Scroll" => "Αλλαγή κίνησης σε κύλιση"
+"Change Movement to Scroll (Sticky)" => "Αλλαγή κίνησης σε κύλιση (Μόνιμη)"
+"Sticky Left Button [Click-Drag] X-Axis" => "Μόνιμο αριστερό κουμπί [Κάντε κλικ και σύρετε] Χ-άξονα"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Μόνιμο δεξιό κουμπί [Κάντε κλικ και σύρετε] Υ-άξονα"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Αναστροφή 3D"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "Εμφάνιση sidebar"
+"Reveal Desktop" => "Αποκαλύψη επιφάνειας εργασίας"                      # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "**Ίδια όπως καρτέλα 1 (τρέχον προφίλ)**"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Επαναφορά Τροποποίησης Καρτέλας"
+

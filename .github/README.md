@@ -14,6 +14,9 @@ it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
 ----------------------------------------------------------------
+# 1.9.8 Has Been Releasd! [Check it out now!](https://sites.google.com/view/dynamic-client/downloads?authuser=0)
+
+----------------------------------------------------------------
 ## Downloads From Other Web Platforms:
 
 [![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)

@@ -4,3 +4,11 @@
 ##
 ### Welcome to Dynamic Client Repository, The repository of Dynamic Client, Feel free to copy and create your own client or check and see if Dynamic Client is safe from Malicius mod creators, and software developers, if you are sure that a software/mod is doing something that is doing malicius things, report it to our issues, make sure to bring proof before making a claim.
 ##
+
+Properties:
+- Client Version: 1.16.5
+- Minecraft Version: 1.9.8
+- ModLoader: Forge
+- ModLoader Version: 36.2.4
+- Java Version: OpenJDK/Java 8 - 11
+- OS: Windows 7 8 10 | Linux | MacOS

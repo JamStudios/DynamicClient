@@ -1,0 +1,1188 @@
+# Sample XMBC Language template file.
+# Base version 2.19
+#
+# Changes to this template are marked:
+#   -- Updated in <version> --
+# or
+#   -- Added in <version> --
+# or
+#   -- Removed in <version> (and left in template for backwards compatibility) --
+#
+# Ensure the file extension is .xmbclp (X-Mouse Button Control Language Pack)
+# which you can "install" into XMBC simply by double clicking it, or drop it into the profile folder.
+#
+# All comments must be prefixed with s hash/pound '#' character.
+#
+# Submit translations to the Highrez Forums or directly to the Author and they will be included in
+# future versions of the installation package and the language pack website.
+#
+#
+#Describe the language pack here - this is displayed in the language drop-down in the settings tab.
+#Ideally (for consistency) put your localised language name, followed by the English language name in brackets
+#For example: Language=Français (French)
+#
+Language=한국어 (Korean)
+Description=XMBC에 대한 언어 변환을 제공하는 한국어 파일: VₑₙᵤₛGᵢᵣₗ´```°³о💗이 제작하였습니다!
+
+#
+#Put your name here and you will be credited in the user interface
+#
+Author=VₑₙᵤₛGᵢᵣₗ´``°³о💗 (비너스걸💗 )
+
+#Section: Setup screen
+"Scrolling && Navigation" => "스크롤 및 탐색"				# Removed in 2.15 Beta 5
+"Scrolling" => "스크롤 "							# Added in 2.15 Beta 5
+"Options" => "옵션"								# Added in 2.15 Beta 5
+"Default" => "기본값"
+"A&dd" => "추가(&D)"
+"Edi&t" => "편집(&T)"
+"Cop&y" => "복사(&O)"
+"Remo&ve" => "삭제(&V)"
+"&Settings" => "설정(&S)"
+"Abo&ut" => "정보(&U)"
+"&Apply" => "적용(&A)"
+"&Close" => "닫기(&C)"
+"Description" => "설명"	#Also shared with the language settings tab!
+"Process" => "프로세스"
+"Class" => "클래스"
+"Window Class" => "창 클래스"
+"Parent Class" => "부모 클래스"
+"Application / Window Profiles:" => "응용 프로그램 / 창 프로파일"
+"Profile Information" => "프로파일 정보"
+"Setup" => "설치"
+"Profile:" => "프로파일"
+
+# -- Added in 2.7 Beta 4 --
+"Disabled because Scroll Lock is ON!" => "Scroll Lock이 켜져 있기 때문에 사용할 수 없습니다!"
+"Disabled under Remote Desktop!" => "원격 데스크탑에서 사용할 수 없습니다!"
+# --
+
+# -- Added in 2.8 Beta 7 --
+"U&p" => "위로(&P)"
+"Do&wn" => "아래로(&W)"
+"&Export" => "내보내기(&E)"
+"&Import" => "가져오기(&I)"
+"Unable to save the settings file" => "설정 파일을 저장할 수 없습니다."
+"Please check you installation settings." => "설치 설정을 확인해 주십시오."
+"Contact the developer for support." => "지원이 필요한 경우 개발자에게 문의하십시오."
+# --
+
+# -- Added in 2.8 Beta 10 --
+"Window Caption" => "창 자막"
+# --
+
+# -- Added in 2.16 Beta 3 --
+"Save &Profile" => "프로파일 저장(&P)"							# Changed in 2.16 Beta 12
+"L&oad Profile" => "프로파일 로드(&O)"							# Changed in 2.16 Beta 12
+"Save %s Profile..." => "%s 프로파일 저장..."
+"Load %s Profile..." => "%s 프로파일 로드..."
+"Unable to load the profile '%s'." => "'%s' 프로파일을 로드할 수 없습니다."
+"Unable to save the profile as '%s'." => "프로파일을 '%s'로 저장할 수 없습니다."
+# --
+
+#Section: Global strings (used everywhere)
+"Layer" => "레이어"
+"Portable" => "휴대용"
+"All" => "모두"
+"Not Defined" => "정의되지 않음"
+"Default: All windows that do not match any profile." => "기본: 프로파일과 일치하지 않는 모든 창입니다."
+"&OK" => "확인(&O)"
+"&Cancel" => "취소(&C)"
+"OK" => "확인"
+"Cancel" => "취소"
+"Global Settings" => "전역 설정"
+
+# -- Added in 2.10 Beta 10 --
+"Number of  &layers" => "레이어 개수(&L)"
+
+
+#Section: General settings tab
+"General" => "일반"
+"Enable profi&le switching on mouse move" => "마우스 이동시 프로파일 전환 사용함(&L)"
+"Ma&ke scroll wheel scroll window under cursor" => "커서 밑에 있는 창이 휠로 스크롤 되게하기(&K)"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "SCROLL LOCK이 켜져 있으면 모든 동작 무시(&Y)"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "SCROLL LOCK이 켜져 있으면 '사용 안 함' 동작 무시(&P)"
+"&Disable when running under remote desktop (RDP)" => "원격 데스크탑(RDP)에 실행할 때 사용 안 함(&D)"
+"Show layer switch &balloon notifications" => "레이어 전환시 풍선 알림 표시(&B)"
+"A&ctivate window when scrolling" => "스크롤 시 창 활성화(&C)"
+"Always show the volume &On Screen Display" => "On Screen Display에 볼륨 항상 표시(&O)" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"&Enable On Screen Display for volume and brightness settings" => "볼륨과 밝기 설정에 대한 On Screen Display 사용(&E)" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"Enable &notifications" => "알림 사용(&N)"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "4번과 5번 버튼 동작 교환(&W)"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "원격 데스크탑(RDP)에 연결되었을 때 마우스 4번과 5번 버튼 교환(&A)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "4 번째 및 5 번째 버튼 동작 교체 (설정된 경우)(&W)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "원격 데스크탑 (RDP)으로 연결된 경우 4 번째 및 5 번째 버튼 동작 교체(&A)"
+
+# -- Updated in 2.14 Beta 7 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "참고 : 설정을 적용하려면 확인을 누르고 기본 화면에서 설정을 적용해야 합니다."
+
+# -- Added in 2.14 Beta 10
+"So&rt mouse button action list alphabetically" => "알파벳순으로 마우스 버튼 동작 목록 정렬(&R)"
+
+# -- Added in 2.16 Beta 4
+"Disable &Inverted Scroll when running under remote desktop (RDP)" => "원격 데스크톱 (RDP)에서 실행할 때 반전 스크롤 사용 안 함(&I)"
+
+# -- Added in 2.18.6
+"Redirect mouse wheel to On Screen Display when &visible" => "보이는 경우 마우스 휠을 On Screen Display로 리디렉션(&V)" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+
+# -- Added in 2.19 Beta 1
+"Remember c&urrent layer when restarting" => "다시 시작할 때 현재 레이어 기억"
+"Ignore &mouse events from touch" => "터치에서 마우스 이벤트 무시(&M)"
+
+
+#
+#Section: Pointer settings tab (new in 2.19 Beta 7)
+"Pointer" => "포인터"
+"Motion" => "모션"
+"Allow &XMBC to set the mouse speed and DPI" => "XMBC에서 마우스 속도 및 DPI 설정 허용(&X)"	# -- Added in 2.19 Beta 6
+"Mouse &Speed" => "마우스 속도(&S)"
+"En&hance pointer precision" => "포인터 정밀도 향상(&H)"
+"Mouse speed for each cursor speed cycle:" => "각 커서 속도주기에 대한 마우스 속도 :"
+"Show cursor speed &balloon notifications" => "커서 속도 풍선 알림 표시(&B)"
+"Change cursor when using &Movement To Scroll" => "이동 스크롤을 사용할 때 커서 변경(&M)"
+
+# -- Added in 2.19 Beta 8
+"Change cursor when using Button &Chording" => "버튼 혼합 사용시 커서 변경(&C)"
+"Change cursor when using Button H&eld" => "버튼 고정 사용시 커서 변경(&E)"
+"Change cursor to indicate active &layer" => "활성 레이어를 나타내도록 커서 변경(&L)"
+
+
+
+#Section: Advanced settings tab
+"Advanced" => "고급"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "참고: 설정을 적용하려면 확인을 누르고 기본 화면에서 설정을 적용해야 합니다."
+"Process &Non-Client mouse messages *RECOMMENDED*" => "클라이언트가 아닌 마우스 메시지 처리(&N)  *권장*"
+"Reset &sticky buttons when any other button is pressed" => "다른 버튼을 누를 때 고정 버튼 재설정(&S)"
+"R&eset sticky buttons when any other key is pressed" => "다른 키를 누를 때 고정 버튼 재설정(&E)"
+"Show &tray icon by default" => "기본적으로 시스템 알림 영역에 트레이 아이콘 표시(&T)"
+"&Ignore numlock state for Simulated Keystrokes" => "'시뮬레이션 키' 입력에 대해 NumLock 상태 무시(&I)"
+"Cycle layers by left clickin&g tray icon" => "트레이 아이콘을 왼쪽 클릭하여 레이어 순환(&A)"					#-- Updated in 2.5 beta 4 --
+"&Remap simulated input from other applications" => "다른 응용 프로그램에서 시뮬레이션된 입력을 다시 매핑"				# -- Added in 2.17 Beta 12
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "틸트 휠 자동-반복 (역반동) 속도 수정(&F)"
+"Initial repeat r&ate" => "초기 반복 속도(&P)" #-- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "틸트 반복 속도(&R)"
+"(ms)" => "ms"
+"Dela&y between simulated keystrokes" => "시뮬레이션 키 입력 사이의 지연(&Y)"
+"&CPU Priority" => "CPU 우선 순위(&C)"
+"Realtime" => "실시간"
+"High" => "높음"
+"Above normal" => "보통 이상"
+"Normal" => "보통"
+"Below normal" => "보통 이하"
+"&De-bounce (ignore) rapid mouse button clicks" => "빠른 마우스 버튼 클릭으로 역반동 (무시)"
+"Start de-bounce timer when button is released" => "버튼을 놓으면 역반동 타이머 시작"
+"Load &US English keyboard if no equivalent is available" => "동등한 것을 사용할 수 없을 경우 US 영어 키보드 불러오기(&U)"
+"Reset stic&ky buttons when the layer changes" => "레이어 변경시 고정 버튼 초기화(&K)"
+"Disable inactivity timer while inactive for" => "다음 시간 동안 활동이 없으면 유휴 타이머 사용 안함"
+"(min)" => "분"
+"&Windows Low Level Hook Timeout (Reboot required)" => "Windows 로우 레벨 후크 시간 초과 (재부팅 필요)(&W)"
+
+#Section: Language settings tab (Added in 2.14 Beta 7)
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "참고: 설정을 적용하려면 확인을 누르고 기본 화면에서 설정을 적용해야 합니다. 변경된 언어는 XMBC 창을 다시 열기 전까지 적용되지 않습니다."
+"Author" => "한글 제작" #The label on the language settings page. The word 'Author' should be directly translated, i.e. Don't put your name here :)
+"Language" => "언어"
+
+#Section: Update and Logging Settings tab (Added in 2.14 Beta 7)
+"Updates && Logging" => "업데이트 및 로그 기록"
+"Check for new &version every" => "새 버전 확인(&V)"
+"Check for &beta versions" => "베타 버전 확인"
+"days (at application startup)" => "매일 (응응프로그램 시작시)"
+"Enable &DEBUG logging" => "디버그 로그 기록 사용함(&D)"
+"*** Debug logging will degrade performance and response times! ***" => "*** 디버그 로깅은 성능 및 응답 시간을 저하시킵니다! ***"
+"&Log File Folder" => "로그 파일 폴더(&L)"
+"Select a folder to store the log file..." => "로그 파일을 저장할 폴더를 선택합니다..."
+"Leave blank to use the default folder!" => "기본 폴더를 사용하려면 비워 둡니다!"
+"*** Changes to the log file folder will be applied next time you start XMBC! ***" => "*** 다음에 XBMC를 시작할 때 로그 파일 폴더에 대한 변경 사항이 적용됩니다! ***"
+"Updates" => "업데이트"
+"Logging" => "로그 기록"
+
+#Section: Hotkey settings tab
+"Hotkeys" => "단축키"
+"Enable &global hotkeys" => "전역 단축키 사용함(&G)"
+"You can assign your hotkeys using the boxes below..." => "아래 상자를 사용하여 단축키를 지정할 수 있습니다..."
+"Switch to Layer &1" => "레이어 &1 로 전환"
+"Switch to Layer &2" => "레이어 &2 로 전환"
+"Switch to Layer &3" => "레이어 &3 로 전환"
+"Switch to Layer &4" => "레이어 &4 로 전환"
+"Switch to Layer &5" => "레이어 &5 로 전환"
+"Switch to Layer &6" => "레이어 &6 로 전환"
+"Switch to Layer &7" => "레이어 &7 로 전환"
+"Switch to Layer &8" => "레이어 &8 로 전환"
+"Switch to Layer &9" => "레이어 &9 로 전환"
+"Switch to Layer 1&0" => "레이어 1&0 로 전환"
+"&Next Layer" => "다음 레이어(&N)"
+"&Previous Layer" => "이전 레이어(&P)"
+"&Enable/Disable XMBC" => "XMBC 사용함/사용 안 함(&E)"
+"&Toggle Debug mode" => "디버그 모드 전환(&T)"
+"&Save desktop icon layout" => "바탕 화면 아이콘 레이아웃 저장&A)"
+"Restore desktop icon &layout" => "바탕 화면 아이콘 레이아웃 복원(&R)" #-- Updated in 2.5 beta 4 --
+		# -- Updated in 2.5 beta 4 --
+"Toggle &X Axis Lock" => "X 축의 잠금/해제 전환(&X)"
+"Toggle &Y Axis Lock" => "Y 축의 잠금/해제 전환(&Y)"
+"In&vert X Axis" => "X 축 반전(&V)"							# -- Added in 2.19 Beta 10
+"Inve&rt Y Axis" => "Y 축 반전(&Y)"							# -- Added in 2.19 Beta 10
+"S&nap cursor to primary monitor" => "기본 모니터에 커서 맞추기(&N)"			# -- Added in 2.15 beta 3 --
+"Snap cursor to &active window" => "활성 창에 커서 맞추기(&A)"			# -- Added in 2.15 beta 8 --
+"Snap cursor to &profile window" => "프로필 창에 커서 맞추기(&P)"			# -- Added in 2.15 beta 8 --
+"Open Settings Window" => "설정 창 열기"					# -- Added in 2.10 beta 5 --
+"NOTE: Only valid hotkey combinations will be allowed." => "참고: 유효한 핫키 조합만 허용됩니다."
+
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "설정 대화 상자에서 전역 단축키를 사용할 수 없습니다. 작동하려면 설정을 적용하고 닫아야 합니다."
+"Global hotkeys" => "전역 단축키"
+"F12 can not be used as a hotkey on its own as this is reserved by Windows." => "F12는 Windows에서 예약되어 있기 때문에 단축키로 사용할 수 없습니다." #Error shown if user tries to assign F12 as a global hotkey.
+# -- Updated in 2.14 Beta 7 --
+"Layer Hotkeys" => "레이어 단축키"
+"Other Hotkeys" => "기타 단축키"
+# --
+
+#Section: Layer Modifier key settings tab
+"Modifier Keys" => "수정 키"
+"Enab&le modifier keys (switching layers && axis locking)" => "수정 키 사용 (레이어 전환 및 축 잠금)(&L)"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "수정 키는 키 조합을 누른 상태에서 기능을 일시적으로 활성화하는 바로 가기 키입니다. 키를 놓으면 바로 이전 상태로 돌아갑니다."
+"Layers" => "레이어"
+"Activate Layer 1" => "레이어 1 활성"
+"Activate Layer 2" => "레이어 2 활성"
+"Activate Layer 3" => "레이어 3 활성"
+"Activate Layer 4" => "레이어 4 활성"
+"Activate Layer 5" => "레이어 5 활성"
+# -- Added in 2.10 Beta 2 --
+"Activate Layer 6" => "레이어 6 활성"
+"Activate Layer 7" => "레이어 7 활성"
+"Activate Layer 8" => "레이어 8 활성"
+# -- Added in 2.10 Beta 3 --
+"Activate Layer 9" => "레이어 9 활성"
+"Activate Layer 10" => "레이어 10 활성"
+# --
+"Axis Locking" => "축 잠금"
+"Lock X-Axis" => "X 축 잠금"
+"Lock Y-Axis" => "Y 축 잠금"
+
+# -- Added in 2.15 Beta 5 --
+"Slow down cursor" => "커서를 느리게"
+
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "참고: 축 잠금을 사용하려면 축 잠금을 사용할 각 응용 프로그램별 프로필에 대해 축 잠금을 활성화해야 합니다. 이렇게 하면 특정 응용 프로그램에 대해서만 축을 잠글 수 있습니다."
+"None" => "없음"
+"Shift" => ""
+"Control" => ""
+"Alt" => ""
+"Shift + Control" => ""
+"Shift + Alt" => ""
+"Shift + Control + Alt" => ""
+"Control + Alt" => ""
+"Left Window Key" => "왼쪽 윈도우 키"    # -- Changed in 2.18 Beta 6 (and missing until 2.19 Beta 13!)
+"Right Window Key" => "오른쪽 윈도우 키"	# -- Changed in 2.19 Beta 13
+"App Menu Key" => "앱 메뉴 키"
+
+# -- Updated in 2.14 Beta 7 --
+"Layer Modifiers" => "레이어 수정"
+"Other Modifiers" => "기타 수정"
+# --
+
+# -- Added in 2.18 Beta 6 (and missing until 2.19 Beta 13!)
+"Left Windows + Shift" => "왼쪽 윈도우 + Shift"
+"Left Windows + Control" => "왼쪽 윈도우 + Control"
+"Left Windows + Alt" => "왼쪽 윈도우 + Alt"
+"Right Windows + Shift" => "오른쪽 윈도우 + Shift"
+"Right Windows + Control" => "오른쪽 윈도우 + Control"
+"Right Windows + Alt" => "오른쪽 윈도우 + Alt"
+"App Menu + Shift" => "앱 메뉴 + Shift"
+"App Menu + Control" => "앱 메뉴 + Control"
+"App Menu + Alt" => "앱 메뉴 + Alt"
+"App Menu + Right Windows" => "앱 메뉴 + 오른쪽 윈도우"
+# --
+
+#Section: Context Menus
+"Edit" => "편집"
+"Copy" => "복사"
+"Remove" => "제거"
+"Import" => "가져오기"
+"Export Selected" => "선택 내보내기"
+"Export All" => "모두 내보내기"
+"&Layers" => "레이어(&L)"
+"Layer &1" => "레이어 &1"
+"Layer &2" => "레이어 &2"
+"Layer &3" => "레이어 &3"
+"Layer &4" => "레이어 &4"
+"Layer &5" => "레이어 &5"
+# -- Added in 2.10 Beta 2 --
+"Layer &6" => "레이어 &6"
+"Layer &7" => "레이어 &7"
+"Layer &8" => "레이어 &8"
+# -- Added in 2.10 Beta 3 --
+"Layer &9" => "레이어 &9"
+"Layer 1&0" => "레이어 1&0"
+# --
+"&Setup" => "설정(&S)"
+"&Hide Icon" => "아이콘 숨김(&H)"
+"&Open log file" => "로그 파일 열기(&O)"
+"&Disable X-Mouse Button Control" => "X-Mouse 버튼 제어 사용 안 함(&D)"
+"S&ave desktop icon layout" => "바탕 화면 아이콘 배치 저장(&A)"
+"&Restore desktop icon layout" => "바탕 화면 아이콘 배치 복원(&R)"			#-- Updated in 2.6 beta 1 --
+"Exit" => "종료(&X)"
+
+#Section: Tooltips
+# -- Updated in 2.10 Beta 3
+"This graphic shows the active window regions that apply to this profile.\nYou can define these regions in the profile editor." => "이 그래픽은 이 프로파일에 적용되는 활성 창 영역을 보여 줍니다.\n프로파일 편집기에서 이러한 영역을 정의할 수 있습니다."
+"Add/Edit setting for individual layers\nor specific scrolling and navigation behaviour." => "개별 레이어 또는 특정 스크롤 및\n 탐색 동작에 대한 설정을 추가/편집합니다."
+# -- Added in 2.10 Beta 2
+"Add a new application or window specific profile." => "새 응용 프로그램 또는 창 특정 프로파일을 추가합니다."
+"Clone the selected application or window specific profile." => "선택한 응용 프로그램 또는 창 특정 프로파일을 복제합니다."
+"Edit the selected application or window specific profile." => "선택한 응용 프로그램 또는 창 특정 프로파일을 편집합니다."
+"Delete the selected application or window specific profile." => "선택한 응용 프로그램 또는 창 특정 프로파일을 삭제합니다."
+"Export the selected application or window specific profile." => "선택한 응용 프로그램 또는 창 특정 프로파일을 내 보냅니다."
+"Import a saved application or window specific profile." => "저장된 응용 프로그램 또는 창 특정 프로파일을 가져옵니다."
+"Move the selected application or window specific profile up." => "선택한 응용 프로그램 또는 창 특정 프로파일을 위로 이동합니다."
+"Move the selected application or window specific profile down." => "선택한 응용 프로그램 또는 창 특정 프로파일을 아래로 이동합니다."
+# --
+
+#Section: Layer tab(s)
+"Layer name" => "레이어 이름"
+"&Left Button" => "왼쪽 버튼(&L)"
+"&Right Button" => "오른쪽 버튼(&R)"
+"&Middle Button" => "가운데 버튼(&M)"
+"&Middle Button 2" => "가운데 버튼 2(&M)"
+"Mouse Button &4" => "마우스 버튼 &4"
+"Mouse Button &5" => "마우스 버튼 &5"
+"W&heel Up" => "휠 ⏫(&H)"
+"Wheel &Down" => "휠 ⏬(&E)"				# Changed in 2.16 Beta 12
+"Tilt Wheel Le&ft" => "틸트 휠 ⏪(&F)"
+"Tilt Wheel Ri&ght" => "틸트 휠 ⏩(&G)"
+"Reset Layer" => "레이어 재설정"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "이 항목은 레이어 수정를 사용하여\n이 레이어로 전환할 때 예약됩니다.\n\n직접 선택할 수 없습니다."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "영향을 받는 모든 레이어에 레이어 변경 명령을 적용해야합니다.\n\n계속 하시겠습니까?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "다른 레이어에 이미 이 레이어에 레이어 수정 설정이 있으므로 LAYER X 수정를 이 레이어에 추가할 수 없습니다.\n그렇게하면 결정되지 않은 동작이 발생하므로 지원되지 않습니다."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "레이어 변경 명령을 제거하면 영향을 받는 모든 레이어에서 제거됩니다.\n\n계속 하시겠습니까?"
+#--
+
+# -- Added in 2.8 Beta 6 --
+"Switch to" => "레이어 전환"
+"after" => "전환 대기"
+"seconds" => "초 후"
+"Always revert to layer 1" => "항상 레이어 1로 복귀"
+# --
+
+# -- Added in 2.10 Beta 2 --
+"Disable in Next/Previous layer commands" => "다음/이전 레이어 명령에서 사용 안 함"
+# --
+
+# -- Added in 2.14 Beta 5 --
+"Are you sure you want to replace layer %d in the default profile?" => "기본 프로필에서 %d 레이어를 바꾸시겠습니까?" #The %d is replaced at runtime - leave it there!
+"Are you sure you want to replace layer %d in %s (%s)?" => "%s(%s)에서 %d 레이어를 바꾸시겠습니까?" #The %d and %s are replaced at runtime - leave them there!
+"Do you want to apply your settings before copying the layer?" => "레이어를 복사하기 전에 설정을 적용 하시겠습니까?"
+"Do you want to apply your settings before swapping the layer?" => "레이어를 교체하기 전에 설정을 적용 하시겠습니까?"
+
+# -- Added in 2.14 Beta 6 --
+"Copy Layer" => "레이어 복사"
+"Swap Layer" => "레이어 전환"
+# --
+
+#Section: Copy Layer dialog - Added in 2.14 Beta 5
+"Destination Profile:" => "대상 프로파일:"
+"Destination Layer:" => "대상 레이어:"
+
+#Section: Swap Layer dialog - Added in 2.14 Beta 5
+"Swap with layer:" => "전환할 레이어:"
+"Swap" => "전환"
+
+#Section: Simulated keystroke methods
+"(undefined)" => " - (지정되지 않음)"
+"(pressed)" => "(버튼 누름)"
+"(released)" => "(버튼 놓음)"
+"(during)" => "(버튼 누르는 동안)"
+"(thread-down)" => "(스레드-누름)"
+"(thread-up)" => "(스레드-놓음)"
+"(repeat)" => "(반복)"
+"(sticky repeat)" => "(반복 고정)"
+"(sticky hold)" => "(눌림 고정)"
+"(pressed & released)" => "(버튼 누르고 놓음)"									# -- Added in 2.4 Beta 12 --
+"(custom)" => "(사용자 지정)"												# -- Added in 2.17 Beta 9 --
+
+
+#Section: Simulated Keystrokes dialog
+"Simulated Keystrokes" => "시뮬레이션 키 입력"									#-- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "사용자 지정 키 입력"
+"How to send the simulated key strokes:" => "시뮬레이션 키 입력을 보내는 방법:"
+"1 As mouse button is pressed" => "1 마우스 버튼을 눌렀을 때"
+"2 As mouse button is released" => "2 마우스 버튼을 놓았을 때"
+"3 During (press on down, release on up)" => "3 버튼 동작 동안(아래로 누름, 위로 해제)"
+"4 In another thread as mouse button is pressed" => "4 마우스 버튼을 누르면 다른 스레드에서"
+"5 In another thread as mouse button is released" => "5 마우스 버튼을 놓으면 다른 스레드에서"
+"6 Repeatedly while the button is down" => "6 버튼을 누르고 있는 동안 반복해서"
+"7 Sticky (repeatedly until button is pressed again)" => "7 고정 (버튼을 다시 누를 때까지 반복해서)"
+"8 Sticky (held down until button is pressed again)" => "8 고정 (버튼을 다시 누를 때까지 누름)"
+"9 As mouse button is pressed & when released" => "9 마우스 버튼을 눌렀다가 놓을 때"			#-- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "프로필 프로세스가 활성 상태인 경우에만 전송"
+"Block original mouse input" => "원래 마우스 입력 차단"								#-- Added in 2.7 Beta 5 --
+"Randomise auto repeat delay by 10%" => "자동 반복 지연을 10%까지 임의로 설정"						#-- Added in 2.11 Beta 6 --
+"Auto repeat delay" => "자동 반복 지연 시간"
+"(milliseconds)" => "(밀리초)"
+"0 = Windows default repeat delay && speed." => "0 = Windows 기본 반복 지연 및 속도입니다."
+
+# -- Added in 2.19 beta 3 --
+"Click this button to add {} tags" => "{}개의 태그를 추가하려면 이 버튼을 클릭합니다"
+"Hold this button and press a key to add that key's tag" => "이 버튼을 누른 상태에서 키를 눌러 해당 키의 태그를 추가합니다"
+
+# -- Added in 2.19 Beta 4
+"Drop down button to select a tag from the menu" => "메뉴에서 태그를 선택하는 드롭 다운 버튼"
+
+# -- Added in 2.19 Beta 8
+"Right click to select a tag from the menu" => "마우스 오른쪽 버튼을 클릭하여 메뉴에서 태그를 선택"			# Windows XP Only (as it down not support dropdown split button)
+
+# -----[ Added in 2.19 Beta 4 - SimKeys {} dropdown menu ]------------------
+"&Modifier Keys" => "수정 키(&M)"
+"&Standard Keys" => "표준 키(&S)"
+"&Direction Keys" => "방향 키(&D)"
+"&Function Keys" => "기능 키(&F)"
+"&Numeric Keypad" => "숫자 키패드(&N)"
+"M&edia Keys" => "미디어 키(&E)"
+"&Browser Keys" => "브라우저 키(&B)"
+"Mo&use Buttons" => "마우스 버튼(&U)"		# Changed position of & in 2.19 Beta 10
+"&Layer Tags" => "레이어 태그(&L)"
+"Mo&vement Tags" => "이동 태그(&V)"
+"&Action Tags" => "동작 태그(&A)"
+"&Other Tags" => "기타 태그(&O)"
+#-----[The following is the menu item for each special simkey {TAG}]
+"&Control" => ""
+"&Right Control" => "오른쪽 Control(&R)"
+"&Alt" => ""
+"R&ight Alt (Alt Gr)" => "오른쪽 Alt (Alt Gr)(&I)"
+"&Shift" => ""
+"Ri&ght Shift" => "오른쪽 Shift(&I)"
+"&Windows Key" => "Windows 키(&W)"
+"Rig&ht Windows Key" => "오른쪽 Windows 키(&R)"
+"A&pps (Context Menu) key" => "앱 (관련 메뉴) 키(&P)"
+"&Escape" => ""
+"&Space" => ""
+"&Return" => ""
+"&Tab" => ""
+"&Backspace" => ""
+"&Delete" => ""
+"&Insert" => ""
+"&Home" => ""
+"E&nd" => ""
+"Page U&p" => ""				# Changed position of & in 2.19 Beta 9
+"Page Do&wn" => ""				# Changed position of & in 2.19 Beta 9
+"PrtScn" => ""					# Removed conflicting & in 2.19 Beta 9
+"Pa&use" => ""
+"Break"	=> ""					# Removed conflicting & in 2.19 Beta 9
+"CAPS Lock To&ggle" => "CAPS Lock 전환(&G)"
+"Caps Lock &On" => "Caps Lock 켜기(&O)"
+"Caps Lock O&ff" => "Caps Lock 끄기(&F)"
+"Scroll &Lock Toggle" => "Scroll Lock 전환(&L)"		# Changed position of & in 2.19 Beta 9
+"Scroll Lo&ck On" => "Scroll Lock 켜기(&C)"
+"Scroll Loc&k Off" => "Scroll Lock 끄기(&K)"
+"&Up" => ""
+"&Down" => ""
+"&Left" => ""
+"&Right" => ""
+"Num Lock &Toggle" => "Num Lock 전환(&T)"
+"Num Lock &On" => "Num Lock 켜기(&O)"
+"Num Lock O&ff" => "Num Lock 끄기(&F)"
+"&Divide" => "➗(&D)"
+"&Multiply" => "✖(&M)"
+"&Subtract" => "➖(&S)"
+"&Add" => "➕(&A)"
+"Decima&l" => "Decima&l"				# Changed position of & in 2.19 Beta 9
+"&Enter" => ""
+"Num &0" => ""
+"Num &1" => ""
+"Num &2" => ""
+"Num &3" => ""
+"Num &4" => ""
+"Num &5" => ""
+"Num &6" => ""
+"Num &7" => ""
+"Num &8" => ""
+"Num &9" => ""
+"Volume &Up" => "🔊볼륨 크게(&U)"
+"Volume &Down" => "🔉볼륨 작게(&D)"
+"&Mute" => "🔇음소거(&M)"
+"&Play/Pause" => "⏯재생/일시 정지(&P)"
+"&Stop" => "⏹중지(&S)"
+"&Next Track" => "⏭다음 트랙(&N)"
+"P&revious Track" => "⏮이전 트랙(&R)"
+"Launch Me&dia Select" => "미디어 선택 실행(&D)"
+"Ho&me" => "홈(&M)"				# Changed position of & in 2.19 Beta 12 ##This is HOME in the web browser not the home key!
+"&Back" => "뒤로(&B)"
+"&Forward" => "앞으로(&F)"
+"F&avourites" => "즐겨찾기(&A)"
+"R&efresh" => "새로 고침(&E)"			# Changed position of & in 2.19 Beta 9
+"&Search" => "검색(&S)"
+"Sto&p" => "중지(&P)"
+"L&eft Button" => "왼쪽 버튼(&E)"		# Changed position of & in 2.19 Beta 9
+"R&ight Button" => "오른쪽 버튼(&I)"		# Changed position of & in 2.19 Beta 9
+"Mi&ddle Button" => "가운데 버튼(&D)"		# Changed position of & in 2.19 Beta 9
+"4&th Button" => "4번째 버튼(&T)"			# Changed position of & in 2.19 Beta 9
+"5t&h Button" => "5번째 버튼(&H)"			# Changed position of & in 2.19 Beta 9
+"Wheel U&p" => "휠 위로(&P)"			# Changed position of & in 2.19 Beta 9
+"Wheel D&own" => "휠 아래로(&O)"			# Changed position of & in 2.19 Beta 9
+"Wheel &Tilt Left" => "휠 틸트 왼쪽(&T)"	
+"Wheel Tilt Ri&ght" => "휠 틸트 오른쪽(&G)"	# Changed position of & in 2.19 Beta 9
+"Ne&xt Layer" => "다음 레이어(&X)"			# Changed position of & in 2.19 Beta 9
+"P&revious Layer" => "이전 레이어(&R)"		# Changed position of & in 2.19 Beta 9
+"&Last Layer" => "최근 레이어(&L)"
+"&Move Cursor (X,Y)" => "커서 이동 (X,Y)(&M)"
+"&Set position relative to primary monitor (X,Y)" => "기본 모니터를 기준으로 위치 설정 (X,Y)(&S)"
+"Set position relative to primary profile window (X,Y)" => "기본 프로파일 창을 기준으로 위치 설정 (X,Y)(&E)"
+"Set position relative to active window (X,Y)" => "활성 창을 기준으로 위치 설정 (X,Y)(&T)"
+"S&ave position" => "위치 저장(&A)"
+"&Restore saved position" => "저장된 위치 복원(&R)"
+"&Activate window" => "창 활성화(&A)"
+"Activate &parent" => "부모 활성화(&P)"
+"Activate &top" => "상위 활성화(&T)"
+"&Busy Cursor" => "바쁜 커서(&B)"
+"&Default Cursor" => "기본값 커서(&D)"
+"&Invert X && Y Axis" => "X 및 Y 축 반전(&I)"							# Fixed missing double & in 2.19 Beta 9
+"I&nvert X Axis" => "X 축 반전(&N)"
+"In&vert Y Axis" => "Y 축 반전(&V)"								# Fixed double & in 2.19 Beta 9
+"Lock &X Axis" => "X 축 잠금(&X)"
+"Lock &Y Axis" => "Y 축 잠금(&Y)"
+"Set &Clipboard Text" => "클립보드 텍스트 설정(&C)"
+"&Run application" => "응용 프로그램 실행(&R)"
+"La&unch EMail" => "이메일 시작(&U)"
+"Launch App &1" => "앱 &1 시작"
+"Launch App &2" => "앱 &2 시작"
+"Launch &Media Select" => "미디어 선택 시작(&M)"
+"Brightness &Up" => "밝기 증가(&U)"
+"Brightness &Down" => "밝기 감소(&D)"
+"&Wait <x> second(s)" => "<x> 초 대기(&W)"
+"W&ait <x> millisecond(s)" => "<x> 밀리초 대기(&A)"
+"&Hold for <x> second(s)" => "<x> 초 동안 유지(&H)"
+"H&old for <x> millisecond(s)" => "<x> 밀리초 동안 유지(&O)"
+"Send &virtual key code" => "가상 키코드 보내기(&V)"
+"Send &extended virtual key code" => "확장된 키코드 보내기(&E)"
+"Send &keyboard scancode" => "키보드 스캔 코드 보내기(&K)"
+"Send e&xtended keyboard scancode" => "확장된 키보드 스캔 코드 보내기(&X)"
+"&Clear modifier tag state" => "수정 태그 상태 지우기(&C)"
+"&Press key (Methods 1,2,4,5,6,7 && 9)" => "키 누름 (방법 1,2,4,5,6,7 및 9)(&P)"
+"Release ke&y (Methods 1,2,4,5,6,7 && 9)" => "키 놓음 (방법 1,2,4,5,6,7 및 9)(&Y)"		# Changed position of & in 2.19 Beta 9
+"&Send only when pressing" => "누를 때만 보내기(&S)"					# Changed position of & in 2.19 Beta 9
+"Send o&nly when releasing" => "놓을 때만 보내기(&N)"
+"Send on&ly when repeating" => "반복 할 때만 보내기(&L)"
+
+#Added for 2.19 beta 8
+"&Press" => "누름(&P)"
+"Re&lease" => "놓음(&L)"
+#---------------------------------------------------------------
+
+
+#Section: Simulated Keystrokes dialog - help text
+# NOTE: For the following texts, \r\n is a NEW LINE and \t is a TAB. Be sure to check the layout on the simkeys
+# dialog when making translations to ensure your text is visible and fits nicely.
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "위의 상자에 키 순서를 입력하십시오.\r\n지정된 태그를 사용하여 다음 확장 키를 시뮬레이션 할 수 있습니다..."
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "수정 태그:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  참고:\t수정 태그는 {CTRL}{ALT} 처럼 조합될 수 있지만 다음 키만 적용됩니다.\r\n\t예로, CTRL+a+CTRL+s 를 보내려면 '{CTRL}A{CTRL}S' 를 입력해야 합니다."
+
+# -- Updated in 2.14 beta 2 --
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "확장된 키 태그:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" =>"
+
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "예제: \r\n  창 닫기: {ALT}{F4}\r\n  모든 항목을 선택: {CTRL}A\r\n  Microsoft Word에서 굵은 '내 텍스트'를 입력하려면: {CTRL}b내 텍스트{CTRL}b\r\n  다운과 업 사이에 50ms의 지연이 있는 'r' 키를 전송하려면: {HOLDMS:50}r\r\n  NumLock 끄려면: {NUMLOCKOFF} "
+
+# -- Added in 2.9 beta 6 --
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "보내기 방법을 위한 특수 태그 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} 다음 키를 놓습니다(잠금 해제)\r\n\t\t\tNOTE: 동일한 순서로 {PRESS} 키를 {RELEASE}해야합니다!"
+"To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "b와 c를 누르려면 100ms를 기다렸다가 놓습니다: {PRESS}abc{WAITMS100}{RELEASE}cba"
+# --
+
+# -- Updated in 2.4 Beta 10 and removed in 2.9 Beta 6 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "주의: {WAIT}, {WAITMS}, {HOLD}, {HOLDMS} 태그를 사용할때 지연(LAG)을 방지하려면\r\n위의 드롭 다운 메뉴에서 다른 스레드의 방식을 사용하여 시도하십시오."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "특수 기능(펑션) 태그:\t{WAIT:n} 지연시간 <n>초를 삽입합니다.\r\n\t\t\t{WAITMS:n} 지연시간 <n>밀리초를 삽입합니다.\r\n\t\t\t{HOLD:n} 다음 키를 <n>초 동안 고정합니다.\r\n\t\t\t{HOLDMS:n} 다음 키를 <n>밀리초 동안 고정합니다.\r\n\t\t\t{VKC:n} 지정한 가상 키 코드를 보냅니다.\r\n\t\t\t{EXT:n} 지정한 확장 가상 키 코드를 보냅니다.\r\n\t\t\t{CLEAR} 한정 태그 {CTRL},{ALT} 등을 지웁니다."
+
+#Added in 2.17 Beta 16
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => "\t\t\t{SC:n} 지정된 키보드 스캔 코드를 보냅니다."
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => "\t\t\t{SCE:n} 지정된 확장 키보드 스캔 코드를 보냅니다."
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => "\t\t\t{CB:<text>} 지정된 <text>를 클립보드에 복사합니다."
+#
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "방향 키 태그:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n기능(펑션) 키 태그:\t{F1, F2, F3 ... F24}\r\n볼륨 키 태그:\t\t{VOL+}, {VOL-}, {MUTE}\r\n밝기 조절 태그:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n마우스 버튼 태그:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n마우스 휠 태그:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n숫자 패드 태그:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n웹/브라우저 키 태그:\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\n전환(Toggle) 키 태그: \t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+# -- Removed in 2.18 Beta 12 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => ""
+
+# -- Changed (split up) in 2.18 Beta 12
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}" => "방향 키 태그:\t\t{UP} {DOWN} {LEFT} {RIGHT}"
+"Function key tags:\t\t{F1, F2, F3 ... F24}" => "기능키 태그:\t\t{F1, F2, F3 ... F24}"
+"Volume key tags:\t\t{VOL+}, {VOL-}, {MUTE}" => "볼륨 키 태그:\t\t{VOL+}, {VOL-}, {MUTE}"
+"Brightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}" => "밝기 제어 태그:\t{BRIGHTNESS+}, {BRIGHTNESS-}"
+"Mouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}" => "마우스 버튼 태그:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}"
+"Mouse button up/down tags:\tAdd a D (for down/pressed)" => "마우스 버튼 위로/아래로 태그:\tD 추가(아래로/누름)"
+"\t\t\tor a U (for up/released) to the mouse button tags (above)" => "\t\t\t또는 마우스 버튼 태그(위)에 U (위쪽/놓음)"
+"\t\t\te.g. {LMBD}, {LMBU}, {RMBD}, {RMBU}, {MB4D}, {MB5U} etc." => "\t\t\t예를들어 {LMBD}, {LMBU}, {RMBD}, {RMBU}, {MB4D}, {MB5U} 등."		# Updated in 2.18 Beta 13
+"Mouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}" => "마우스 휠 태그:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}"
+"Numeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}" => "숫자 키 태그:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}"  # Fixed in 2.18 Beta 13
+"Web/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}" => "웹/브라우저 키:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}"
+"Toggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF},\r\n\t\t\t{SCROLLLOCKON}, {SCROLLLOCKOFF}" => "전환 키:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF},\r\n\t\t\t{SCROLLLOCKON}, {SCROLLLOCKOFF}"
+# --
+
+
+# -- Added in 2.11 Beta 16 --
+"Movement tags\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET sets the mouse cursor's X or Y position to <n>\r\n\t\t\tADD moves the mouse cursor's X or Y position by <n> pixels" => "이동 태그:\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET는 마우스 커서의 X 또는 Y 위치를 설정하여 \r\n\t\t\tADD 마우스 커서의 X 또는 Y 위치를 <n> 픽셀만큼 이동합니다."
+
+# -- Changed in 2.15 beta 7, 8 & 9 --
+"Movement tags:\t\t{MADD:x,y} Move cursor X & Y position by <x,y> pixels" => "이동 태그:\t\t{MADD:x,y} 커서 X 및 Y 위치를 <x,y> 픽셀만큼 이동"
+"\t\t\t{MSET:x,y} Set cursor position to <x,y> (relative to primary monitor)" => "\t\t\t{MSET:x,y} 커서 위치를 <x,y>로 설정 (기본 모니터에 상대적)"
+"\t\t\t{PSET:x,y} Set cursor position to <x,y> (relative to profile window)" => "\t\t\t{PSET:x,y} 커서 위치를 <x,y>로 설정 (프로파일 창과 비교)"
+"\t\t\t{ASET:x,y} Set cursor position to <x,y> (relative to active window)" => "\t\t\t{ASET:x,y} 커서 위치를 <x,y>로 설정 (활성 창에 상대적)"
+"\t\t\t{MSAVE:n} Save the current cursor position to memory <n> (1-10)" => "\t\t\t{MSAVE:n} 현재 커서 위치를 메모리 <n> (1-10)에 저장"			#Updated in 2.16 Beta 17
+"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST:n} 메모리 <n> (1-10)에서 저장된 커서 위치 복원"		#Updated in 2.16 Beta 17
+
+# -- Deprecated in 2.15 Beta 9 - they still work but are not displayed
+"Movement tags:\t\t{MXADD:n} Move cursor X position (horizontally) by <n> pixels" => "이동 태그:\t\t{MXADD:n}<n> 픽셀만큼 커서 X 위치 (수평) 이동"
+"\t\t\t{MYADD:n} Move cursor Y position (vertically) by <n> pixels" => "\t\t\t{MYADD:n} <n> 픽셀만큼 커서 Y 위치를 (수직) 이동"
+"\t\t\t{MXSET:n} Set cursor X position to <n> (relative to primary monitor)" => "\t\t\t{MXSET:n} 커서 X 위치를 <n>으로 설정 (기본 모니터와 상대적)"
+"\t\t\t{MYSET:n} Set cursor Y position to <n> (relative to primary monitor)" => "\t\t\t{MYSET:n} 커서 Y 위치를 <n>으로 설정 (기본 모니터와 상대적)"
+"\t\t\t{PXSET:n} Set cursor X position to <n> (relative to profile window)" => "\t\t\t{PXSET:n} 커서 X 위치를 <n>으로 설정 (프로파일 창과 상대적)"
+"\t\t\t{PYSET:n} Set cursor Y position to <n> (relative to profile window)" => "\t\t\t{PYSET:n} 커서 Y 위치를 <n>으로 설정 (프로파일 창과 상대적)"
+"\t\t\t{AXSET:n} Set cursor X position to <n> (relative to active window)" => "\t\t\t{AXSET:n} 커서 X 위치를 <n>으로 설정 (활성 윈도우에 상대적)"
+"\t\t\t{AYSET:n} Set cursor Y position to <n> (relative to active window)" => "\t\t\t{AYSET:n} 커서 Y 위치를 <n>으로 설정 (활성 윈도우에 상대적)"
+# --
+
+# -- Added in 2.15 Beta 2 --
+"Application tags:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "응용 프로그램 태그:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\t지정된 응용 프로그램을 실행합니다. 응용 프로그램이 시스템 PATH에 없으면\r\n\t\t\t실행 파일의 전체 경로를 지정하십시오 (.EXE 포함)."
+
+# -- Added in 2.15 Beta 7 --
+"Cursor Position: X,Y (AX, AY)" => "커서 위치: X,Y (AX, AY)"
+
+# -- Added in 2.16 Beta 17
+"Action tags:" => "동작 태그:"
+"\t\t{ACTIVATE} Activate the window under the cursor." => "\t\t{ACTIVATE} 커서 아래에 있는 창을 활성화합니다."
+
+# -- Added in 2.18 beta 8 --
+"Layer modifier tags:" => "레이어 수정 태그:"
+"\t{LAYER:x} Switch to layer <x>" => "\t{LAYER:x} 레이어 <x>로 전환"
+"\t\t\t{LAYER:next} Switch to next layer" => "\t\t\t{LAYER:next} 다음 레이어로 전환"
+"\t\t\t{LAYER:back} Switch to preceding layer" => "\t\t\t{LAYER:back} 이전 레이어로 전환"
+"\t\t\t{LAYER:last} Switch to the last active layer" => "\t\t\t{LAYER:last} 마지막 활성 레이어로 전환"
+"On Button Pressed/Released/Repeated tags:" => "켜짐 버튼 누름/해제/반복 태그:"
+"\t\t\t{OD} Only send when the button is pressed" => "\t\t\t{OD} 버튼을 눌렀을 때만 보내기"
+"\t\t\t{OU} Only send when the button is released" => "\t\t\t{OU} 버튼을 놓을 때만 보내기"
+"\t\t\t{OR} Only send when repeating" => "\t\t\t{OR} 반복할 때만 보내기"
+# --
+
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => ""
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => ""
+# --
+
+# -- Updated in 2.17 Beta 10
+# These functions can send any Windows Messages https://msdn.microsoft.com/en-us/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => "Windows 메시지 태그:"
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => "\t{POSTWM:<M>,<L>,<W>} 커서 아래 창에 메시지를 게시합니다."
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => "\t\t\t{SENDWM:<M>,<L>,<W>} 커서 아래 창에 메시지를 보냅니다."
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => "\t\t\tWHERE:\t<M>은 메시지, <L>은 LPARAM 값, <W>는 WPARAM 값입니다."
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => "\t\t\tNOTE:\t<M>, <L> 및 <W>는 10 진수 (예: 16) 또는 16진수 (예: 0x10)로 지정할 수 있습니다."
+
+# -- Added in 2.19 Beta 4
+"Media key tags:\t\t{MEDIAPLAY}, {MEDIASTOP}, {MEDIANEXT}, {MEDIAPREV}" => ""
+"\t\t\t{CURSORBUSY} Switch the mouse pointer to the busy cursor." => "\t\t\t{CURSORBUSY} 마우스 포인터를 사용 중인 커서로 전환합니다."
+"\t\t\t{CURSORDEFAULT} Switch the mouse pointer to the default cursor." => "\t\t\t{CURSORDEFAULT} 마우스 포인터를 기본 커서로 전환합니다."
+"\t\t\t{INVERTXY} Invert X and Y Axis." => "\t\t\t{INVERTXY} X축과 Y축을 반전시킵니다."
+"\t\t\t{INVERTX} Invert X Axis." => "\t\t\t{INVERTX} X축을 반전시킵니다."
+"\t\t\t{INVERTY} Invert Y Axis." => "\t\t\t{INVERTY} Y축을 반전시킵니다."
+"\t\t\t{LOCKX} Lock X Axis." => "\t\t\t{LOCKX} X축을 잠급니다."
+"\t\t\t{LOCKY} Lock Y Axis." => "\t\t\t{LOCKY} Y축을 잠급니다."
+
+#Run Application dialog
+"Type the name of a program, folder, document or internet resource, and X-Mouse Button Control will open it for you when the button is pressed." => "프로그램, 폴더, 문서 또는 인터넷 리소스의 이름을 입력하면 버튼을 누를 때 X- 마우스 버튼 컨트롤이 자동으로 열립니다."
+
+#Open Explorer at specified folder dialog
+"Please select a folder to open" => "열 폴더를 선택하십시오"
+
+#Section: Change Movement to Scroll Configuration -- Added in 2.15 Beta 1
+"스크롤 구성으로 이동" => ""
+"Sensitivity" => "감도"
+"V&ertical" => "수직(&E)"						# -- Added in 2.19 Beta 11
+"H&orizontal" => "수평(&O)"						# -- Added in 2.19 Beta 11
+"Invert &Vertical Axis" => "수직축 반전(&V)"
+"Invert &Horizontal Axis" => "수평축 반전(&H)"
+"&Sticky (until next click)" => "스티커식 (다음 클릭까지)(&S)"
+
+"&Default Action (no movement)" => "기본 동작 (움직이지 않음)(&D)"	# -- Added in 2.17 Beta 1
+
+#Added in 2.17 Beta 6
+"Block all other buttons when sticky" => "스티커식일 때 다른 버튼 모두 차단"
+"Lock Scroll Axis/Direction" => "스크롤 축/방향 잠금"
+"Don't lock (scroll in any direction)" => "잠그지 않음 (어느 방향으로든 스크롤)"
+"Lock to axis determined by cursor movement" => "커서 이동에 의해 결정되는 축으로 잠금"
+"Lock to Y axis (scroll vertically)" => "Y 축에 잠금 (수직 스크롤)"
+"Lock to X axis (scroll horizontally)" => "X축에 잠금 (수평 스크롤)"
+#
+
+#Added in 2.17 Beta  16
+"Movement To Scroll Default Action" => "기본 동작을 스크롤하는 동작"
+
+#Section: Scrolling & navigation tab (or Scrolling ad Options tabs post 2.15 Beta 5)
+"&Invert mouse wheel scrolling" => "마우스 휠 스크롤 반전(&I)"
+"I&nvert mouse horizontal (tilt) scrolling" => "마우스 수평 (틸트) 스크롤 반전(&I)"
+"Wheel scrolls i&n pages instead of lines" => "줄 대신 페이지에서 휠 스크롤(&N)"
+"Lines to scroll using the scroll wheel:" => "스크롤 휠을 사용하여 스크롤 할 줄:"		#-- Removed in 2.7 Beta 4. Left for backward compatibility --
+"Lines to scroll using the scroll wheel" => "스크롤 휠을 사용하여 스크롤 할 줄"		#-- Added/Updated in 2.7 Beta 4 --
+"Enable a&xis locking modifier keys" => "축 잠금 수정 키(&X)"
+"Advanced Window Scrolling" => "고급 윈도우 스크롤"
+"&Scroll Method" => "스크롤 방식(&S)"
+"&Vertical Lines" => "세로 줄(&V)"
+"&Horizontal characters" => "가로 문자(&H)"
+"Method 1 (SCROLL Msg)" => "방식 1 (스크롤 메시지)"
+"Method 2 (ScrollInfo)" => "방식 2 (스크롤 정보)"
+"Method 3 (Left/Right Keys)" => "방식 3 (왼쪽/오른쪽 화살표 키)"
+"Method 4 (Wheel Msg)" => "방식 4 (휠 메시지)"
+"Method 5 (WPF Scroll Msg)" => "방식 5 (WPF 스크롤 메시지)"
+"None (Disable Scroll)" => "없음 (스크롤 사용 안 함)"
+
+# -- Added in 2.7 Beta 7 --
+"&Disable Scroll Window Under Cursor" => "커서 아래 스크롤 창 사용 안 함(&D)"
+
+# -- Added in 2.8 Beta 6 --
+"Switch primary and secondary mouse buttons" => "기본 및 보조 마우스 버튼 전환"
+"Don't swap buttons" => "버튼 전환 금지"
+"Swap buttons" => "버튼 전환"
+# --
+
+# -- Added in 2.9 Beta 3 --
+"Ignore &repeated remapped vertical scroll" => "반복적으로 다시 매핑된 수직 스크롤 무시(&R) -"
+"Ignore repeated remapped hori&zontal scroll" => "반복적으로 다시 매핑된 수평 스크롤 무시(&Z) -"
+"for" => "시간 :"
+"milliseconds" => "밀리초"
+# --
+
+# -- Added in 2.13 Beta 9 --
+"&Force Scroll Pages/Lines (If application does not respond to setting)" => "강제 '페이지/줄' 스크롤(응용 프로그램이 설정에 응답하지 않는 경우)" #This option forces the scroll lins/button swap setting to be pushed to ALL open windows.
+
+# -- Added in 2.15 Beta 1 --
+"&Clip (lock) mouse cursor to active window" => "마우스 커서를 활성 창에 클립 (잠금)(&C)"
+
+# -- Added in 2.15 Beta 5 --
+"&Override Mouse Speed" => "마우스 속도 무시(&O)"
+
+# -- Added in 2.17 Beta 3 --
+"Active window on hover" => "호버의 활성 창"
+
+"Disable &profile switching on mouse move for this profile" => "이 프로파일에 대한 마우스 이동시 프로파일 전환 사용 안 함(&P)"
+
+# -- Added in 2.19 Beta 1 --
+"Disable &layer modifier keys for this profile" => "이 프로파일에 대한 레이어 수정 키 사용 안 함(&L)"
+
+# -- Added in 2.19 Beta 8
+"Change mouse c&ursor when profile is active" => "프로파일이 활성화되면 마우스 커서 변경(&U)"
+
+# -- Added in 2.19 Beta 9 -- Coloured cursor options....
+"Red" => "빨강"
+"Green" => "녹색"
+"Blue" => "파랑"
+"Orange" => "주황"
+"Turquoise" => "청록"
+"Yellow" => "노랑"
+
+#Section: About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "XML 지원은 Michael에서 Michael의 XML++에서 제공합니다."
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XBMC는 어느 곳에서나 누구나 사용할 수 있도록 (보증 또는 보증없이) 자유롭게 배포됩니다. XMBC가 마음에 드시고 감사의 표시를 원하신다면, 아래의 PayPal 버튼을 클릭하여 기부를 해 주십시오."
+"More information can be found on my download page or user forums." => "자세한 내용은 다운로드 페이지 또는 사용자 포럼에서 확인할 수 있습니다."
+"&Homepage" => "홈페이지"
+"&Donate" => "기부"
+"&Forums" => "포럼"
+
+# -- Added in 2.16 Beta 14
+"Open &Userguide" => "사용 설명서 열기(&U)"
+"Open &XMBC Folder" => "XMBC 폴더 열기(&X)"
+"&Check for Update" => "업데이트 검사(&C)"
+# --
+
+# -- Added in 2.4 Beta 15 --
+"About" => "정보 - "
+"Version" => "버전"
+"This application is designed and written by %s of %s." => "이 응용 프로그램은 %s : %s가 디자인하고 작성했습니다." #NOTE: The %s are replace at runtime; leave them there!
+# --
+
+#Section: Find Window Dialog
+"Find Window" => "창 찾기"
+"Find Method" => "찾기 방식"
+"Click and drag the window finder icon to the window you want to select." => "창 찾기 아이콘을 클릭하여 선택할 창으로 끕니다."
+"Hover" => "Hover"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "선택하려는 창 위로 마우스를 이동하고 CAPS LOCK을 켜서 창 세부 사항을 제자리에 잠급니다."
+"You can also manually enter/edit the window details below." => "아래의 창 세부 정보를 수동으로 입력/편집할 수도 있습니다."
+"Window Details" => "창 세부 정보"
+"Caption" => "제목"
+"Handle" => "핸들"
+"&Process" => "프로세스(&P)"
+"C&lass" => "클래스(&L)"
+"Pa&rent Class" => "부모 클래스(&R)"
+"Only match if there is no parent class." => "부모 클래스가 없는 경우에만 일치합니다."
+"Enable Regular Expression Matching" => "정규식 일치 사용" #-- Added in 2.8 Beta 1 --
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "참고: 빈 상위 클래스에 대한 확인란을 선택하지 않으면 모든(*) 창과 일치하는 필드가 비어 있을 수 있습니다. 설정된 경우 텍스트는 창의 속성과 일치해야 합니다."
+
+# -- Added in 2.8 Beta 3 --
+"Window Regions" => "창 영역"
+"Activate the profile only if the cursor is over the selected areas of the window." => "커서가 창의 선택한 영역 위에 있는 경우에만 프로파일을 활성화합니다."
+"You must define at least one window region!" => "창 영역을 하나 이상 정의해야 합니다!"
+# --
+
+# -- Added in 2.16 Beta 2 --
+"Match Type" => "일치 유형"
+"Window" => "창"
+"Parent Window" => "부모 창"
+"Window and Parent Window" => "창 및 부모창"
+"Ancestor Window" => "조상 창"
+"Window and Ancestor Window" => "창 및 조상 창"
+# --
+
+# -- Added in 2.16 Beta 8 --
+"&Activate the profile only when the cursor is in the specified area" => "커서가 지정된 영역에 있는 경우에만 프로파일을 활성화합니다.(&A)"
+"Top" => "위쪽"
+"Left" => "왼쪽"
+"Bottom" => "아래쪽"
+"Right" => "오른쪽"
+"● Positive = Relative to top of window\n● Negative = Relative to bottom of window" => "● 양수 = 창 위쪽에 상대적\n● 음수 = 창 아래쪽에 상대적"  # Updated in 2.16 Beta 11
+"● Positive = Relative to left of window\n● Negative = Relative to right of window" => "● 양수 = 창 왼쪽에 상대적\n● 음수 = 창 오른쪽에 상대적"  # Updated in 2.16 Beta 11
+"Top Left Quadrant" => "왼쪽 위 사분면"
+"Top Right Quadrant" => "오른쪽 위 사분원"
+"Bottom Left Quadrant" => "왼쪽 아래 사분면"
+"Bottom Right Quadrant" => "오른쪽 아래 사분원"
+"Enable caption matching" => "션 일치 사용"
+
+# -- Added in 2.17 Beta 1
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => "비정규 표현식 일치에는 두 개의 파이프 문자로 구분된 여러 개의 검색 항목이 포함될 수 있습니다. 예: 'app1.exe||app2.exe||app3.exe'"
+
+
+#Section: Choose Application dialog (custom window profile)
+"Choose Application" => "응용프로그램 선택"
+"Select from the list of running applications:" => "실행 중인 응용 프로그램 목록에서 선택"
+"Or type in/browse to the application executable (.EXE) file" => "또는 응용 프로그램 실행 파일 (.EXE) 파일을 입력하거나 찾아보기"
+"Application" => "응용프로그램"
+"&Specific Window" => "특정 창 지정(&S)"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "새로 고침(&R)"
+"Process Name" => "프로세스 이름"
+"Window Title" => "창 제목"
+# --
+
+
+#Section: Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "선택한 언어를 완벽하게 적용하기 위해 설정 대화상자를 닫으십시오."
+"The specified application already exists.\nYou can not add two entries for the same application." => "지정한 응용 프로그램이 이미 존재합니다. 동일한 응용 프로그램에 대한 두 개의 항목은 추가할 수 없습니다."
+"You must select a profile to remove!" => "제거할 프로파일을 선택하십시오!"
+"You can not edit the default profile!" => "기본 프로파일은 편집할 수 없습니다!"
+"You can not remove the default profile!" => "기본 프로파일은 제거할 수 없습니다.!"
+"You must select a profile to edit." => "편집할 프로파일을 선택하십시오."
+"The specified window configuration is invalid!" => "지정한 창 구성 설정이 잘못되었습니다!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "지정한 프로파일은 이미 존재합니다.\n동일한 응용 프로그램/창에 대한 두 개의 항목은 추가 할 수 없습니다. "
+"You must select an application to copy." => "복사할 응용 프로그램을 선택하십시오."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "변경된 구성 설정을 저장하시겠습니까?\n\n경고: '아니오'를 선택하면 변경한 모든 것이 손실됩니다!"
+"Do you want to overwrite profile" => "프로파일을 덮어서 저장하시겠습니까?" #-- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "선택한 파일은 유효한 설정 파일이 아닙니다."
+"The log file can not be opened as it does not exist." => "로그 파일이 존재하지 않으므로 열 수 없습니다."
+"is unable to open the log file" => "로그 파일을 열 수 없습니다."
+"Unable to save the desktop icons using your current shell and this version of" => "현재 셸과 이 버전을 사용하여 바탕 화면 아이콘을 저장할 수 없습니다."
+"Unable to restore the desktop icons using your current shell and this version of" => "현재 셸과 이 버전을 사용하여 바탕 화면 아이콘을 복원할 수 없습니다."
+
+# -- Added in 2.16 beta 3
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "구성에 변경한 내용을 저장하시겠습니까?\n\n"경고: '아니요'라고 말하면 모든 변경 사항이 손실됩니다!
+"Do you want to save the changes you have made to the current profile?" => "현재 프로파일에 변경한 내용을 저장하시겠습니까?"
+# --
+
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "사용 가능한 새 버전이 있습니다!"
+"A new version is available." => "새 버전을 사용할 수 있습니다."
+"Open the setup dialog and hit the about button for more information." => ""
+"Click the 'Homepage' button to go and download it." => "'홈페이지' 버튼을 클릭하여 이동 후 다운로드하십시오."
+"There is a new beta version available!" => "사용 가능한 새 베타 버전이 있습니다!"
+"A new beta version is available." => "새 베타 버전을 사용할 수 있습니다."
+"Click the 'Forums' button to go and download it." => "'포럼' 버튼을 클릭하여 이동 후 다운로드하십시오."
+# --
+
+# -- Updated / Added in v2.14 Beta 3 --
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region." => "지정한 프로파일이 이미 있습니다.\n같은 응용 프로그램/윈도우/지역에는 두 개의 프로필 항목을 추가할 수 없습니다."
+"The specified profile already exists.\nYou can not add two profile entries for the same window with overlapping regions." => "지정한 프로파일이 이미 있습니다.\n동일한 창에 대해 두 개의 프로파일 항목을 겹치는 영역으로 추가할 수 없습니다."
+# --
+
+# -- Updated / Added in v2.16 Beta 2 --
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region with overlapping match types." => "지정한 프로파일이 이미 있습니다.\n일치 유형이 겹치는 동일한 응용 프로그램/윈도우/지역에는 두 개의 프로필 항목을 추가할 수 없습니다."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region/match type." => "지정한 프로파일이 이미 있습니다.\n동일한 응용 프로그램/윈도우/지역/일치 유형에 대해 두 개의 프로파일 항목을 추가할 수 없습니다."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions." => "지정한 프로파일이 이미 있습니다.\n영역이 겹치는 동일한 응용 프로그램/윈도우/일치 유형에 대해 두 개의 프로필 항목을 추가할 수 없습니다."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions and match types." => "지정한 프로파일이 이미 있습니다.\n동일한 응용 프로그램/윈도우/매치 유형에 대해 두 개의 프로필 항목을 영역과 일치 유형이 겹치는 경우 추가할 수 없습니다."
+
+
+"You have to select or enter a process name, or press cancel." => "프로세스 이름을 선택 또는 입력하거나 취소 버튼을 누르십시오."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "디버그 로깅을 사용하도록 설정하면 마우스 성능이 저하됩니다. 문제를 찾는 데 도움이 되도록 임시로 설정하는 것이 좋습니다. 따라서 디버그 설정은 저장되지 않습니다."
+"Are you sure you want to enable debug logging?" => "디버그 로깅을 사용 하시겠습니까?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "마우스 메시지가 '비 클라이언트'인지 확인하면 무시해야하는지 여부를 결정하기 위해 훨씬 더 많은 처리가 필요합니다."
+"This can slow down mouse operation in general, sometimes causing strange results." => "이로 인해 일반적으로 마우스 작동이 느려질 수 있으며, 때때로 이상한 결과를 초래할 수 있습니다."
+"Are you sure you want to ignore non-client messages?" => "클라이언트가 아닌 메시지를 무시 하시겠습니까?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "기본적으로 시스템 트레이의 아이콘 (시계 기준)은 항상 표시됩니다. 이 기능을 끄면 기본적으로 시스템 트레이에 아이콘이 없습니다."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "아이콘을 복원하려면 시작 메뉴에서 프로그램을 다시 실행할 수 있습니다. 아이콘이 일시적으로 표시되어 이 설정 화면에 액세스할 수 있습니다."
+
+#Section: Balloon pop-up windows
+"Debugging enabled" => "디버깅 사용함"
+"Debugging disabled" => "디버깅사용 안 함"
+"Successfully saved desktop icon positions" => "바탕 화면 아이콘 위치를 성공적으로 저장했습니다."
+"Successfully restored desktop icon positions" => "바탕 화면 아이콘 위치를 성공적으로 복원했습니다."
+"Mouse button re-mapping is now disabled" => "마우스 버튼 리매핑이 비활성화 되었습니다."
+"Mouse button re-mapping is now enabled" => "마우스 버튼 리매핑이 활성화 되었습니다."
+
+#Section: Import / Export dialogs
+# -- Added in 2.7 Beta 3 --
+"The file to import is corrupt or not a valid file." => "가져올 파일이 손상되었거나 유효한 파일이 아닙니다."
+"The XML settings file is corrupt and could not be loaded.\nYou can not make any changes until this error has been fixed." => "XML 설정 파일이 손상되어 로드할 수 없습니다.\n이 오류가 수정될 때까지 변경할 수 없습니다."
+"The XML settings file is corrupt and could not be updated safely.\nPlease fix the error and try again." => "XML 설정 파일이 손상되어 안전하게 업데이트 할 수 없습니다.\n오류를 수정하고 다시 시도하십시오."
+# --
+
+#Section: Actions (displayed in the drop-down lists)
+"Left Click" => "왼쪽 클릭"
+"Right Click" => "오른쪽 클릭"
+"Next Window" => "다음 창"
+"Back" => "뒤로"
+"Forward" => "앞으로"
+"Middle Click" => "가운데 클릭"
+"Disable" => "* 사용 안 함 *"
+"Close (Alt+F4)" => "닫기 (Alt+F4)"
+"Copy (Ctrl+C)" => "복사 (Ctrl+C)"
+"Cut (Ctrl+X)" => "잘라내기 (Ctrl+X)"
+"Double Click" => "더블 클릭"
+"Enter" => "Enter"
+"Maximize Window" => "창 최대화"
+"Minimize Window" => "창 최소화"
+"New" => "새로 만들기"
+"Open" => "열기"
+"Paste (Ctrl+V)" => "붙여넣기 (Ctrl+V)"
+"Redo (Ctrl+Y)" => "다시 실행 (Ctrl+Y)"
+"Show/Hide Desktop" => "바탕 화면 표시/숨김"
+"Undo (Ctrl+Z)" => "실행 취소 (Ctrl+Z)"
+"Media - Mute" => "미디어 - 🔇음소거"
+"Media - Volume Up" => "미디어 -  🔊볼륨 크게"
+"Media - Volume Down" => "미디어 -  🔉볼륨 작게"
+"Media - Next Track" => "미디어 -  ⏭다음 트랙"
+"Media - Last Track" => "미디어 -  🈁마지막 트랙"
+"Media - Stop" => "미디어 -  ⏹중지"
+"Media - Play/Pause" => "미디어 -  ⏯재생/일시정지"
+"Launch EMail" => "이메일 시작"						# -- (re?)Added missing translation in 2.19 Beta 13
+"Simulated Keys" => "시뮬레이션 키"
+"Lock Workstation" => "워크스테이션 잠금"
+"Open Explorer" => "탐색기 열기"
+"Open RUN Command" => "실행 명령 열기"
+"Restore Window" => "창 복원"
+"Escape" => "Esc"
+"Open Help" => "도움말 열기"
+"Open Web Browser" => "웹 브라우저 열기"
+"Browser Stop" => "브라우저 중지"
+"Browser Refresh" => "브라우저 새로 고침"
+"Browser Search" => "브라우저 검색"						# Updated in 2.14 Beta 10#Updated in 2.14 Beta 10
+"Browser Favourites" => "브라우저 즐겨찾기"
+"** No Change (Don't intercept) **" => "** 변경 사항 없음 (요청하지 않음) **"
+"Run Application" => "응용 프로그램 실행"
+"Mouse Wheel Up" => "마우스 휠 ⏫"
+"Mouse Wheel Down" => "마우스 휠 ⏬"
+"Print Screen" => "화면 인쇄"
+"Print Active Window" => "활성 창 인쇄"
+"Sticky Left Button [Click-Drag]" => "고정된 왼쪽 버튼 [클릭 드래그]"
+"Sticky Right Button" => "고정된 오른쪽 버튼"
+"Sticky Middle Button" => "고정된 가운데 버튼"
+"Layer (Next)" => "레이어 (다음)"
+"Layer (Previous)" => "레이어 (이전)"
+"Layer 1" => "레이어 1"
+"Layer 2" => "레이어 2"
+"Layer 3" => "레이어 3"
+"Layer 4" => "레이어 4"
+"Layer 5" => "레이어 5"
+#-- Added in 2.10 Beta 2
+"Layer 6" => "레이어 6"
+"Layer 7" => "레이어 7"
+"Layer 8" => "레이어 8"
+#-- Added in 2.10 Beta 3
+"Layer 9" => "레이어 9"
+"Layer 10" => "레이어 10"
+# --
+"Open Explorer at specified folder" => "지정된 폴더에서 탐색기 열기"
+"Open Explorer at My Documents" => "내 문서에서 탐색기 열기"
+"Open Explorer at My Computer" => "내 컴퓨터에서 탐색기 열기"
+"Open Explorer at Network Favourites" => "네트워크 즐겨 찾기에서 탐색기 열기"
+"Open Control Panel" => "제어판 열기"
+"Double Click Drag" => "더블 클릭 끌기"
+"Mouse Wheel Tilt Left" => "마우스 휠 틸트 ◄◄"
+"Mouse Wheel Tilt Right" => "마우스 휠 틸트 ►►"
+"Scroll Window Up" => "창 스크롤 ▲"
+"Scroll Window Down" => "창 스크롤 ▼"
+"Scroll Window Left" => "창 스크롤 ◀"
+"Scroll Window Right" => "창 스크롤 ▶"
+"Previous Window" => "이전 창"
+"Activate Screensaver" => "화면 보호기 활성"
+"Activate Monitor Power Saving" => "모니터 절전 활성"
+"** Same As Default Profile **" => "** 기본 프로파일과 동일한 설정 **"
+"Sticky 4th Button" => "4번 버튼 고정"
+"Sticky 5th Button" => "5번 버튼 고정"
+"Change Movement to Scroll" => "스크롤을 이동으로 변경"
+"Change Movement to Scroll (Sticky)" => "스크롤을 이동으로 변경 (고정)"
+"Sticky Left Button [Click-Drag] X-Axis" => "왼쪽 고정 버튼 [클릭 드래그] X 축"
+"Sticky Left Button [Click-Drag] Y-Axis" => "오른쪽 고정 버튼 [클릭 드래그] Y 축"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "3D 뒤집기"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "사이드 바 표시"
+"Reveal Desktop" => "바탕 화면 표시" #-- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "** 레이어 1과 동일한 설정(현재 프로파일) **" #-- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "레이어 수정 되돌리기"
+
+# -- Updated in 2.6 Beta 1 (For Windows 8) --
+"Task Switcher" => "작업 전환기"
+"Charms Bar (WIN+C)" => "마법 바 (WIN+C)"
+"PC Settings (WIN+I)" => "PC 설정 (WIN+I)"
+"Search Charm (WIN+Q)" => "마법 바 검색  (WIN+Q)"
+"Search Apps (WIN+W)" => "앱 검색  (WIN+W)"
+"Search Files (WIN+F)" => " 파일 검색  (WIN+F)"
+"Metro Snap Right" => "메트로 스냅 우측"
+"Metro Snap Left" => "메트로 스냅 좌측"
+
+# -- Updated in 2.14 Beta 6 (for Windows 10) --
+"Cortana Search" => "Cortana 검색"
+
+# -- Added in 2.7 Beta 7 --
+"Magnifier Toggle On/Off" => "돋보기 전환 켜기/끄기"
+
+
+# -- Added in 2.8 Beta 1 --
+"Brightness Down" => "밝기 감소"
+"Brightness Up" => "밝기 증가"
+
+# -- Added in 2.9 Beta 1 --
+"Snap Modern UI Left" => "모던 UI 왼쪽으로 스냅"
+"Snap Modern UI Right" => "모던 UI 오른쪽으로 스냅"
+"Snap Window Left" => "창 왼쪽으로 스냅"
+"Snap Window Right" => "창 오른쪽으로 스냅"
+"Snap Window Up" => "창 위로 스냅"
+"Snap Window Down" => "창 아래로 스냅"
+"Virtual Desktop: New" => "가상 데스크탑: 새로 만들기"
+"Virtual Desktop: Close" => "가상 데스크탑: 닫기"
+"Virtual Desktop: Switch Left" => "가상 데스크탑: 왼쪽으로 전환"
+"Virtual Desktop: Switch Right" => "가상 데스크탑: 오른쪽으로 전환"
+# --
+
+# -- Added in 2.11 Beta 15
+"Task View" => "작업 보기"				#Was "Desktop Switcher"
+
+# -- Added in 2.11 Beta 15
+"Magnifier Zoom In" => "돋보기 확대"
+"Magnifier Zoom Out" => "돋보기 축소"
+
+# -- Added in 2.12 Beta 1
+"Click Button 4" => "버튼 4 클릭"
+"Click Button 5" => "버튼 5 클릭"
+
+# -- Added in 2.12 Beta 11
+"Change Movement to Scroll (Lock Axis)" => "이동을 스크롤로 변경 (축 잠금)"
+"Change Movement to Scroll (Sticky Lock Axis)" => "이동을 스크롤로 변경 (축 잠금 고정)"
+
+# -- Added in 2.13 Beta 1
+"Change Movement to Scroll Inverted" => "이동을 반전된 스크롤로 변경"
+"Change Movement to Scroll Inverted (Sticky)" => "이동을 반전된 스크롤로 변경 (고정)"
+"Change Movement to Scroll Inverted (Lock Axis)" => "이동을 반전된 스크롤로 변경 (축 잠금)"
+"Change Movement to Scroll Inverted (Sticky Lock Axis)" => "이동을 반전된 스크롤로 변경 (축 잠금 고정)"
+
+# -- Added in 2.13 Beta 4
+"Search Selected Text" => "선택된 텍스트 검색"
+
+# -- Changed in 2.14 Beta 6
+"Web Search Selected Text" => "선택된 텍스트 웹 검색"
+
+# -- Added in 2.14 Beta 6 (missing for some time!) --
+"System Menu (WIN+X)" => "시스템 메뉴 (WIN+X)"
+
+# -- Added in 2.14 Beta 10
+"Lock Mouse X-Axis (While pressed)" => "마우스 X축 잠금 (누르고 있는 동안)"
+"Lock Mouse X-Axis (Toggle)" => "마우스 X축 잠금 (누를때 마다 전환)"
+"Lock Mouse Y-Axis (While pressed)" => "마우스 Y축 잠금 (누르고 있는 동안)"
+"Lock Mouse Y-Axis (Toggle)" => "마우스 Y축 잠금 (누를때 마다 전환)"
+
+# -- Added in 2.18 Beta 4
+"Drag to Move Window" => "끌어서 창 이동"
+"Drag to Size Window" => "끌어서 창 크기 변경"
+
+# -- Added in 2.18 Beta 14
+"Slow down mouse cursor (While pressed)" => "마우스 커서 느리게 (누르는 동안)"
+"Slow down mouse cursor (Sticky)" => "마우스 커서 느리게 (고정)"
+
+# -- Added in 2.19 Beta 7
+"Cycle mouse cursor speed" => "마우스 커서 속도주기"		#NOTE: Action text also used on the global hotkey tab!
+
+# -- Added in 2.19 Beta 10
+"Open Emoji Keyboard" => "이모티콘 키보드 열기"		# -- Only available on Windows 10
+
+# -- End of button actions list --------------------------------------------------------------------------------
+
+#Section: Layer change notifications
+# -- Added in 2.10 Beta 14 --
+"Activating layer %d" => "레이어 %d이  활성되었습니다." #In the balloon tooltip when switching layers %d is the layer number
+"Activating layer '%s'" => "레이어 '%s'이  활성되었습니다." #In the balloon tooltip when switching layers %s is the layer name
+
+#Section: Version/Update checking
+# -- Added in 2.10 Beta 1 --
+"&Check for update..." => "업데이트 확인(&C)"
+"Click here to update." => "업데이트 하려면 여기를 클릭하십시오"
+"Right click the XMBC Icon to download the update." => "업데이트를 다운로드하려면 XMBC 아이콘을 마우스 오른쪽 버튼으로 누르십시오."
+"Would you like to upgrade %s from v%s to v%s" => "%s를 v%s에서 v%s로 업그레이드하시겠습니까?" #NOTE: The %s are replace at runtime; leave them there!
+"Portable v%s is available. Would you like to visit the website to find out more?" => "휴대용 v%s를 사용할 수 있습니다. 웹사이트를 방문해서 더 많은 것을 알고 싶습니까?"
+"You have the latest available version of %s" => "사용 가능한 최신 버전의 %s이 있습니다"
+"An error occurred while attempting to download the update package." => "업데이트 패키지를 다운로드하는 동안 오류가 발생했습니다."
+"Please visit the website to download the latest version or try again later." => "웹 사이트를 방문하여 최신 버전을 다운로드하거나 나중에 다시 시도하시기 바랍니다."
+"An error occurred while running the update package" => "업데이트 패키지를 실행하는 동안 오류가 발생하였습니다"
+
+# -- Updated in 2.14 Beta 9
+"Click here for more details." => "좀더 자세한 사항은 여기를 클릭하세요."
+
+
+# -- Added in 2.10 Beta 12 --
+"Downloading" => "다운로드 중"
+"Launching the update installation..." => "업데이트 설치를 시작하는 중..."
+"Downloading update..." => "업데이트 다운로드 중..."					#Initial progress on download dialog
+"Downloaded %d of %d bytes" => "%d / %d 바이트 다운로드"				#Progress on download dialog
+
+#Section: Button Chording
+# -- Added in 2.14 Beta 1 --
+"Button Chording" => "버튼 혼합"
+"Default (No Chord)" => "기본 값 (혼합 안함)"
+"Button chording allows you to make assign chorded actions that apply when one button is pressed, followed by a second button." => "번튼 혼합을 사용하면 한 버튼을 누른 후 두 번째 버튼을 누를 때 적용되는 혼합된 동작을 할당할 수 있습니다."
+
+# -- Added in 2.14 Beta 3 --
+"&Block / Delay original button action until chord is established" => "혼합이 설정될 때까지 원래 버튼 동작 차단 / 지연(&B)"
+
+# -- Added in 2.15 Beta 11 --
+"&Unblock after" => "다음 시간 이후 차단 해제(&U)"
+"Unblock when the mouse moves" => "마우스가 움직일 때 차단 해제"	# -- Added in 2.16 Beta 2 --
+
+# -- Added in 2.14 Beta 8
+"Change Log:" => "변경 사항 기록"
+"Unable to locate change log!" => "변경 로그를 찾을 수 없습니다!"
+"Upgrade" => "업그레이드"						# Fixed in 2.16 Beta 14
+"Skip" => "건너 뛰기"							# Fixed in 2.16 Beta 14
+
+# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+#Section Button Held Time Dependent Actions
+"Button Held Time Dependent Actions" => "버튼 보류 시간 종속 작업"
+"Define different actions based on how long you hold the mouse button down for when clicking." => "마우스 버튼을 클릭할 때 마우스 버튼을 누른 시간에 따라 다른 작업을 정의합니다."
+"Normal Click" => "일반 클릭"
+"Held for" => "보류"
+"Held for time for action %d must be greater than that for action %d." => "작업 %d에 대한 시간 동안 보류가 작업 %d에 대한 시간보다 커야합니다."				# NOTE: The %d's are interpreted at runtime. Leave them there
+
+# Added in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => "마우스가 움직일 때 중단하고 일반 클릭 동작으로 되돌립니다.(&A)"
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "" #Removed in 2.18 Beta 7 (see below)
+"NOTE: All but the last enabled 'held for' action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "" #Changed in 2.18 Beta 7
+
+# Added in 2.18 Beta 7
+"&Wait until the physical button is released before releasing the last timed action" => "마지막 버튼 동작을 해제하기 전에 물리적 버튼이 해제 될 때까지 기다리십시오.(&W)" #Fixed (added the => "") in 2.18 Beta 10
+
+#Added in 2.17 Beta 7
+"Description (to show in button drop-down)" => "설명 (버튼 드롭 다운에 표시)"
+
+#Added in 2.17 beta 16
+"Button Held" => "버튼 보류"

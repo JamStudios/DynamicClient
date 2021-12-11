@@ -1,0 +1,1134 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.19.2
+#
+# Changes to this template are marked:
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+# or 
+#   -- Removed in <version> (and left in template for backwards compatibility) --
+#
+# Ensure the file extension is .xmbclp (XMouse Button Control Language Pack)
+# which you can "install" into XMBC simply by double clicking it, or drop it into the profile folder.
+#
+# All comments must be prefixed with s hash/pound '#' character.
+#
+# Submit translations to the Highrez Forums or directly to the Author and they will be included in 
+# future versions of the installation package and the language pack website.
+#
+#
+#Describe the language pack here - this is displayed in the language drop-down in the settings tab.
+#Ideally (for consistency) put your localised language name, followed by the English language name in brackets
+#EG. Language=Français (French)
+#
+Language=Suomi (Finnish)
+Description=Suomenkielinen käyttöliittymä sovellukselle XMouse Button. Käännösvirhehavainnot ja korjausehdotukset pyydetään lähettämään osoitteeseen teijo@luukku.com
+
+#
+#Put your name here and you will be credited in the user interface
+#
+Author=Teijo
+# Language pack version 1.08 (20-FEB-2020)
+
+#Setup screen
+"Scrolling && Navigation" => "Vieritys ja navigointi"				# Removed in 2.15 Beta 5
+"Scrolling" => "Vieritys"					# Added in 2.15 Beta 5
+"Options" => "Lisäasetukset"				# Added in 2.15 Beta 5
+"Default" => "Oletus"
+"A&dd" => "&Lisää"
+"Edi&t" => "M&uokkaa"
+"Cop&y" => "K&opioi"						# Changed in 2.16 Beta 12
+"Remo&ve" => "&Poista"
+"&Settings" => "&Asetukset"
+"Abo&ut" => "&Tietoja"
+"&Apply" => "K&äytä"
+"&Close" => "&Sulje"
+"Description" => "Kuvaus" #Also shared with the language settings tab!
+"Process" => "Prosessi"
+"Class" => "Luokka"
+"Window Class" => "Ikkunaluokka"
+"Parent Class" => "Isäntäluokka"
+"Application / Window Profiles:" => "Sovellus- ja ikkunaprofiilit:"
+"Profile Information" => "Tietoja profiilista"
+"Setup" => "Määritä"
+"Profile:" => "Profiili:"
+
+# -- Added in 2.7 Beta 4 --
+"Disabled because Scroll Lock is ON!" => "Ei käytössä koska vieritys estetty!"
+"Disabled under Remote Desktop!" => "Ei käytössä etätyöpöydällä!"
+# --
+
+# -- Added in 2.8 Beta 7 --
+"U&p" => "&Ylös"
+"Do&wn" => "&Alas"
+"&Export" => "&Vie"
+"&Import" => "&Tuo"
+"Unable to save the settings file" => "Asetuksia ei voitu tallentaa"
+"Please check you installation settings." => "Tarkista asennuksen tila ja asetukset."
+"Contact the developer for support." => "Tuen saamiseksi ota yhteyttä sovelluksen kehittäjään."
+# --
+
+# -- Added in 2.8 Beta 10 --
+"Window Caption" => "Ruudunkaappaus"
+# --
+
+# -- Added in 2.16 Beta 3 --
+"Save &Profile" => "Vie profiili"							# Changed in 2.16 Beta 12
+"L&oad Profile" => "Tuo profiili"							# Changed in 2.16 Beta 12
+"Save %s Profile..." => "Vie %s profiili..."
+"Load %s Profile..." => "Tuo %s profiili..."
+"Unable to load the profile '%s'." => "Profiilin '%s' tuonti epäonnistui."
+"Unable to save the profile as '%s'." => "Profiilin '%s' vienti epäonnistui."
+# --
+
+#Section: Global strings (used everywhere)
+"Layer" => "Taso"
+"Portable" => "Siirrettävä"
+"All" => "Kaikki"
+"Not Defined" => "Ei määritelty"
+"Default: All windows that do not match any profile." => "Oletus: Kaikki ne ikkunat, jotka eivät sisälly mihinkään profiiliin."
+"&OK" => ""
+"&Cancel" => "&Peruuta"
+"OK" => ""
+"Cancel" => "Peruuta"
+"Global Settings" => "Yleisasetukset"
+
+# -- Added in 2.10 Beta 10 --
+"Number of  &layers" => "Tasojen määrä"
+
+
+#Section: General settings tab
+"General" => "Yleiset"
+"Mouse &Speed" => "&Osoittimen nopeus"
+"Ma&ke scroll wheel scroll window under cursor" => "&Vieritä osoittimen kohdalla olevan ikkunan sisältöä"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Poista kaikki toiminnot käytöstä kun vieritys on estetty"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Poista 'estetyt' toiminnot käytöstä kun vieritys on estetty"
+"&Disable when running under remote desktop (RDP)" => "Poista &käytöstä käytettäessä etätyöpöytää"
+"Show layer switch &balloon notifications" => "&Näytä tasonvaihtoon liittyvät ponnahdusilmoitukset"
+"A&ctivate window when scrolling" => "Aktivoi ikkuna vieritettäessä"
+"Always show the volume &On Screen Display" => "Näytä aina voimakkuussäädin OSD-näytössä" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"&Enable On Screen Display for volume and brightness settings" => "Käytä äänenvoimakkuus- ja kirkkaussäätöihin OSD-näyttöä" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"Change cursor when using &Movement To Scroll" => "Muuta osoitinta kun vieritetään liikkeellä"
+"Enable &notifications" => "Salli ilmoitukset"
+"En&hance pointer precision" => "Parannettu osoittimen tarkkuus"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Vaihda &painikkeet 4 ja 5 keskenään"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Vaihda painikkeet 4 ja 5 keskenään käytettäessä &etätyöpöytää"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Vaihda keskenään &painikkeiden 4 ja 5 toiminta (jos käytössä)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Vaihda keskenään &painikkeiden 4 ja 5 toiminta &etätyöpöydällä (RDP)"
+
+
+# -- Updated in 2.14 Beta 7 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "HUOM! Muutokset astuvat voimaan vasta kun pääikkunassa napsautetaan painiketta 'Käytä'."
+
+# -- Added in 2.14 Beta 10
+"So&rt mouse button action list alphabetically" => "Järjestä hiiritoimintoluettelo aakkosjärjestykseen"
+
+# -- Added in 2.16 Beta 4
+"Disable &Inverted Scroll when running under remote desktop (RDP)" => "Estä käänteinen vieritys käytettäessä etätyöpöytää"
+
+# -- Added in 2.18.6
+"Redirect mouse wheel to On Screen Display when &visible" => "Siirrä kursori ponnahdusikkunaan kun se on näytössä" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+
+# -- Added in 2.19 Beta 1
+"Remember c&urrent layer when restarting" => "Muista käynnistettäessä nykyinen taso"
+"Ignore &mouse events from touch" => "Älä huomioi tasohiiren tapahtumia"
+
+#
+#Section: Pointer settings tab (new in 2.19 Beta 7)
+"Pointer" => "Osoitin"
+"Motion" => "Liike"
+"Allow &XMBC to set the mouse speed and DPI" => "Salli hiiren nopeuden ja &tarkkuuden asettaminen"	# -- Added in 2.19 Beta 6
+"Mouse &Speed" => "Hiiren &nopeus"
+"En&hance pointer precision" => "Suuri liiketarkkuus"
+"Mouse speed for each cursor speed cycle:" => "Hiiren nopeus jokaisella osoitinliikahduksella:"
+"Show cursor speed &balloon notifications" => "Näytä ilmoitukset hiiren nopeudesta"
+"Change cursor when using &Movement To Scroll" => "Vaihda osoitin käytettäessä &liikettä vieritykseen"
+
+# -- Added in 2.19 Beta 8
+"Change cursor when using Button &Chording" => "Vaihda osoitin käytettäessä näpäytystä"
+"Change cursor when using Button H&eld" => "Vaihda osoitin käytettäessä pitkää painallusta"
+"Change cursor to indicate active &layer" => "Vaihda osoitin aktiivisen tason ilmaisemiseksi"
+
+# -- Moved to general tab in 2.19.2
+"Show &tray icon by default" => "Näytä kuvakkeena &ilmoitusalueella"
+"Cycle layers by left clickin&g tray icon" => "&Kierrätä tasoja ilmoitusalueen kuvaketta napsautettaessa"					# -- Updated in 2.19.2  --
+
+#Section: Advanced settings tab
+"Advanced" => "Lisäasetukset"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "HUOM! Muutokset astuvat voimaan vasta kun pääikkunassa napsautetaan painiketta 'Käytä'."
+"Enable profi&le switching on mouse move" => "&Profiilinvaihto käytettävissä osoitinta liikutettaessa"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Käsittele muiden ohjelmistojen &osoitinilmoitukset  [Suositus]"
+"Reset &sticky buttons when any other button is pressed" => "Palauta a&lasjäävät painikkeet painittaessa muuta painiketta"
+"R&eset sticky buttons when any other key is pressed" => "Palauta alas&jäävät painikkeet painittaessa muuta näppäintä"
+"&Ignore numlock state for Simulated Keystrokes" => "&Älä huomioi NUM LOCK:n tilaa (simuloidut näppäinpainallukset)"
+"&Remap simulated input from other applications" => "Uudelleensido muiden sovellusten simuloimat näppäimet"				# -- Added in 2.17 Beta 12
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "K&eskipainikkeen palautus toistettaessa"
+"Initial repeat r&ate" => "&Alkuviive "										# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "&Toistoviive "
+"(ms)" => ""
+"Dela&y between simulated keystrokes" => "&Simuloitujen näppäinpainallusten välinen viive"
+"&CPU Priority" => "Sovelluksen &prioriteetti"
+"Realtime" => "Reaaliaikainen"
+"High" => "Suuri"
+"Above normal" => "Suurempi kuin normaali"
+"Normal" => "Normaali"
+"Below normal" => "Pienempi kuin normaali"
+"&De-bounce (ignore) rapid mouse button clicks" => "Älä huomioi nopeita hiiren painalluksia"
+"Start de-bounce timer when button is released" => "Käynnistä huomioimattajättämislaskuri kun painike vapautetaan"
+"Load &US English keyboard if no equivalent is available" => "Käytä &amerikkalaista US -näppäimistöä ellei soveltuvampaa ole käytettävissä"
+"Reset stic&ky buttons when the layer changes" => "Palauta alas&jäävät painikkeet kun vaihetaan tasoa"
+"Disable inactivity timer while inactive for" => "Poista passiivisuusajastin käytöstä seuraavaksi"
+"(min)" => ""
+"&Windows Low Level Hook Timeout (Reboot required)" => "&Käyttöjärjestelmän matalan tason kahvan odotusaika (Vaatii uudelleenkäynnistyksen)"
+"Reset mouse &hooks when resuming from sleep" => "Nollaa hiiren koukut palaessaan lepotilasta"					# -- Added in 2.19.2
+
+#Section: Language settings tab (Added in 2.14 Beta 7)
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "HUOM! Muutokset astuvat voimaan vasta kun pääikkunassa napsautetaan painiketta 'Käytä'. Kielimuutokset toteutetaan vasta kun pääikkuna avataan uudelleen"
+"Author" => "Tekijä" #The label on the language settings page. The word 'Author' should be directly translated, i.e. Don't put your name here :)
+"Language" => "Kieli"
+
+#Section: Update and Logging Settings tab (Added in 2.14 Beta 7)
+"Updates && Logging" => "Päivitykset ja virheenjäljitys"
+"Check for new &version every" => "Tarkista p&äivitysten saatavuus"
+"Check for &beta versions" => "Tarkista testiversioiden saatavuus"
+"days (at application startup)" => "päivän välein ohjelman käynnistyessä"
+"Enable &DEBUG logging" => "Käytä &virheenjäljitystä"
+"*** Debug logging will degrade performance and response times! ***" => "*** HUOM! Virheenjäljitys alentaa suorituskykyä ja lisää viiveitä! ***"
+"&Log File Folder" => "&Virheenjäljityslokien sijainti"
+"Select a folder to store the log file..." => "Valitse kansio johon virheenjäljityslokit tallennetaan..."
+"Leave blank to use the default folder!" => "Jätettäessä tyhjäksi käytetään oletuskansiota."
+"*** Changes to the log file folder will be applied next time you start XMBC! ***" => "*** Virheenjäljityslokien sijaintimuutokset otetaan käyttöön vasta sovelluksen uudelleenkäynnistyksen yhteydessä! ***"
+"Updates" => "Päivitykset"
+"Logging" => "Virheenjäljitys"
+
+#Section: Hotkey settings tab
+"Hotkeys" => "Pikanäppäimet"
+"Enable &global hotkeys" => "Käytä pika&näppäimiä"
+"You can assign your hotkeys using the boxes below..." => "Allaolevilla riveillä voidaan määrittää pikanäppäimet:"
+"Switch to Layer &1" => "Siirry tasolle &1"
+"Switch to Layer &2" => "Siirry tasolle &2"
+"Switch to Layer &3" => "Siirry tasolle &3"
+"Switch to Layer &4" => "Siirry tasolle &4"
+"Switch to Layer &5" => "Siirry tasolle &5"
+"Switch to Layer &6" => "Siirry tasolle &6"
+"Switch to Layer &7" => "Siirry tasolle &7"
+"Switch to Layer &8" => "Siirry tasolle &8"
+"Switch to Layer &9" => "Siirry tasolle &9"
+"Switch to Layer 1&0" => "Siirry tasolle 1&0"
+"&Next Layer" => "&Seuraava taso"
+"&Previous Layer" => "&Edellinen taso"
+"&Enable/Disable XMBC" => "Poista &käytöstä"
+"&Toggle Debug mode" => "&Virheenjäljitys päälle/pois"
+"&Save desktop icon layout" => "Tallenna työpöydän kuvaketiedot"
+"&Restore desktop icon layout" => "Palauta työpöydän kuvaketiedot"	
+		# -- Updated in 2.5 beta 4 --		
+"Toggle &X Axis Lock" => "&Vaakasuuntainen lukitus päälle/pois"
+"Toggle &Y Axis Lock" => "&Pystysuuntainen lukitus päälle/pois"
+"In&vert X Axis" => "Käänteinen vaakasuunta"							# -- Added in 2.19 Beta 10
+"Inve&rt Y Axis" => "Käänteinen pystysuunta"							# -- Added in 2.19 Beta 10
+"S&nap cursor to primary monitor" => "Osoittimen tarrautuminen ensisijaiseen näyttöön"			# -- Added in 2.15 beta 3 --
+"Snap cursor to &active window" => "Osoittimen tarrautuminen aktiiviseen ikkunaan"			# -- Added in 2.15 beta 8 --
+"Snap cursor to &profile window" => "Osoittimen tarrautuminen profiili-ikkunaan"			# -- Added in 2.15 beta 8 --
+"Open Settings Window" => "Avaa asetusikkuna"					# -- Added in 2.10 beta 5 --
+"NOTE: Only valid hotkey combinations will be allowed." => "HUOM! Vain kelvolliset pikanäppäinyhdistelmät sallitaan."
+
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Yleiset pikanäppäimet eivät toimi ennenkuin ne on hyväksytty ja asetusikkuna suljettu."
+"Global hotkeys" => "Yleiset pikanäppäimet"
+"F12 can not be used as a hotkey on its own as this is reserved by Windows." => "Näppäintä F12 ei voida käyttää pikanäppäimenä sillä se on varattu käyttöjärjestelmän käyttöön."	#Error shown if user tries to assign F12 as a global hotkey.
+# -- Updated in 2.14 Beta 7 --
+"Layer Hotkeys" => "Tasojen pikanäppäimet"
+"Other Hotkeys" => "Muut pikanäppäimet"
+# --
+
+#Section: Layer Modifier key settings tab
+"Modifier Keys" => "Määritysnäppäimet"
+"Enab&le modifier keys (switching layers && axis locking)" => "Käytä määritysnäppäimiä tasovaihtoon ja akseleiden lukitukseen"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Määritysnäppäimet ovat näppäinyhdistelmiä, joita painettaessa aktivoidaan jokin toiminto tilapäisesti. Kun näppäimet vapautetaan, jatketaan painallusta edeltäneestä tilasta.\nTällaisia näppäimiä ovat esimerkiksi 'Vaihto', 'Ctrl' ja 'Alt'."
+"Layers" => "Tasot"
+"Activate Layer 1" => "Käytä tasoa 1"
+"Activate Layer 2" => "Käytä tasoa 2"
+"Activate Layer 3" => "Käytä tasoa 3"
+"Activate Layer 4" => "Käytä tasoa 4"
+"Activate Layer 5" => "Käytä tasoa 5"
+# -- Added in 2.10 Beta 2 --
+"Activate Layer 6" => "Käytä tasoa 6"
+"Activate Layer 7" => "Käytä tasoa 7"
+"Activate Layer 8" => "Käytä tasoa 8"
+# -- Added in 2.10 Beta 3 --
+"Activate Layer 9" => "Käytä tasoa 9"
+"Activate Layer 10" => "Käytä tasoa 10"
+# --
+"Axis Locking" => "Akseleiden lukitus"
+"Lock X-Axis" => "Vaakasuuntainen"
+"Lock Y-Axis" => "Pystysuuntainen"
+
+# -- Added in 2.15 Beta 5 --
+"Slow down cursor" => "Osoittimen hidastus"
+
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "HUOM! Akseleiden lukitusta voidaan käyttää vain erikseen määritettävissä sovelluksissa, ja asetus on tehtävä niiden omissa profiileissa. "
+"None" => "Ei mitään"
+"Shift" => "Vaihto"
+"Control" => ""
+"Alt" => ""
+"Shift + Control" => "Vaihto + Control"
+"Shift + Alt" => "Vaihto + Alt"
+"Shift + Control + Alt" => "Vaihto + Control + Alt"
+"Control + Alt" => ""
+"Left Windows Key" => "Vasen Windows-näppäin"
+"Right Windows Key" => "Oikea Windows-näppäin"
+"App Menu Key" => "Pikavalikkonäppäin"
+
+# -- Updated in 2.14 Beta 7 --
+"Layer Modifiers" => "Tasojen tunnisteet"
+"Other Modifiers" => "Muut tunnisteet"
+# -- 
+
+# -- Added in 2.18 Beta 6 (and missing until 2.19 Beta 13!)
+"Left Windows + Shift" => "Vasen Windows-näppäin + vaihto"
+"Left Windows + Control" => "Vasen Windows-näppäin + Ctrl"
+"Left Windows + Alt" => "Vasen Windows-näppäin + Alt"
+"Right Windows + Shift" => "Oikea Windows-näppäin + vaihto"
+"Right Windows + Control" => "Oikea Windows-näppäin + Ctrl"
+"Right Windows + Alt" => "Oikea Windows-näppäin + Alt"
+"App Menu + Shift" => "Pikavalikko-näppäin + vaihto"
+"App Menu + Control" => "Pikavalikko-näppäin + Ctrl"
+"App Menu + Alt" => "Pikavalikko-näppäin + Alt"
+"App Menu + Right Windows" => "Pikavalikko-näppäin + oikea Windows-näppäin"
+# --
+
+#Section: Context Menus
+"Edit" => "Muokkaa"
+"Copy" => "Kopioi"
+"Remove" => "Poista"
+"Import" => "Tuo"
+"Export Selected" => "Vie valittu"
+"Export All" => "Vie kaikki"
+"&Layers" => "&Tasot"
+"Layer &1" => "Taso &1"
+"Layer &2" => "Taso &2"
+"Layer &3" => "Taso &3"
+"Layer &4" => "Taso &4"
+"Layer &5" => "Taso &5"
+# -- Added in 2.10 Beta 2 --
+"Layer &6" => "Taso &6"
+"Layer &7" => "Taso &7"
+"Layer &8" => "Taso &8"
+# -- Added in 2.10 Beta 3 --
+"Layer &9" => "Taso &9"
+"Layer 1&0" => "Taso 1&0"
+# --
+"&Setup" => "&Asetukset"
+"&Hide Icon" => "P&iilota kuvake"
+"&Open log file" => "A&vaa tapahtumaloki"
+"&Disable X-Mouse Button Control" => "Poista &käytöstä"
+"S&ave desktop icon layout" => "Tallenna t&yöpöydän kuvaketiedot"
+"Restore desktop icon &layout" => "Palauta työpöydän kuvaketiedot"			# -- Updated in 2.6 beta 1 --
+"Exit" => "&Lopeta"
+
+#Section: Tooltips 
+# -- Updated in 2.10 Beta 3
+"This graphic shows the active window regions that apply to this profile.\nYou can define these regions in the profile editor." => "Kuva esittää tämän profilin aktiiviset ikkuna-alueet.\nIkkuna-alueita voidaan määrittää profiilimuokkaimessa."
+"Add/Edit setting for individual layers\nor specific scrolling and navigation behaviour." => "Lisää tai muokkaa yksittäisten tasojen asetuksia\ntai vieritys- ja sijaintitoimintoja."
+# -- Added in 2.10 Beta 2
+"Add a new application or window specific profile." => "Lisää uusi sovellus tai ikkunariippuvainen profiili"
+"Clone the selected application or window specific profile." => "Kopioi valittu sovellus tai ikkunariippuvainen profiili"
+"Edit the selected application or window specific profile." => "Muokkaa valittua sovellusta tai ikkunariippuvaista profiilia"
+"Delete the selected application or window specific profile." => "Poista valittu sovellus tai ikkunariippuvainen profiili"
+"Export the selected application or window specific profile." => "Vie valittu sovellus tai ikkunariippuvainen profiili"
+"Import a saved application or window specific profile." => "Tuo valittu sovellus tai ikkunariippuvainen profiili"
+"Move the selected application or window specific profile up." => "Siirrä valittua sovellusta tai ikkunariippuvaista profiilia ylöspäin"
+"Move the selected application or window specific profile down." => "Siirrä valittua sovellusta tai ikkunariippuvaista profiilia alaspäin"
+# --
+
+#Section: Layer tab(s)
+"Layer name" => "Tason nimi"
+"&Left Button" => "&Vasen painike"
+"&Right Button" => "O&ikea painike"
+"&Middle Button" => "&Keskipainike"
+"&Middle Button 2" => "Keskipainike &2"
+"Mouse Button &4" => "Painike &4"
+"Mouse Button &5" => "Painike &5"
+"W&heel Up" => "Vieritys &ylös"
+"Wheel &Down" => "Vieritys &alas" # Changed in 2.16 Beta 12
+"Tilt Wheel Le&ft" => "Kallistus vase&mmalle"
+"Tilt Wheel Ri&ght" => "Kallistus oik&ealle"
+"Reset Layer" => "Arvojen nollaus"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Kohde on varattu käytettäväksi \ntasoon liitettyjen määritysnäppäimien kanssa.\n\nSe ei ole käytettävissä itsenäisesti."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Suoritetaanko tason muutoskomento kaikille valituille tasoille?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "Tälle tasolle ei voida lisätä määritysnäppäintä 'Käytä tasoa X', koska sille on jo olemassa määritysnäppäin.\nLisääminen johtaisi määrittämättömään tilaan, eikä siten ole sallittu."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Poistetaanko tason vaihtokomento kaikista valituista tasoista?"
+#--
+
+# -- Added in 2.8 Beta 6 --
+"Switch to" => "Vaihda tasolle"
+"after" => "kun on"
+"seconds" => "sekuntia kulunut"
+"Always revert to layer 1" => "Vaihda aina tasolle 1"
+# --
+
+# -- Added in 2.10 Beta 2 --
+"Disable in Next/Previous layer commands" => "Poista käytöstä edellinen/seuraava -komennot"
+# --
+
+# -- Added in 2.14 Beta 5 --
+"Are you sure you want to replace layer %d in the default profile?" => "Korvataanko taso %d oletusprofiilissa?"		# The %d is replaced at runtime - leave it there!
+"Are you sure you want to replace layer %d in %s (%s)?" => "Korvataanko taso %d (%s/%s)?"							# The %d and %s are replaced at runtime - leave them there!
+"Do you want to apply your settings before copying the layer?" => "Otetaanko asetusmuutokset käyttöön ennen tason kopiointia?"
+"Do you want to apply your settings before swapping the layer?" => "Otetaanko asetusmuutokset käyttöön ennen tason vaihtoa?"
+
+# -- Added in 2.14 Beta 6 --
+"Copy Layer" => "Kopioi taso"
+"Swap Layer" => "Vaihda taso"
+# --
+
+#Section: Copy Layer dialog - Added in 2.14 Beta 5
+"Copy Layer" => "Kopioi taso"
+"Destination Profile:" => "Kohdeprofiili:"
+"Destination Layer:" => "Kohdetaso:"
+
+#Section: Swap Layer dialog - Added in 2.14 Beta 5
+"Swap Layer" => "Vaihda taso"
+"Swap with layer:" => "Vaihda tason kanssa: "
+"Swap" => "Vaihda"
+
+#Section: Simulated keystroke methods
+"(undefined)" => "(määrittämättä)"
+"(pressed)" => "(painettaessa)"
+"(released)" => "(vapautettaessa)"
+"(during)" => "(aikana) "
+"(thread-down)" => "(säie-alas) "
+"(thread-up)" => "(säie-ylös)"
+"(repeat)" => "(toisto)"
+"(sticky repeat)" => "(alasjäävä toisto)"
+"(sticky hold)" => "(alasjäävä pito)"
+"(pressed & released)" => "(painettu ja vapautettu)"	# -- Added in 2.4 Beta 12 --
+"(custom)" => "(mukautettu)"												# -- Added in 2.17 Beta 9 --
+
+
+#Simulated Keystrokes dialog
+"Simulated Keystrokes" => "Simuloidut näppäinpainallukset"									
+#"Enter the custom key(s)" => "Määrittele näppäin tai näppäimet"
+"How to send the simulated key strokes:" => "Valitse simulointitapa"
+"1 As mouse button is pressed" => "1 Painiketta painettaessa"
+"2 As mouse button is released" => "2 Painiketta vapautettaessa"
+"3 During (press on down, release on up)" => "3 Painalluksen aikana (aloitetaan painettaessa, lopetetaan vapautettaessa)"
+"4 In another thread as mouse button is pressed" => "4 Toisessa säikeessä, painiketta painettaessa"
+"5 In another thread as mouse button is released" => "5 Toisessa säikeessä, painiketta vapautettaessa"
+"6 Repeatedly while the button is down" => "6 Toistuvasti painikkeen ollessa painettuna"
+"7 Sticky (repeatedly until button is pressed again)" => "7 Alasjäävä (Toistuvasti kunnes painiketta painetaan uudelleen)"
+"8 Sticky (held down until button is pressed again)" => "8 Alasjäävä (Kunnes painiketta painetaan uudelleen)"
+"9 As mouse button is pressed & when released" => "9 Painiketta painettaessa ja vapautettaessa"			
+"Only send if profile's process is active" => "Simuloi vain jos profiilin prosessi on aktiivinen"
+"Block original mouse input" => "Estä hiiren alkuperäinen syöte"								# -- Added in 2.7 Beta 5 --
+"Randomise auto repeat delay by 10%" => "Automaattisen toistoviiveen satunnaisvaihtelu (<10%)"		# -- Added in 2.11 Beta 6 --
+"Auto repeat delay" => "Toistoviive"
+"(milliseconds)" => "(millisekuntia)"
+"0 = Windows default repeat delay && speed." => "0 = Käyttöjärjestelmän oletusviive."
+
+# -- Added in 2.19 beta 3 --
+"Click this button to add {} tags" => "Napsauta tästä lisätäksesi {} -koodeja"
+"Hold this button and press a key to add that key's tag" => "Pidä tämä painettuna ja paina koodiin lisättävää näppäintä"
+
+# -- Added in 2.19 Beta 4
+"Drop down button to select a tag from the menu" => "Koodin valinta alasvetovalikosta"
+
+# -- Added in 2.19 Beta 8
+"Right click to select a tag from the menu" => "Napsauta hiiren oikealla painikkeella valitaksesi koodi valikosta"			# Windows XP Only (as it down not support dropdown split button)
+
+# -----[ Added in 2.19 Beta 4 - SimKeys {} dropdown menu ]------------------
+"&Modifier Keys" => "Erotinnäppäimet"
+"&Standard Keys" => "Vakionäppäimet"
+"&Direction Keys" => "Nuolinäppäimet"
+"&Function Keys" => "Funktionäppäimet"
+"&Numeric Keypad" => "Numeronäppäimistö"
+"M&edia Keys" => "Medianäppäimet"
+"&Browser Keys" => "Selainnäppäimet"
+"Mo&use Buttons" => "Hiirinäppäimet"		# Changed position of & in 2.19 Beta 10
+"&Layer Tags" => "Tasomerkinnät"
+"Mo&vement Tags" => "Liikemerkinnät"
+"&Action Tags" => "Toimintomerkinnät"
+"&Other Tags" => "Muut merkinnät"
+#-----[The following is the menu item for each special simkey {TAG}]
+"&Control" => "Ctrl"
+"&Right Control" => "Oikea Ctrl"
+"&Alt" => ""
+"R&ight Alt (Alt Gr)" => "Oikea Alt (AltGr)"
+"&Shift" => "Vaihto"
+"Ri&ght Shift" => "Oikea vaihro"
+"&Windows Key" => "Windows-näppäin"
+"Rig&ht Windows Key" => "Oikea Windows-näppäin"
+"A&pps (Context Menu) key" => "Valikkonäppäin"
+"&Escape" => "ESC"
+"&Space" => "Välilyönti"
+"&Return" => "Rivinvaihto"
+"&Tab" => "Sarkain"
+"&Backspace" => "Takakeno"
+"&Delete" => "Poisto"
+"&Insert" => "Lisäystila"
+"&Home" => "Koti (Home)"
+"E&nd" => "Loppu (End)"
+"Page U&p" => "Sivu ylös"				# Changed position of & in 2.19 Beta 9
+"Page Do&wn" => "Sivu alas"				# Changed position of & in 2.19 Beta 9
+"PrtScn" => "Ruudunkaappaus"					# Removed conflicting & in 2.19 Beta 9
+"Pa&use" => "Tauko"
+"Break"	=> "Keskeytys"					# Removed conflicting & in 2.19 Beta 9
+"CAPS Lock To&ggle" => "Isojen kirjainten lukitus päälle/pois"
+"Caps Lock &On" => "Isojen kirjainten lukitus päälle"
+"Caps Lock O&ff" => "Isojen kirjainten lukitus pois"
+"Scroll &Lock Toggle" => "Vierityksen esto päälle/pois"		# Changed position of & in 2.19 Beta 9
+"Scroll Lo&ck On" => "Vierityksen esto päälle"
+"Scroll Loc&k Off" => "Vierityksen esto pois"
+"&Up" => "Ylös"
+"&Down" => "Alas"
+"&Left" => "Vasemmalle"
+"&Right" => "Oikealle"
+"Num Lock &Toggle" => "Numeronäppäimistön lukitus päälle/pois"
+"Num Lock &On" => "Numeronäppäimistön lukitus päälle"
+"Num Lock O&ff" => "Numeronäppäimistön lukitus pois"
+"&Divide" => "Jakomerkki"
+"&Multiply" => "Kertomerkki"
+"&Subtract" => "Miinus"
+"&Add" => "Plus"
+"Decima&l" => "Desimaalipiste"				# Changed position of & in 2.19 Beta 9
+"&Enter" => "Rivinvaihto"
+"Num &0" => ""
+"Num &1" => ""
+"Num &2" => ""
+"Num &3" => ""
+"Num &4" => ""
+"Num &5" => ""
+"Num &6" => ""
+"Num &7" => ""
+"Num &8" => ""
+"Num &9" => ""
+"Volume &Up" => "Voimakkuuden lisäys"
+"Volume &Down" => "Voimakkuuden vähennys"
+"&Mute" => "Vaimennus"
+"&Play/Pause" => "Toisto/tauko"
+"&Stop" => "Seis"
+"&Next Track" => "Seuraava kappale"
+"P&revious Track" => "Edellinen kappale"
+"Launch Me&dia Select" => "Käynnistä mediavalinta"
+"Ho&me" => "Koti"				# Changed position of & in 2.19 Beta 12 ##This is HOME in the web browser not the home key!
+"&Back" => "Edellinen"
+"&Forward" => "Seuraava"
+"F&avourites" => "Suosikit"
+"R&efresh" => "Päiivtä"			# Changed position of & in 2.19 Beta 9
+"&Search" => "Etsi"
+"Sto&p" => "Pysäytä"
+"L&eft Button" => "Vasen painike"		# Changed position of & in 2.19 Beta 9
+"R&ight Button" => "Oikea painike"		# Changed position of & in 2.19 Beta 9
+"Mi&ddle Button" => "Keskipainike"		# Changed position of & in 2.19 Beta 9
+"4&th Button" => "Painike 4"			# Changed position of & in 2.19 Beta 9
+"5t&h Button" => "Painike 5"			# Changed position of & in 2.19 Beta 9
+"Wheel U&p" => "Rulla ylös"			# Changed position of & in 2.19 Beta 9
+"Wheel D&own" => "Rulla alas"			# Changed position of & in 2.19 Beta 9
+"Wheel &Tilt Left" => "Rullan kallistus vasemmalle"	
+"Wheel Tilt Ri&ght" => "Rullan kallistus oikealle"	# Changed position of & in 2.19 Beta 9
+"Ne&xt Layer" => "Seuraava taso"			# Changed position of & in 2.19 Beta 9
+"P&revious Layer" => "Edellinen taso"		# Changed position of & in 2.19 Beta 9
+"&Last Layer" => "Viimeinen taso"
+"&Move Cursor (X,Y)" => "Siirrä osoitin (X,Y)"
+"&Set position relative to primary monitor (X,Y)" => "Aseta sijainti suhteessa ensisijaiseen näyttöön (X,Y)"
+"S&et position relative to primary profile window (X,Y)" => "Aseta sijainti suhteessa ensisijaiseen profiili-ikkunaan (X,Y)"
+"Se&t position relative to active window (X,Y)" => "Aseta sijainti suhteessa aktiiviseen ikkunaan (X,Y)"
+"S&ave position" => "Tallenna sijainti"
+"&Restore saved position" => "Palauta tallennettu sijainti"
+"&Activate window" => "Aktivoi ikkuna"
+"Activate &parent" => "Aktivoi pääikkuna"
+"Activate &top" => "Aktivoi päällimmäisin"
+"&Busy Cursor" => "Odotusosoitin"
+"&Default Cursor" => "Oletusosoitin"
+"&Invert X && Y Axis" => "Käänteinen vaakasuunta ja pystysuunta"							# Fixed missing double & in 2.19 Beta 9
+"I&nvert X Axis" => "Käänteinen vaakasuunta"
+"In&vert Y Axis" => "Käänteinen pystysuunta"	
+							# Fixed double & in 2.19 Beta 9
+"Lock &X Axis" => "Lukitse vaakasuunta"
+"Lock &Y Axis" => "Lukitse pystysuunta"
+"Set &Clipboard Text" => "Määritä leikepöydän teksti"
+"&Run application" => "Suorita sovellus"
+"La&unch EMail" => "Käynnistä sähköposti"
+"Launch App &1" => "Käynnistä sovellus 1"
+"Launch App &2" => "Käynnistä sovellus 2"
+"Launch &Media Select" => "Käynnistä mediavalinta"
+"Brightness &Up" => "Lisää kirkkautta"
+"Brightness &Down" => "Vähennä kirkkautta"
+"&Wait <x> second(s)" => "Odota <x> sekuntia"
+"W&ait <x> millisecond(s)" => "Odota <x> millisekuntia"
+"&Hold for <x> second(s)" => "Pysäytä <x> sekunniksi"
+"H&old for <x> millisecond(s)" => "Pysäytä <x> millisekunniksi"
+"Send &virtual key code" => "Lähetä virtuaalinen näppäinkoodi"
+"Send &extended virtual key code" => "Lähetä laajennettu virtuaalinen näppäinkoodi"
+"Send &keyboard scancode" => "Lähetä viivakoodi"
+"Send e&xtended keyboard scancode" => "Lähetä laajennettu viivakoodi"
+"&Clear modifier tag state" => "Tyhjennä erotinmerkin tila"
+"&Press key (Methods 1,2,4,5,6,7 && 9)" => "Paina näppäin (Tavat 1,2,4,5,6,7 ja 9)"
+"Release ke&y (Methods 1,2,4,5,6,7 && 9)" => "Vapauta näppäin (Tavat 1,2,4,5,6,7 ja 9)"		# Changed position of & in 2.19 Beta 9
+"&Send only when pressing" => "Lähetä vain painettaessa"					# Changed position of & in 2.19 Beta 9
+"Send o&nly when releasing" => "Lähetä vain vapautettaessa"
+"Send on&ly when repeating" => "Lähetä vain toistettaessa"
+
+#Added for 2.19 beta 8
+"&Press" => "Painallus"
+"Re&lease" => "Vapautus"
+#---------------------------------------------------------------
+
+#Section: Simulated Keystrokes dialog - help text
+# NOTE: For the following texts, \r\n is a NEW LINE and \t is a TAB. Be sure to check the layout on the simkeys 
+# dialog when making translations to ensure your text is visible and fits nicely.
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Syötä näppäinjärjestys ylläolevaan kenttään.\r\nOsa näppäimistä voidaan simuloida käyttäen erityisiä tunnisteita:"
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Tunnisteet:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  HUOM!:\tTunnisteita voidaan yhdistellä, kuten {CTRL}{ALT} mutta VAIN SEURAAVAAN NÄPPÄIMEEN.\r\n\tFEsimerkiksi jos halutaan simuloida CTRL+a+CTRL+s, kirjoitetaan määrityskenttään '{CTRL}A{CTRL}S'."
+
+# -- Updated in 2.14 beta 2 --
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Erityisnäppäimet:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Esimerkkejä:\r\n  Ikkunan sulkeminen: {ALT}{F4}\r\n  Kaikkien valitseminen: {CTRL}A\r\n  Lihavoidun tekstin 'oma teksti' kirjoittaminen Microsoft Word:issa: {CTRL}oma teksti{CTRL}b\r\n  Näppäimen 'r' painallus, joka kestää 50ms : {HOLDMS:50}r\r\n  NUM LOCK:in poistaminen käytöstä: {NUMLOCKOFF}"
+
+# -- Added in 2.9 beta 6 --
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Erityistunnisteet koskien tapoja 1, 2, 4-7 ja 9:\r\n\t\t\t{PRESS} Paina seuraavat näppäimet\r\n\t\t\t{RELEASE} Vapauta seuraavat näppäimet\r\n\t\t\tHUOM! Käytettäessä tunnistetta {PRESS} pitää samassa lausekkeessa olla samalle merkille myös {RELEASE}!"
+"To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "Näppäinten 'a', 'b' ja 'c' painaminen 100ms ajan ja vapauttaminen: {PRESS}abc{WAITMS100}{RELEASE}cba"
+# -- 
+
+# -- Updated in 2.4 Beta 10 and removed in 2.9 Beta 6 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "HUOM! Käytettäessä tunnisteita {WAIT}, {WAITMS}, {HOLD} ja {HOLDMS} tulee viiveen välttämiseksi käyttää\r\nylläolevia säikeisiin liittyviä tapoja."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Erityistoiminnot:\t{WAIT:n} lisää <n> sekunnin viiveen.\r\n\t\t\t{WAITMS:n} lisää <n> millisekunnin viiveen.\r\n\t\t\t{HOLD:n} pitää seuraavaa painiketta painettuna <n> sekunnin ajan.\r\n\t\t\t{HOLDMS:n} pitää seuraavaa painiketta painettuna <n> millisekunnin ajan.\r\n\t\t\t{VKC:n} Lähettää määritellyn virtuaalisen näppäinkoodin.\r\n\t\t\t{EXT:n} Lähettää määritellyn virtuaalisen laajennetun näppäinkoodin.\r\n\t\t\t{CLEAR} Poistaa kaikki määritysnäppäimet kuten esimerkiksi {CTRL},{ALT} jne."
+
+#Added in 2.17 Beta 16
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => "\t\t\t{SC:n} Lähettää näppäimistönskannauskoodin."
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => "\t\t\t{SCE:n} Lähettää laajennetun näppäimistönskannauskoodin."
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => "\t\t\t{CB:<teksti>} Kopioi <teksti> leikepöydälle."
+#
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Suuntanäppäimet:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunktionäppäimet:\t\t{F1, F2, F3 ... F24}\r\nÄänenvoimakkuus:\t\t{VOL+}, {VOL-}, {MUTE}\r\nKirkkaus:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nHiiripainikkeet:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nHiirirulla:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeronäppäimet:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nSelainnäppäimet:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nPäälle/pois-näppäimet:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+# -- Changed (split up) in 2.18 Beta 12
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}" => Suuntanäppäimet:\t\t{UP} {DOWN} {LEFT} {RIGHT}"
+"Function key tags:\t\t{F1, F2, F3 ... F24}" => "Funktionäppäimet:\t\t{F1, F2, F3 ... F24}"
+"Volume key tags:\t\t{VOL+}, {VOL-}, {MUTE}" => "Äänenvoimakkuus:\t\t{VOL+}, {VOL-}, {MUTE}"
+"Brightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}" => "Kirkkaus:\t{BRIGHTNESS+}, {BRIGHTNESS-}"
+"Mouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}" => "Hiiripainikkeet:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}"
+"Mouse button up/down tags:\tAdd a D (for down/pressed)" => "Hiiripainike ei-painettuna/painettuna:\t Lisää D (painettuna)"
+"\t\t\tor a U (for up/released) to the mouse button tags (above)" => "\t\t\ttai U (ei-painettuna) ylläoleviin hiiripainikekoodeihin"
+"\t\t\te.g. {LMBD}, {LMBU}, {RMBD}, {RMBU}, {MB4D}, {MB5U} etc." => "\t\t\tesim. {LMBD}, {LMBU}, {RMBD}, {RMBU}, {MB4D}, {MB5U} jne."		# Updated in 2.18 Beta 13
+"Mouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}" => "Hiirirulla:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}"
+"Numeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}" => "Numeronäppäimet:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}"  # Fixed in 2.18 Beta 13
+"Web/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}" => "Selainnäppäimet:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}"
+"Toggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF},\r\n\t\t\t{SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Päälle/pois-näppäimet:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF},\r\n\t\t\t{SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+# -- Added in 2.11 Beta 16 --
+"Movement tags\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET sets the mouse cursor's X or Y position to <n>\r\n\t\t\tADD moves the mouse cursor's X or Y position by <n> pixels" => "Liikenäppäimet\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET Asettaa osoittimen kohtaan <n>\r\n\t\t\tADD Siirtää osoitinta vaaka- tai pystysuunnassa <n> pikseliä"
+
+# -- Changed in 2.15 beta 7, 8 & 9 --
+"Movement tags:\t\t{MADD:x,y} Move cursor X & Y position by <x,y> pixels" => "Liikenäppäimet:\t\t{MADD:x,y} Siirtää osoitinta vaaka- ja pystysuunnassa <x,y> pikseliä"
+"\t\t\t{MSET:x,y} Set cursor position to <x,y> (relative to primary monitor)" => "\t\t\t{MSET:x,y} Asettaa osoittimen kohtaan <x,y> (päänäyttöön nähden)"
+"\t\t\t{PSET:x,y} Set cursor position to <x,y> (relative to profile window)" => "\t\t\t{PSET:x,y} Asettaa osoittimen kohtaan <x,y> (profiili-ikkunaan nähden"
+"\t\t\t{ASET:x,y} Set cursor position to <x,y> (relative to active window)" => "\t\t\t{ASET:x,y} Asettaa osoittimen kohtaan <x,y> (aktiiviseen ikkunaan nähden)"
+"\t\t\t{MSAVE:n} Save the current cursor position to memory <n> (1-10)" => "\t\t\t{MSAVE:n} Tallentaa osoittimen nykyisen sijainnin muistipaikkaan <n> (1-10)"			#Updated in 2.16 Beta 17
+"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST:n} Palauttaa osoittimen sijainnin muistipaikasta <n> (1-10)"		#Updated in 2.16 Beta 17
+
+# -- Deprecated in 2.15 Beta 9 - they still work but are not displayed
+"Movement tags:\t\t{MXADD:n} Move cursor X position (horizontally) by <n> pixels" => "Liikenäppäimet:\t\t{MXADD:n} Siirtää osoitinta vaakasuunnassa <n> pikseliä"
+"\t\t\t{MYADD:n} Move cursor Y position (vertically) by <n> pixels" => "t\t\t{MYADD:n} Siirtää osoitinta pystysuunnassa by <n> pikseliä"
+"\t\t\t{MXSET:n} Set cursor X position to <n> (relative to primary monitor)" => "\t\t\t{MXSET:n} Asettaa osoittimen vaakasuunnassa kohtaan <n> (päänäyttöön nähden)"
+"\t\t\t{MYSET:n} Set cursor Y position to <n> (relative to primary monitor)" => "\t\t\t{MYSET:n} Asettaa osoittimen pystysuunnassa kohtaan <n> (päänäyttöön nähden)"
+"\t\t\t{PXSET:n} Set cursor X position to <n> (relative to profile window)" => "\t\t\t{PXSET:n} Asettaa osoittimen vaakasuunnassa kohtaan <n> (profiili-ikkunaan nähden)"
+"\t\t\t{PYSET:n} Set cursor Y position to <n> (relative to profile window)" => "\t\t\t{PYSET:n} Asettaa osoittimen pystysuunnassa kohtaan <n> (profiili-ikkunaan nähden)"
+"\t\t\t{AXSET:n} Set cursor X position to <n> (relative to active window)" => "\t\t\t{AXSET:n} Asettaa osoittimen vaakasuunnassa kohtaan <n> (aktiiviseen ikkunaan nähden)"
+"\t\t\t{AYSET:n} Set cursor Y position to <n> (relative to active window)" => "\t\t\t{AYSET:n} Asettaa osoittimen pystysuunnassa kohtaan <n> (aktiiviseen ikkunaan nähden)"
+# --
+
+# -- Added in 2.15 Beta 2 --
+"Application tags:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "Sovellusnäppäimet:\t\t{RUN:<sovellus>} {RUN:<sovelluksen koko polku>}\r\n\t\t\tSuorittaa määritetyn sovelluksen. Mikäli sovelluksen polkua ei ole sisällytetty järjestelmämuutujan PATH arvoon,\r\n\t\t\tpitää määritellä sovelluksen täysi polku   tiedostopääte mukaanlukien"
+
+# -- Added in 2.15 Beta 7 --
+"Cursor Position: X,Y (AX, AY)" => "Osoittimen sijainti: X,Y (AX, AY)"
+
+# -- Added in 2.16 Beta 17
+"Action tags:" => "Toimintonäppäimet"
+"\t\t{ACTIVATE} Activate the window under the cursor." => "\t\t{ACTIVATE} Aktivoi osoittimen kohdalla olevan ikkunan."
+
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => "\t\t\t{ACTIVATEPARENT} Aktivoi osoittimen kohdalla olevan ikkunan edeltäjän "
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => "\t\t\t{ACTIVATETOP} Aktivoi osoittimen kohdalla olevan ikkunan ylimmän tason edeltäjän"
+# --
+
+# -- Updated in 2.17 Beta 10
+# These functions can send any Windows Messages https://msdn.microsoft.com/en-us/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => "Windows Sanomamerkintä"
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => "\t{POSTWM:<M>,<L>,<W>} Lähettää Windows Sanomamerkinnän osoittimen kohdalla olevaan ikkunaan"
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => "\t\t\t{SENDWM:<M>,<L>,<W>} Vie Windows Sanomamerkinnän osoittimen kohdalla olevaan ikkunaan."
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => "\t\t\tWHERE:\t<M> on sanoma, <L> LPARAM-arvo ja <W> WPARAM-arvo."
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => "\t\t\tHUOM:\t<M>, <L> & <W> voivat olla desimaali- (esim. 16) tai heksalukuja (esim. 0x10)."
+
+#Run Application dialog
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Syötä ohjelman, kansion tai tiedoston nimi taikka internetosoite joka avataan painiketta painettaessa."
+
+#Open Explorer at specified folder dialog
+"Please select a folder to open" => "Valitse avattava kansio"
+
+#Section: Change Movement to Scroll Configuration -- Added in 2.15 Beta 1
+"Movement to Scroll Configuration" => "Liikkeiden käyttö vieritykseen"
+"&Sensitivity" => "&Herkkyys"
+"Invert &Vertical Axis" => "Käänteinen vaaka-akseli"
+"Invert &Horizontal Axis" => "Käänteinen pystyakseli"
+"&Sticky (until next click)" => "Alasjäävä (seuraavaan painallukseen asti)"
+
+"&Default Action (no movement)" => "&Oletus (ei liikettä)"	# -- Added in 2.17 Beta 1
+
+#Added in 2.17 Beta 6
+"Block all other buttons when sticky" => "Estä muut painikket kun alasjäävä"
+"Lock Scroll Axis/Direction" => "Akseleiden/Suunnan lukitus käytössä"
+"Don't lock (scroll in any direction)" => "Ei lukitusta (vapaa liike)"
+"Lock to axis determined by cursor movement" => "Lukitse osoittimen liikkeen mukaiseen akseliin"
+"Lock to Y axis (scroll vertically)" => "Lukitse pystyakselille"
+"Lock to X axis (scroll horizontally)" => "Lukitse vaaka-akselille"
+#
+
+#Added in 2.17 Beta  16
+"Movement To Scroll Default Action" => "Vieritys liikkeellä -toiminnan oletustoiminto"
+
+#Section: Scrolling & navigation tab (or Scrolling ad Options tabs post 2.15 Beta 5)
+"&Invert mouse wheel scrolling" => "&Käänteinen vieritys"
+"I&nvert mouse horizontal (tilt) scrolling" => "Käänteinen &vaakavieritys"
+"Wheel scrolls i&n pages instead of lines" => "Vieritä yhdellä kiekon &naksauksella ruudullinen"
+"Lines to scroll using the scroll wheel:" => "Yhdellä kiekon naksauksella vieritettäviä rivejä:"		# -- Removed in 2.7 Beta 4. Left for backward compatibility --
+"Lines to scroll using the scroll wheel" => "&Riviä vieritetään yhdellä kiekon naksauksella"		# -- Added/Updated in 2.7 Beta 4 --
+"Enable a&xis locking modifier keys" => "Akseleiden lukitus käytössä"
+"Advanced Window Scrolling" => "Vierityksen lisäasetukset"
+"&Scroll Method" => "Vieritystapa"
+"&Vertical Lines" => "Pystysuuntaisia rivejä"
+"&Horizontal characters" => "Vaakasuuntaisia merkkejä"
+"Method 1 (SCROLL Msg)" => "Tapa 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Tapa 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Tapa 3 (Nuolinäppäimet)"
+"Method 4 (Wheel Msg)" => "Tapa 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Tapa 5 (WPF Scroll Msg)"
+"None (Disable Scroll)" => "Ei vieritystä"
+"Disable &layer modifier keys for this profile" => "Poista tässä profiilissa määritysnäppäimet"
+"Change mouse c&ursor when profile is active" => "Käytä tässä profiilissa omaa osoitinta:"
+
+# -- Added in 2.7 Beta 7 --
+"&Disable Scroll Window Under Cursor" => "&Ei vieritystä osoittimen kohdalla"
+
+# -- Added in 2.8 Beta 6 --
+"Switch primary and secondary mouse buttons" => "Ykkös- ja kakkospainikkeiden vaihto keskenään"
+"Don't swap buttons" => "Ei käytössä"
+"Swap buttons" => "Käytössä"
+# --
+
+# -- Added in 2.9 Beta 3 --
+"Ignore &repeated remapped vertical scroll" => "Ei uudelleenkytketyn &pystyvierityksen toistoa"
+"Ignore repeated remapped hori&zontal scroll" => "Ei uudelleenkytketyn &vaakavierityksen toistoa"
+"for" => "kesto"
+"milliseconds" => "millisekuntia"
+# --
+
+# -- Added in 2.13 Beta 9 --
+"&Force Scroll Pages/Lines (If application does not respond to setting)" => "&Pakota sivujen/rivien vieritys (mikäli sovellus ei reagoi asetukseen)" # This option forces the scroll lins/button swap setting to be pushed to ALL open windows.
+
+# -- Added in 2.15 Beta 1 --
+"&Clip (lock) mouse cursor to active window" => "&Lukitse osoitin aktiiviseen ikkunaan"
+
+# -- Added in 2.15 Beta 5 --
+"&Override Mouse Speed" => "&Hiiren nopeuden pakotus"
+
+# -- Added in 2.17 Beta 3 --
+"Active window on hover" => "Aktivoi ikkuna osoittimen ollessa kohdalla"
+
+"Disable &profile switching on mouse move for this profile" => "Poista tässä profiilissa profiilin vaihto hiirtä liikuttamalla"
+
+#Section: About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "XML-tuen toteutti XML++:llä Michael @ turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "Tämä ohjelma on ilmaisohjelma (ilman minkäänlaisia takuita) ja tarkoittu jokaisen käytettäväksi missä tahansa. Mikäli pidät ohjelmasta ja haluat osoittaa kiitollisuutesi, voit tehdä lahjoituksen napsauttamalla allaolevaa PayPal-painiketta."
+"More information can be found on my download page or user forums." => "Lisätietoa ohjelmasta on saatavilla englanniksi kotisivustolta ja keskustelusivulta."
+"&Donate" => "Lahjoitus"		# -- Updated in 2.16 Beta 14
+"&Homepage" => "Kotisivu"		# -- Updated in 2.16 Beta 14
+"&Forums" => "Keskustelusivut"	# -- Updated in 2.16 Beta 14
+
+# -- Added in 2.16 Beta 14
+"Open &Userguide" => "Avaa &käyttöohje"
+"Open &XMBC Folder" => "Avaa &sovelluksen kansio"
+"&Check for Update" => "&Päivitysten tarkistus"
+# --
+
+# -- Added in 2.4 Beta 15 --
+"About" => "Tietoja ohjelmasta"
+"Version" => "Versio"	
+"This application is designed and written by %s of %s." => "Ohjelman on suunnitellut ja toteuttanut %s [%s]" # NOTE: The %s are replace at runtime; leave them there!
+# --
+
+#Section: Find Window Dialog
+"Find Window" => "Etsi ikkuna"
+"Find Method" => "Etsintätapa"
+"Click and drag the window finder icon to the window you want to select." => "Napsauta tähtäinristikkoa ja raahaa se haluamasi ikkunan kohdalle"
+"Hover" => "Osoitin"
+"Move the mouse over the windows you want to select && turn on CAPS LOCK to lock the window details in place." => "Siirrä osoitin haluamasi ikkunan kohdalle ja ota käyttöön CAPS LOCK"
+"You can also manually enter/edit the window details below." => "Tiedot voidaan syöttää myös manuaalisesti."
+"Window Details" => "Ikkunan tiedot"
+"Caption" => "Kohde"
+"Handle" => "Kahva"
+"&Process" => "&Prosessi"
+"C&lass" => "&Luokka"
+"Pa&rent Class" => "Isäntäluokka"
+"Only match if there is no parent class." => "Käytä vain mikäli isäntäluokkaa ei ole olemassa"
+"Enable Regular Expression Matching" => "Käytä säännollistä ilmaisua (RegExp)"						# -- Added in 2.8 Beta 1 --
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "HUOM! Mikäli kaikki ylläolevat kentät ovat tyhjiä, valituksi tulevat KAIKKI ikkunat ellei ole aktivoitu isäntäluokkaan liittyvää valintaruutua. Asetettaessa manuaalisesti tekstien täytyy olla yhtenevät ikkunan ominaisuuksien kanssa."
+
+# -- Added in 2.8 Beta 3 --
+"Window Regions" => "Ikkuna-alueet"
+"Activate the profile only if the cursor is over the selected areas of the window." => "Aktivoi profiili vain jos osoitin sijaitsee ikkunan esimääritellyssä alueessa"
+"You must define at least one window region!" => "Vähintään yksi ikkuna-alue pitää määrittää!"
+# --
+
+# -- Added in 2.16 Beta 2 --
+"Match Type" => "Käytettävä tyyppi"
+"Window" => "Ikkuna"
+"Parent Window" => "Ylemmän tason ikkuna"
+"Window and Parent Window" => "Ikkuna ja ylemmän tason ikkuna"
+"Ancestor Window" => "Ylimmän tason ikkuna"
+"Window and Ancestor Window" => "Ikkuna ja ylimmän tason ikkuna"
+# --
+
+# -- Added in 2.16 Beta 8 --
+"&Activate the profile only when the cursor is in the specified area" => "&Aktivoi profiili vain osoittimen sijaitessa määritellyllä alueella"
+"Top" => "Yläreuna"
+"Left" => "Vasen"
+"Bottom" => "Alareuna"
+"Right" => "Oikea"
+"● Positive = Relative to top of window\n● Negative = Relative to bottom of window" => "● Positiivinen = Suhteessa ikkunan yläreunaan\n● Negatiivinen = Suhteessa ikkunan alareunaan"  # Updated in 2.16 Beta 11
+"● Positive = Relative to left of window\n● Negative = Relative to right of window" => "● Positiivinen = Suhteessa ikkunan vasempaan reunaan\n● Negatiivinen = Suhteessa ikkunan oikeaan reunaan"  # Updated in 2.16 Beta 11
+"Top Left Quadrant" => "Vasen yläkulma"
+"Top Right Quadrant" => "Oikea yläkulma"
+"Bottom Left Quadrant" => "Vasen alakulma"
+"Bottom Right Quadrant" => "Oikea alakulma"
+"Enable caption matching" => "Käytä määritettyä aluetta"
+
+# -- Added in 2.17 Beta 1
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => "Muut kuin säännöllisen lausekkeen (RegExp) sisältävät haut voivat sisältää useita syötteitä eroteltuna toisistaan kahdella putkimerkillä esim. 'app1.exe||app2.exe||app3.exe'"
+
+
+#Section: Choose Application dialog (custom window profile)
+"Choose Application" => "Valitse sovellus"
+"Select from the list of running applications:" => "Valitse luettelosta käynnissäoleva sovellus"
+"Or type in/browse to the application executable (.EXE) file" => "TAI kirjoita ajokelpoisen exe-tiedoston nimi TAI nouda se selaamalla (...)"
+"Application" => "Sovellus"
+"&Specific Window" => "Valitse avoin..."
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "&Päivitä"
+"Process Name" => "Prosessi"
+"Window Title" => "Ikkunan otsikko"
+# --
+
+
+#Section: Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Sulje asetusikkuna jotta kieliasetukset voidaan ottaa käyttöön täydellisesti."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Määritetylle sovellukselle on jo olemassa profiili.\nYhdelle sovellukselle ei voida luoda useaa profiilia."
+"You must select a profile to remove!" => "Valitse poistettava profiili."
+"You can not edit the default profile!" => "Oletusprofiilia ei voi muokata."
+"You can not remove the default profile!" => "Oletusprofiilia ei voi poistaa."
+"You must select a profile to edit." => "Valitse muokattava profiili."
+"The specified window configuration is invalid!" => "Määritetty ikkunamääritys "
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Profiili on jo olemassa.\nYhdelle sovellukselle tai ikkunalle ei voida luoda useaa profiilia"
+"You must select an application to copy." => "Valitse kopioitava sovellus."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Tallennetaanko asetuksiin tehdyt muutokset?\n\nVaroitus: Tehdyt muutokset menetetään vastattaessa 'Ei'!"
+"Do you want to overwrite profile" => "Korvataanko profiili?"		# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "Valittu tiedosto ei sisällä kelvollisia asetusarvoja."
+"The log file can not be opened as it does not exist." => "Tapahtumalokia ei voida avata, koska sitä ei ole."
+"is unable to open the log file" => "Tapahtumalokia ei voida avata."
+"Unable to save the desktop icons using your current shell and this version of" => "Työpöydän kuvaketietoja ei voida tallentaa käyttäen tätä versiota"
+"Unable to restore the desktop icons using your current shell and this version of" => "Työpöydän kuvaketietoja ei voida palauttaa käyttäen tätä versiota"
+
+# -- Added in 2.16 beta 3
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Tallennetaanko asetuksiin tehdyt muutokset?\n\nVaroitus: Jos vastaat 'Ei', kaikki muutokset hylätään!"
+"Do you want to save the changes you have made to the current profile?" => "Tallennetaanko nykyiseen profiiliin tehdyt muutokset?"
+# --
+
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "Uusi ohjelmaversio saatavilla!."
+"A new version is available." => "Ohjelmistosta on saatavilla uudempi versio."
+"Open the setup dialog and hit the about button for more information." => "Lisätietoja avaamalla asetusikkuna ja napsauttamalla 'Tietoja sovelluksesta' -painiketta."
+"Click the 'Homepage' button to go and download it." => "Lataa se siirtymällä lataussivustolle 'Kotisivu'-painikkeella."
+"There is a new beta version available!" => "Uusi testiversio saatavilla!"
+"A new beta version is available." => "Ohjelmistosta on saatavilla uusi testiversio."
+"Click the 'Forums' button to go and download it." => "Lataa se siirtymällä lataussivustolle 'Keskustelusivut'-painikkeella."
+# --
+
+# -- Updated / Added in v2.14 Beta 3 --
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region." => "Määritetty profiili on jo olemassa.\nSamalle sovellukselle/ikkunalle/alueelle ei voi määrittää kahta profiilia."
+"The specified profile already exists.\nYou can not add two profile entries for the same window with overlapping regions." => "Määritetty profiili on jo olemassa.\nSamaan ikkunaan ei voi määrittää kahta edes osittain päällekkäistä aluetta."
+# --
+
+# -- Updated / Added in v2.16 Beta 2 --
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region with overlapping match types." => "Määritetty profiili on jo olemassa.\nSamalle sovellukselle/ikkunalle/alueelle ei voi määrittää kahta edes osittain päällekkäistä tyyppiä."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region/match type." => "Määritetty profiili on jo olemassa.\nSamalle sovellukselle/ikkunalle/alueelle ei voi määrittää kahta tyyppiä."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions." => "Määritetty profiili on jo olemassa.\nSamalle sovellukselle/ikkunalle/alueelle ei voi määrittää kahta edes osittain päällekkäistä aluetta."
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions and match types." => "Määritetty profiili on jo olemassa.\nSamalle sovellukselle/ikkunalle/alueelle ei voi määrittää kahta edes osittain päällekkäistä aluetta tai tyyppiä."
+
+
+"You have to select or enter a process name, or press cancel." => "Valitse prosessi tai syötä sen nimi taikka paina 'Peruuta'."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "Virheenjäljitykseen liittyvä tapahtumien kirjaaminen alentaa hiiren suorituskykyä. Toimintoa suositellaan käytettäväksi vain väliaikaisesti."
+"Are you sure you want to enable debug logging?" => "Käytetäänkö virheenjäljitystä?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "Osoitinilmoituksien lajittelu omiin ja muiden ohjelmistojen tuottamiin vaatii enemmän resursseja."
+"This can slow down mouse operation in general, sometimes causing strange results." => "Tämä hidastaa hiiritoimintoja yleisesti sekä saattaa johtaa epätavallisiin tilanteisiin."
+"Are you sure you want to ignore non-client messages?" => "Jätetäänkö muiden ohjelmistojen osoitinilmoitukset huomioimatta?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Oletuksena järjestelmän ilmoitusalueella (kellon vieressä) esitetään aina ohjelman kuvake. Sitä ei enää esitetä oletusarvoisesti mikäli se poistetaan käytöstä."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Kuvake voidaan palauttaa suorittamalla ohjelma uudelleen Käynnistä-valikosta. Tällöin kuvake näytetään väliaikaisesti jotta asetuksia voidaan muokata."
+
+#Section: Balloon pop-up windows
+"Debugging enabled" => "Virheenjäljitys käytössä"
+"Debugging disabled" => "Virheenjäljitys ei käytössä"
+"Successfully saved desktop icon positions" => "Työpöydän kuvaketiedot tallennettu onnistuneesti"
+"Successfully restored desktop icon positions" => "Työpöydän kuvaketiedot palautettu onnistuneesti"
+"Mouse button re-mapping is now disabled" => "Painikkeiden uudelleenmääritys poistettu käytöstä"
+"Mouse button re-mapping is now enabled" => "Painikkeiden uudelleenmääritys otettu käyttöön"
+
+#Section: Import / Export dialogs
+# -- Added in 2.7 Beta 3 --
+"The file to import is corrupt or not a valid file." => "Tuotava tiedosto on vahingoittunut tai vääräntyyppinen."
+"The XML settings file is corrupt and could not be loaded.\nYou can not make any changes until this error has been fixed." => "XML-asetustiedosto on vahingoittunut eikä sitä voitu ladata.\nVirhe pitää korjata ennen muita muutoksia."
+"The XML settings file is corrupt and could not be updated safely.\nPlease fix the error and try again." => "XML-asetustiedosto on vahingoittunut eikä sitä voitu päivittää.\nKorjaa virheet ja yritä uudelleen."
+# --
+
+#Section: Actions (displayed in the drop-down lists)
+"Left Click" => "Vasen painike"
+"Right Click" => "Oikea painike"
+"Next Window" => "Seuraava ikkuna"
+"Back" => "Taaksepäin"
+"Forward" => "Eteenpäin"
+"Middle Click" => "Keskipainike"
+"Disable" => "Ei käytössä"
+"Close (Alt+F4)" => "Lopeta (Alt+F4)"
+"Copy (Ctrl+C)" => "Kopioi (Ctrl+C)"
+"Cut (Ctrl+X)" => "Leikkaa (Ctrl+X)"
+"Double Click" => "Kaksoisnapsautus"
+"Enter" => ""
+"Maximize Window" => "Suurenna ikkuna"
+"Minimize Window" => "Pienennä ikkuna"
+"New" => "Uusi"
+"Open" => "Avaa"
+"Paste (Ctrl+V)" => "Liitä (Ctrl+V)"
+"Redo (Ctrl+Y)" => "Tee uudelleen (Ctrl+Y)"
+"Show/Hide Desktop" => "Näytä/piilota työpöytä"
+"Undo (Ctrl+Z)" => "Kumoa (Ctrl+Z)"
+"Media - Mute" => "Mediatoisto - Vaimenna"
+"Media - Volume Up" => "Mediatoisto - Kasvata äänenvoimakkuutta"
+"Media - Volume Down" => "Mediatoisto - Pienennä äänenvoimakkuutta"
+"Media - Next Track" => "Mediatoisto - Seuraava kappale"
+"Media - Last Track" => "Mediatoisto - Viimeinen kappale"
+"Media - Stop" => "Mediatoisto - Pysäytä"
+"Media - Play/Pause" => "Mediatoisto - Toista/Tauko"
+"Launch EMail" => "Käynnistä sähköpostiohjelma"
+"Simulated Keys" => "Simuloidut näppäimet"
+"Lock Workstation" => "Lukitse tietokone"
+"Open Explorer" => "Avaa resurssienhallinta"
+"Open RUN Command" => "Avaa 'Suorita'-komento"
+"Restore Window" => "Palauta ikkuna"
+"Escape" => "Keskeytä"
+"Open Help" => "Avaa ohje"
+"Open Web Browser" => "Avaa selain"
+"Browser Stop" => "Selaimen pysäytys"
+"Browser Refresh" => "Selaimen päivitys"
+"Browser Search" => "Avaa hakuikkuna"						# Updated in 2.14 Beta 10
+"Browser Favourites" => "Selaimen suosikit"
+"** No Change (Don't intercept) **" => "ALKUPERÄINEN TOIMINTO"
+"Run Application" => "Suorita sovellus"
+"Mouse Wheel Up" => "Vieritä ylös"
+"Mouse Wheel Down" => "Vieritä alas"
+"Print Screen" => "Ruudunkaappaus"
+"Print Active Window" => "Tulosta aktiivinen ikkuna"
+"Sticky Left Button [Click-Drag]" => "Alasjäävä vasen painike [Napsautus-ja-raahaus]"
+"Sticky Right Button" => "Alasjäävä oikea painike"
+"Sticky Middle Button" => "Alasjäävä keskipainike"
+"Layer (Next)" => "Taso +1 (Seuraava)"
+"Layer (Previous)" => "Taso -1 (Edellinen)"
+"Layer 1" => "Taso 1"
+"Layer 2" => "Taso 2"
+"Layer 3" => "Taso 3"
+"Layer 4" => "Taso 4"
+"Layer 5" => "Taso 5"
+#-- Added in 2.10 Beta 2
+"Layer 6" => "Taso 6"
+"Layer 7" => "Taso 7"
+"Layer 8" => "Taso 8"
+#-- Added in 2.10 Beta 3
+"Layer 9" => "Taso 9"
+"Layer 10" => "Taso 10"
+# --
+"Open Explorer at specified folder" => "Avaa tietty kansio resurssienhallinnassa"
+"Open Explorer at My Documents" => "Avaa Omat tiedostot"
+"Open Explorer at My Computer" => "Avaa Oma tietokone"
+"Open Explorer at Network Favourites" => "Avaa  Verkkosuosikit"
+"Open Control Panel" => "Avaa ohjauspaneeli"
+"Double Click Drag" => "Kaksoisnapsautus ja raahaus"
+"Mouse Wheel Tilt Left" => "Keskipainikkeen kallistus vasemmalle"
+"Mouse Wheel Tilt Right" => "Keskipainikkeen kallistus oikealle"
+"Scroll Window Up" => "Vieritä ylös"
+"Scroll Window Down" => "Vieritä alas"
+"Scroll Window Left" => "Vieritä vasemmalle"
+"Scroll Window Right" => "Vieritä oikealle"
+"Previous Window" => "Edellinen ikkuna"
+"Activate Screensaver" => "Käynnistä näytönsäästäjä"
+"Activate Monitor Power Saving" => "Aseta näyttö virransäästötilaan"
+"** Same As Default Profile **" => "KUTEN OLETUSPROFIILISSA"
+"Sticky 4th Button" => "Alasjäävä painike 4"
+"Sticky 5th Button" => "Alasjäävä painike 5"
+"Change Movement to Scroll" => "Muunna liike vieritykseksi"
+"Change Movement to Scroll (Sticky)" => "Muunna liike vieritykseksi (Alasjäävä)"
+"Sticky Left Button [Click-Drag] X-Axis" => "Alasjäävä oikea painike [Napsautus-ja-raahaus] vaakasuunnssa"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Alasjäävä oikea painike [Napsautus-ja-raahaus] pystysuunnssa"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Siirry ikkunasta toiseen"
+"ALT-TAB" => "Alt+Sarkain"
+"Show sidebar" => "Näytä sivupalkki"
+"Reveal Desktop" => "Näytä työpöytä"							 
+"** Same As Layer 1 (current profile) **" => "KUTEN TASOLLA 1 (nykyinen profiili)"  
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Palauta tason määritysnäppäimet"
+
+# -- Updated in 2.6 Beta 1 (For Windows 8) --
+"Task Switcher" => "Tehtävienhallinta"
+"Charms Bar (WIN+C)" => "Näytä Oikopolkupalkki (WIN+C)"
+"PC Settings (WIN+I)" => "Näytä Asetukset-pikavalikko (WIN+I)"
+"Search Charm (WIN+Q)" => "Avaa Ohjelmat-haku(WIN+Q)"
+"Search Apps (WIN+W)" => "Avaa Asetukset-haku (WIN+W)"
+"Search Files (WIN+F)" => "Avaa Tiedostot-haku (WIN+F)"
+"Metro Snap Right" => "Käyttöliittymässä tarrautuminen oikealle"
+"Metro Snap Left" => "Käyttöliittymässä tarrautuminen vasemmalle"
+
+# -- Updated in 2.14 Beta 6 (for Windows 10) --
+"Cortana Search" => "Cortana-haku"
+
+# -- Added in 2.7 Beta 7 --
+"Magnifier Toggle On/Off" => "Suurennuslasi päälle / pois"
+
+
+# -- Added in 2.8 Beta 1 --
+"Brightness Down" => "Vähennä kirkkautta"
+"Brightness Up" => "Lisää kirkkautta"
+
+# -- Added in 2.9 Beta 1 --
+"Snap Modern UI Left" => "Käyttöliittymässä tarrautuminen vasemmalle"
+"Snap Modern UI Right" => "Käyttöliittymässä tarrautuminen oikealle"
+"Snap Window Left" => "Ikkunan tarrautuminen vasemmalle"
+"Snap Window Right" => "Ikkunan tarrautuminen oikealle"
+"Snap Window Up" => "Ikkunan tarrautuminen yläreunaan"
+"Snap Window Down" => "Ikkunan tarrautuminen alareunaan"
+"Virtual Desktop: New" => "Virtuaalityöpöytä: Uusi"
+"Virtual Desktop: Close" => "Virtuaalityöpöytä: Sulje"
+"Virtual Desktop: Switch Left" => "Virtuaalityöpöytä: Vaihda vasen"
+"Virtual Desktop: Switch Right" => "Virtuaalityöpöytä: Vaihda oikea"
+# --
+
+# -- Added in 2.11 Beta 15
+"Task View" => "Tehtävienhallinta"				#Was "Desktop Switcher"
+
+# -- Added in 2.11 Beta 15
+"Magnifier Zoom In" => "Lähennä"
+"Magnifier Zoom Out" => "Loitonna"
+
+# -- Added in 2.12 Beta 1
+"Click Button 4" => "Painike 4"
+"Click Button 5" => "Painike 5"
+
+# -- Added in 2.12 Beta 11
+"Change Movement to Scroll (Lock Axis)" => "Muuta liike vieritykseksi (Lukitse akselit)"
+"Change Movement to Scroll (Sticky Lock Axis)" => "Muuta liike vieritykseksi (Alasjäävät lukittuvat akselit)"
+
+# -- Added in 2.13 Beta 1
+"Change Movement to Scroll Inverted" => "Muuta liike käänteiseksi vieritykseksi"
+"Change Movement to Scroll Inverted (Sticky)" => "Muuta liike käänteiseksi vieritykseksi (Alasjäävä)"
+"Change Movement to Scroll Inverted (Lock Axis)" => "Muuta liike käänteiseksi vieritykseksi (Lukitse akselit)"
+"Change Movement to Scroll Inverted (Sticky Lock Axis)" => "Muuta liike käänteiseksi vieritykseksi (Alasjäävät lukittuvat akselit)"
+
+# -- Added in 2.13 Beta 4
+"Search Selected Text" => "Etsi valittua tekstiä"
+
+# -- Changed in 2.14 Beta 6
+"Web Search Selected Text" => "Etsi valittua tekstiä hakukoneella"
+
+# -- Added in 2.14 Beta 6 (missing for some time!) --
+"System Menu (WIN+X)" => "Järjestelmävalikko (WIN+X)"
+
+# -- Added in 2.14 Beta 10
+"Lock Mouse X-Axis (While pressed)" => "Lukitse vaaka-akseli (Kun painettuna)"
+"Lock Mouse X-Axis (Toggle)" => "Lukitse vaaka-akseli (Päälle/Pois)"
+"Lock Mouse Y-Axis (While pressed)" => "Lukitse pystyakseli (Kun painettuna)"
+"Lock Mouse Y-Axis (Toggle)" => "Lukitse pystyakseli (Päälle/Pois)"
+
+
+# -- Added in 2.10 Beta 14 --
+"Activating layer %d" => "Aktivoi taso %d"				#In the balloon tooltip when switching layers %d is the layer number
+"Activating layer '%s'" => "Aktivoi taso '%s'"			#In the balloon tooltip when switching layers %s is the layer name
+
+#Section: Version/Update checking
+# -- Added in 2.10 Beta 1 --
+"&Check for update..." => "Tarkista päivitykset..."
+"Click here to update." => "Päivitä"
+"Right click the XMBC Icon to download the update." => "Päivityksen lataamiseksi napsauta sovelluskuvaketta hiiren oikealla painikkeella."
+"Would you like to upgrade %s from v%s to v%s" => "Päivitetäänkö %s versiosta v%s versioon v%s?"			# NOTE: The %s are replace at runtime; leave them there!
+"Portable v%s is available. Would you to visit the website to find out more?" => "Siirrettävä v%s on saatavilla. Siirrytäänkö kotisivuille lisätietoja varten?"
+"You have the latest available version of %s" => "Käytössä on %s:n viiimeisin versio."
+"An error occurred while attempting to download the update package." => "Virhe ladattaessa päivitystä."
+"Please visit the website to download the latest version or try again later." => " Siirry kotisivuille latausta varten tai yritä myöhemmin uudelleen."
+"An error occurred while running the update package" => "Virhe päivitettäessä."
+
+# -- Updated in 2.14 Beta 9
+"Click here for more details." => "Napsauta lisätietoja varten."
+
+
+# -- Added in 2.10 Beta 12 --
+"Downloading" => "Ladataan"
+"Launching the update installation..." => "Käynnistetään päivityksen asennus..."
+"Downloading update..." => "Ladataan päivitystä..."					#Initial progress on download dialog
+"Downloaded %d of %d bytes" => "Ladattu %d / %d tavua"				#Progress on download dialog
+
+#Section: Button Chording
+# -- Added in 2.14 Beta 1 --
+"Button Chording" => "Samanaikainen painallus käytössä"
+"Default (No Chord)" => "Oletus (Ei käytössä)"
+"Button chording allows you to make assign chorded actions that apply when one button is pressed, followed by a second button." => "Samanaikaisilla painalluksilla voidaan käynnistää toimintoja painamalla ensin yhtä painiketta ja sitten toista."
+
+# -- Added in 2.14 Beta 3 --
+"&Block / Delay original button action until chord is established" => "&Alkuperäisen painiketoiminnon esto/viivästys kunnes samanaikaiset painallukset on tunnistettu"
+
+# -- Added in 2.15 Beta 11 --
+"&Unblock after" => "&Vapautus kun on kulunut"
+"Unblock when the mouse moves" => "Vapautus osoitinta liikutettaessa"	# -- Added in 2.16 Beta 2 --
+
+# -- Added in 2.14 Beta 7
+"Change Log:" => "Muutoshistoria:"
+"Unable to locate change log!" => "Muutoshistoriaa ei löytynyt!"
+"&Upgrade" => "&Päivitä"					# Fixed in 2.16 Beta 14
+"&Skip" => "%Ohita"							# Fixed in 2.16 Beta 14
+
+# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+#Section Button Held Time Dependent Actions
+"Button Held Time Dependent Actions" => "Painalluksen kestosta riippuvat erilliset toiminnot"
+"Define different actions based on how long you hold the mouse button down for when clicking." => "Valitse toiminnot jotka suoritetaan painalluksen keston perusteella."
+"Normal Click" => "Normaali painallus"
+"Held for" => "Pitkä painallus "
+"Held for time for action %d must be greater than that for action %d." => "Painallusaika toiminnolle %d pitää olla suurempi kuin toiminnolle %d."				# NOTE: The %d's are interpreted at runtime. Leave them there
+
+# Added in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => "&Keskeytä ja palaa normaaliin painallustoimintoon jos osoitinta liikutetaan."
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "HUOM: Kaikki toiminnot viimeistä lukuunottamatta jäävät odottamaan painikkeen vapauttamista (kun painallusaika on määritetty). Viimeinen toiminto aloitetaan kun minimiaika on saavutettu." #Changed in 2.17 Beta 6
+
+#Added in 2.17 Beta 7
+"Description (to show in button drop-down)" => "Selite (näytetään painiketta painettaessa)"
+
+#Added in 2.17 beta 16
+"Button Held" => "Pitkä painallus"

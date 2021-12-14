@@ -1,0 +1,31 @@
+{
+  "bind": "key.keyboard.home",
+  "enabled": "true",
+  "friendly": {
+    "armor": "OFF",
+    "box": "false",
+    "color": "green",
+    "distance": "false",
+    "enabled": "true",
+    "health": "OFF",
+    "name": "true"
+  },
+  "hostile": {
+    "armor": "OFF",
+    "box": "false",
+    "color": "orange",
+    "distance": "false",
+    "enabled": "true",
+    "health": "BAR",
+    "name": "true"
+  },
+  "players": {
+    "armor": "FULL",
+    "box": "true",
+    "color": "red",
+    "distance": "true",
+    "enabled": "true",
+    "health": "BAR",
+    "name": "true"
+  }
+}

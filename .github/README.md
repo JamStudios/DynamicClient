@@ -14,7 +14,7 @@ it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
 ----------------------------------------------------------------
-# 1.9.9 Has Been Releasd! [Check it out now!](https://sites.google.com/view/dynamic-client/downloads?authuser=0)
+# 1.9.10 Has Been Releasd! [Check it out now!](https://sites.google.com/view/dynamic-client/downloads?authuser=0)
 
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:

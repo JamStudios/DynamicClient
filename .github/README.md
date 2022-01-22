@@ -5,8 +5,6 @@
 
 ---------------------------------------
 
-![image](https://img.shields.io/github/downloads/JamStudios/DynamicClient/v1.9.10/total?label=Downloads&style=flat-square)
-
 ## Description:
 Dynamic Client is a minecraft hacked client that improve's the experience of the player, 
 It has mods that was used for testing anti-cheats of servers but we changed it to be hacked client

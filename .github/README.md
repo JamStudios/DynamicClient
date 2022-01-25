@@ -3,6 +3,8 @@
 ---------------------------------------
 #### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[📖 Repository ]](https://github.com/JamStudios/DynamicClient/wiki/Versions) [[ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)
 
+![image](https://img.shields.io/github/downloads/JamStudios/DynamicClient/v1.9.11/total?label=Downloads)
+
 ---------------------------------------
 
 ## Description:

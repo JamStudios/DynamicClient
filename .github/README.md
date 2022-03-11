@@ -13,8 +13,7 @@ because making a client just to test anti-cheats is Boring.
 it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
-----------------------------------------------------------------
-# 1.9.11 Has Been Releasd! [Check it out now!](https://sites.google.com/view/dynamic-client/downloads?authuser=0)
+## Dynamic Client is no longer supported/is discontinued [learn more.](https://github.com/JamStudios/DynamicClient/discussions/37)
 
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:
@@ -22,12 +21,6 @@ their own client, without coding as you only need ac-credit the mod creators.
 [![Download in SourceForge](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Source%20Forge%20Banner.png)](http://adfoc.us/70081781907065)
 [![Download in Curseforge](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Curseforge%20Banner.png)](http://adfoc.us/70081781907065)
 [![Download in DynamicClient](https://github.com/JamStudios/DynamicClient/blob/master/.github/Download%20on%20Dynamic%20Client%20Banner.png)](http://adfoc.us/70081781325836)
-
-
-
-----------------------------------------------------------------
-## Dynamic Client is Active, Updates Will Come Out Unexpected so Stay Tuned!
-### [Keep Track of our Updates! [ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)
 
 ----------------------------------------------------------------
 #### ![image](https://img.shields.io/github/downloads/JamStudios/dynamicClient/total?color=blue&style=for-the-badge) ![image](https://img.shields.io/github/issues/JamStudiosCorporation/dynamic-client?color=yellow&style=for-the-badge) ![image](https://img.shields.io/github/issues-closed-raw/JamStudios/dynamicClient?color=black&style=for-the-badge) ![image](https://img.shields.io/badge/Supported%20Versions-1.16.5%20%7C%201.17.1-green?style=for-the-badge&logo=https://avatars.githubusercontent.com/u/88536910?s=120&v=4) ![image](https://img.shields.io/badge/ModLoaer%20Support-Forge-orange?style=for-the-badge&logo=appveyor?logo=data:image/png;https://github.com/JamStudios/DynamicClient/blob/main/.github/logo.minecraft.png) ![image](https://img.shields.io/badge/License-(Custom)%20LIcense-purple?style=for-the-badge&logo=appveyor?link=https://github.com/JamStudiosCorporation/Dynamic-Client/blob/main/LICENSE.md?logo=data) ![image](https://img.shields.io/github/commit-activity/w/JamStudios/DynamicClient?style=for-the-badge) ![image](https://img.shields.io/github/stars/JamStudios/DynamicClient?color=yellow&style=for-the-badge) ![image](https://img.shields.io/sourceforge/dt/dynamicclient?color=orange&label=Downloads%20in%20Sourceforge&style=for-the-badge)
@@ -40,14 +33,14 @@ their own client, without coding as you only need ac-credit the mod creators.
 
 ----------------------------------------------------------------
 
-#### Self Report for Security 🛡️.
+#### Self Report for Security 🛡️. [Support is no longer available]
 If you know anything Malicious on mods please report to us,
 we did not code or modify any of the mods in any way, we do not know
 if the mods contain Spyware/Malware, but if you know please report in
 Issues, we take no tolerance on ModCreators that use their creations
 for Malicious use. [Learn more](https://github.com/JamStudios/DynamicClient/blob/main/SECURITY.md) / in our [website](https://sites.google.com/view/dynamic-client/about/modification-of-mods)
 
-[[ 🚨 Issues ]](https://github.com/JamStudios/DynamicClient/issues)
+[[ 🚨 Issues ] [Support is no longer available]](https://github.com/JamStudios/DynamicClient/issues)
 
 ----------------------------------------------------------------
 

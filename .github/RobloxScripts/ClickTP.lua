@@ -20,4 +20,3 @@ hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)Â
 endÂ 
 endÂ 
 end)
-a

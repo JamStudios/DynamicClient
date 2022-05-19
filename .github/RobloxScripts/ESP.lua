@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "ESP Activated.";
+	Icon = "rbxassetid://5631279864";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local Aimware = Instance.new("ScreenGui")
 local AimwareTitle = Instance.new("Frame")
 local AimwareArrayPage = Instance.new("Frame")

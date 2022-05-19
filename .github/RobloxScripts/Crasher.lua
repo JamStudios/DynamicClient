@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Crash Failed.";
+	Icon = "rbxassetid://257124016";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 --Script made by Diemiers#4209-Qwerty#9972
 --Method by Roblox
 

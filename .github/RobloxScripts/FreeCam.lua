@@ -1,3 +1,13 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "FreeCam Activated, Use = to turn on/off.";
+	Icon = "rbxassetid://257124016";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
 function sandbox(var,func)
 local env = getfenv(func)
 local newenv = setmetatable({},{

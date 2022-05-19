@@ -8,6 +8,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Duration = 3;
 	Callback = NotificationBindable;
 })
+
 game.Players.LocalPlayer.Character.Humanoid.Name = 1
 local l = game.Players.LocalPlayer.Character["1"]:Clone()
 l.Parent = game.Players.LocalPlayer.Character

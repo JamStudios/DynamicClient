@@ -1,6 +1,13 @@
-
-
-
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Aimbot Activated.";
+	Icon = "rbxassetid://3340612702";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
 
 -- Credits to Exunys/Aimbot-V2
 

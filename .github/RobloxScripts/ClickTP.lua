@@ -8,15 +8,27 @@ game.StarterGui:SetCore("SendNotification",  {
 	Duration = 3;
 	Callback = NotificationBindable;
 })
-plr = game.Players.LocalPlayer hum = plr.Character.HumanoidRootPart mouse = plr:GetMouse() mouse.KeyDown:connect(function(key) if key == "l" then if mouse.Target then hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) end end end)
+local player = game:GetService("Players").LocalPlayer
+local char = player.Character
+local mouse = player:GetMouse()
+local uis = game:GetService("UserInputService")
 
-plr = game.Players.LocalPlayerÂ 
-hum = plr.Character.HumanoidRootPart
-mouse = plr:GetMouse()Â 
-mouse.KeyDown:connect(function(key)Â 
-if key == "l" thenÂ 
-if mouse.Target thenÂ 
-hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)Â 
-endÂ 
-endÂ 
+local shifthold  = false
+
+mouse.Button1Down:Connect(function()
+    if shifthold then
+        char:MoveTo(mouse.Hit.p)
+    end
+end)
+
+uis.InputBegan:Connect(function(input, process)
+    if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+        shifthold = true
+    end
+end)
+
+uis.InputEnded:Connect(function(input, process)
+    if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+        shifthold = false
+    end
 end)

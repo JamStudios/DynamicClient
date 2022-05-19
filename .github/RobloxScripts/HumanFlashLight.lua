@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "HumanFlashlight Activated.";
+	Icon = "rbxassetid://2883826649";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local mouse = game.Players.LocalPlayer:GetMouse()
 function Light()
     player = game.Players.LocalPlayer

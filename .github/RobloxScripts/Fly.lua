@@ -1,4 +1,15 @@
--- Press E to toggle
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Fly Activated., Use U to turn on/off ";
+	Icon = "rbxassetid://719941251";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
+-- Press U to toggle
 
 repeat wait()
    until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("UpperTorso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
@@ -52,7 +63,7 @@ bv:Destroy()
 plr.Character.Humanoid.PlatformStand = false
 end
 mouse.KeyDown:connect(function(key)
-if key:lower() == "e" then
+if key:lower() == "u" then
 if flying then flying = false
 else
 flying = true

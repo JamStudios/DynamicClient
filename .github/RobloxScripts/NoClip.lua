@@ -8,6 +8,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Duration = 3;
 	Callback = NotificationBindable;
 })
+
 noclip = false
 game:GetService('RunService').Stepped:connect(function()
 if noclip then

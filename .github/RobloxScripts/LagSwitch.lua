@@ -1,3 +1,15 @@
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "LagSwitch Activated, Use F3 to Switch between modes.";
+	Icon = "rbxassetid://5718757541";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local a = false;
 local b = settings();
 

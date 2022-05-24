@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "ESP v2 Activated.";
+	Icon = "rbxassetid://5631279864";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local client = game.Players.LocalPlayer
 local players = game:GetService("Players")
 local rs = game:GetService("RunService")

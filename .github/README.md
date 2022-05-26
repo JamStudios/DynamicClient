@@ -1,4 +1,5 @@
-![DC-back](https://user-images.githubusercontent.com/88536910/140442808-6ac16371-573b-4160-b20c-59275a225002.jpg)
+![Coming Soon to Roblox](https://user-images.githubusercontent.com/94430800/170431197-520b0abb-4451-4de4-ade0-44a08b4f28d6.jpg)
+
 ---------------------------------------
 ---------------------------------------
 #### [[ 📝 News ]](https://adfoc.us/70081781369517) [[ ©️ Credits ]](https://adfoc.us/70081781687282) [[ 🗑️ Mod Removal ]](https://github.com/JamStudiosCorporation/Dynamic-Client/wiki/Mod-Removal) [[ 🔧 Installation Guide ]](https://adfoc.us/70081781345625) [[📖 Repository ]](https://github.com/JamStudios/DynamicClient/wiki/Versions) [[ 📜 Versions Tracker ]](https://github.com/JamStudios/DynamicClient/wiki/Versions)

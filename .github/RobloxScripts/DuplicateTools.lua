@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Tools Dupelicated.";
+	Icon = "rbxassetid://7825183423";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 --[[
 Cyclically's FE Tool Duplicate Tools V5
 After executing the script, please wait until you are able to move your character again.

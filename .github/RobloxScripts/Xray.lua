@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Xray Activated.";
+	Icon = "rbxassetid://9136813125";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 -- Made by Clifford from Intriga Discord -- Edited by Foxxy#2439 --
 
 local localPlayer=game.Players.LocalPlayer

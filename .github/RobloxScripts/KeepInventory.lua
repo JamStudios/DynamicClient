@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Keep Inventory has been activated.";
+	Icon = "rbxassetid://6415742822";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 --[[
 Cyclically's Save Tools On Respawn
 After executing the script, please wait until you are able to move your character again.

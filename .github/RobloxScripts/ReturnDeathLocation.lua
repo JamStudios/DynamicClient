@@ -3,7 +3,7 @@ NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
 	Title = "Dynamic Client";
-	Text = "Noclip v2 Activated, Press N to turn on/off.";
+	Text = "Return to Death Location Activated.";
 	Icon = "rbxassetid://9151227150";
 	Duration = 3;
 	Callback = NotificationBindable;

@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Friend Request Spam Activated.";
+	Icon = "rbxassetid://4774152984";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local RobloxReplicatedStorage = game:GetService('RobloxReplicatedStorage')
 RemoteEvent_NewFollower = RobloxReplicatedStorage:WaitForChild('NewFollower')
 while wait(0) do

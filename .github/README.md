@@ -14,7 +14,7 @@ because making a client just to test anti-cheats is Boring.
 it also shows how anyone can create
 their own client, without coding as you only need ac-credit the mod creators.
 
-## Dynamic Client is no longer supported/is discontinued [learn more.](https://github.com/JamStudios/DynamicClient/discussions/37)
+## Dynamic Client for Minecraft is no longer supported/is discontinued [learn more.](https://github.com/JamStudios/DynamicClient/discussions/37)
 
 ----------------------------------------------------------------
 ## Downloads From Other Web Platforms:

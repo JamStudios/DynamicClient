@@ -1,3 +1,14 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Noclip v2 Activated, Press N to turn on/off.";
+	Icon = "rbxassetid://9151227150";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
+
 local stationaryrespawn = false
 local needsrespawning = false
 local haspos = false

@@ -10,5 +10,5 @@
 while timeRemaining > 0 do
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
   	wait(1)
-  	imeRemaining = timeRemaining - 1
+  	timeRemaining = timeRemaining - 1
 end

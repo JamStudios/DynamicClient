@@ -1,5 +1,15 @@
-i = game:GetService(“Players”). LocalPlayer.Name --Put your ROBLOX name.
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Dynamic Client";
+	Text = "Build Tools, Activated.";
+	Icon = "rbxassetid://7825183423";
+	Duration = 3;
+	Callback = NotificationBindable;
+})
 
+i = game:GetService(“Players”). LocalPlayer.Name
 aim = game.Players:findFirstChild(i)
 root = game:GetService("InsertService"):LoadAsset(16201628)
 item = root:children()

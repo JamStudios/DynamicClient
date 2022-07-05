@@ -1,5 +1,5 @@
 ---
-name: Report Script | Dynamic Client - Roblox
+name: Report a roblox script
 about: Reporting a Vulnerability/Unsafe code by Roblox Script Developers
 title: 'This Script in {Script Category, ex: Common etc...} is abusing/is unsafe named
   {script name, ex: Infinite Jump etc..}'

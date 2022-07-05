@@ -1,8 +1,8 @@
 ---
 name: Report a script hub
 about: Reporting a Vulnerability/Unsafe code by Roblox ScriptHub Developers
-title: 'This Script in {Script Category, ex: Common etc...} is abusing/is unsafe named
-  {script name, ex: Infinite Jump etc..}'
+title: 'This ScriptHub in {Script Category, ex: Common etc...} is abusing/is unsafe named
+  {scripthub name: OwlHub etc..}'
 labels: ''
 assignees: JamTheAdventurer
 

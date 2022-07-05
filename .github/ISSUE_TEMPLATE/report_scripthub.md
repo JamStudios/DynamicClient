@@ -10,7 +10,7 @@ assignees: JamTheAdventurer
 
 -- In Order for this report to be validated you must complete the following questions.
 #### Questions (Required):
-- i ) What is the harm/vulnerability the script is doing?
+- i ) What is the harm/vulnerability the ScriptHub is doing?
 
 - ii ) When & How you discover this harm/vulnerability?
 

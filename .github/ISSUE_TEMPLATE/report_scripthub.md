@@ -3,7 +3,7 @@ name: Report a script hub
 about: Reporting a Vulnerability/Unsafe code by Roblox ScriptHub Developers
 title: 'This ScriptHub in {Script Category, ex: Common etc...} is abusing/is unsafe named
   {scripthub name: OwlHub etc..}'
-labels: ''
+labels: 'Script-Report'
 assignees: JamTheAdventurer
 
 ---

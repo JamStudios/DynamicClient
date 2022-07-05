@@ -13,6 +13,6 @@ assignees: JamTheAdventurer
 
 - ii ) Who made the script (Required even if creator did not say to credit their script.)?
 
-- iii ) What makes you think this script would be used>?
+- iii ) What makes you think this script would be used?
 
 - iv ) What is the original source of the script was published (etc.. V3rmillion, WeAreDevs, Pastebin, Github) {Must Be a Url: https://}]

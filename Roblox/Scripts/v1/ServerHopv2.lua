@@ -1,6 +1,7 @@
 --[[
-Made By ItzzPiggy1 [https://v3rmillion.net/member.php?action=profile&uid=987899]
-Script Found in 'v3rmillion.net' : https://v3rmillion.net/showthread.php?tid=1038274
+Made By: ItzzPiggy1 [https://v3rmillion.net/member.php?action=profile&uid=987899]
+Script Found in: 'v3rmillion.net' : https://v3rmillion.net/showthread.php?tid=1038274
+Submitted by: @JamTheAdventurer
 --]]
 local MaxServersToGoThrough = 1000
 

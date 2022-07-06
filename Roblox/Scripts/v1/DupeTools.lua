@@ -1,3 +1,8 @@
+--[[
+Made By: cyclic [https://v3rmillion.net/member.php?action=profile&uid=785986]
+Script Found in: 'v3rmillion.net' : https://v3rmillion.net/showthread.php?tid=876326
+Submitted by: @JamTheAdventurer
+--]]
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
@@ -17,7 +22,7 @@ https://v3rmillion.net/member.php?action=profile&uid=785986
 guess who's back. nothing special here, just some minor adjustments
 ]]
 
-local toolamount = 10 -- Amount of tools you want to get
+-- local toolamount = 10 -- Amount of tools you want to get
 
 -- Don't edit script unless you know what you're doing. If you wanna add this into a script, please give credits and message me on discord that you added it in a script at Cyclically#9215
 

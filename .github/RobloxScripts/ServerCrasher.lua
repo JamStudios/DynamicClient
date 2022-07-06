@@ -4,6 +4,6 @@
 local v =96000000 --Maximal bit stream on client
 -- (96000000 - 12) -- Maximal bit stream that server accept +-2
 local msg = ""..string.rep(" ",(v - 12))
-while v do
+while v > 0 do
   game.Players:Chat(msg)
 end

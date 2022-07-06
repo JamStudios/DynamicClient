@@ -13,5 +13,5 @@ assignees: JamTheAdventurer
 
 - ii ) What is the url of the forum post (etc.. v3rmillion.net/showthread.php?tid=123456)?
 
-- vi ) Your Discord Username#0000, We will send you a message for what you are supposed to comment in your own post in the forum. 
-(Only Reply to this account: JamStudiosCorporation#5996 | Active in 9:00 AM to 6:00 PM Philipine Standard Time.)
+- vi ) Your Discord Username#0000, We will send you a friend request and a message for the next verification process 
+(Only Reply to this account: JamStudiosCorporation#5996 | Active in Monday - Friday, 9:00 AM to 6:00 PM Philipine Standard Time.)

@@ -15,3 +15,6 @@ assignees: JamTheAdventurer
 
 - vi ) Your Discord Username#0000, We will send you a friend request and a message for the next verification process 
 (Only Reply to this account: JamStudiosCorporation#5996 | Active in Monday - Friday, 9:00 AM to 6:00 PM Philipine Standard Time.)
+
+
+Please Note: That This GiveCredit issue only last up to 3 Days after the first response to the issue, until this issue is deleted for Privacy & Security Purposes, If You Did not get a response after 3 Days, you may wan't to Close the issue and try again.
